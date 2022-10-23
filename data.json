@@ -84,6 +84,16 @@
                 ]
             },
             {
+                "name":"南海南線",
+                "family":"Y",
+                "id":"nankainan",
+                "stations":[
+                    "nambokushinkawa",
+                    "nankaishinkawa",
+                    "shimosawara"
+                ]
+            },
+            {
                 "name":"南勢南線",
                 "id":"E",
                 "stations":[
@@ -149,7 +159,12 @@
                     "okakyo",
                     "nishikawa",
                     "nishioyama",
-                    "nanseikogen"
+                    "nanseikogen",
+                    "okusa",
+                    "akagawa",
+                    "shinomura",
+                    "shinsawara",
+                    "nambokushinkawa"
                 ]
             },
             {
@@ -394,7 +409,7 @@
             "name":"みなみ中央",
             "potision":[-63,963],
             "rosens":{
-                "kousoku":["L","Y","E"]
+                "kousoku":["L","nankai","E"]
             }
         },
         {
@@ -421,7 +436,7 @@
             "name":"南北新川",
             "potision":[45,3002],
             "rosens":{
-                "kousoku":["L","D","NP"]
+                "kousoku":["L","D","NP","nankainan","H"]
             }
         },
         {
@@ -466,7 +481,7 @@
             "name":"猫猫町",
             "potision":[-63,1213],
             "rosens":{
-                "kousoku":["Y"]
+                "kousoku":["nankai"]
             }
         },
         {
@@ -475,7 +490,7 @@
             "name":"小江",
             "potision":[45,1804],
             "rosens":{
-                "kousoku":["Y"]
+                "kousoku":["nankai"]
             }
         },
         {
@@ -757,7 +772,7 @@
             "name":"夜ノ森/夜ノ森停車場",
             "potision":[-2773,-660],
             "rosens":{
-                "kousoku":["T","Y"]
+                "kousoku":["T","yonomori"]
             }
         },
         {
@@ -802,7 +817,7 @@
             "name":"河津",
             "potision":[-2802,-555],
             "rosens":{
-                "kousoku":["Y"]
+                "kousoku":["yonomori"]
             }
         },
         {
@@ -811,7 +826,7 @@
             "name":"樫河台",
             "potision":[-2710,-333],
             "rosens":{
-                "kousoku":["Y"]
+                "kousoku":["yonomori"]
             }
         },
         {
@@ -922,6 +937,60 @@
             "potision":[-240,1950],
             "rosens":{
                 "kousoku":["K"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shimosawara",
+            "name":"下砂原",
+            "potision":[403,2737],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"nankaishinkawa",
+            "name":"南海新川",
+            "potision":[99,2733],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shinsawara",
+            "name":"新砂原",
+            "potision":[-230,2738],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shinomura",
+            "name":"新大村",
+            "potision":[-1820,2752],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"akagawa",
+            "name":"赤川",
+            "potision":[-2093,2504],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"okusa",
+            "name":"大草",
+            "potision":[-2558,2072],
+            "rosens":{
+                "kousoku":["nankainan"]
             }
         }
     ]
