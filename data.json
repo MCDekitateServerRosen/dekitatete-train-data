@@ -90,7 +90,11 @@
                 "stations":[
                     "nambokushinkawa",
                     "nankaishinkawa",
-                    "shimosawara"
+                    "shimosawara",
+                    "nakaoguni",
+                    "shinnakaoguni",
+                    "nakaoyama",
+                    "shintenchi"
                 ]
             },
             {
@@ -963,7 +967,7 @@
             "name":"新砂原",
             "potision":[-230,2738],
             "rosens":{
-                "kousoku":["nankainan"]
+                "kousoku":["E"]
             }
         },
         {
@@ -972,7 +976,7 @@
             "name":"新大村",
             "potision":[-1820,2752],
             "rosens":{
-                "kousoku":["nankainan"]
+                "kousoku":["E"]
             }
         },
         {
@@ -981,7 +985,7 @@
             "name":"赤川",
             "potision":[-2093,2504],
             "rosens":{
-                "kousoku":["nankainan"]
+                "kousoku":["E"]
             }
         },
         {
@@ -989,6 +993,42 @@
             "id":"okusa",
             "name":"大草",
             "potision":[-2558,2072],
+            "rosens":{
+                "kousoku":["E"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"nakaoguni",
+            "name":"中小国",
+            "potision":[678,2766],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shinnakaoguni",
+            "name":"新中小国",
+            "potision":[678,2950],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"nakaoyama",
+            "name":"中大山",
+            "potision":[940,2964],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shintenchi",
+            "name":"新天地",
+            "potision":[1272,2964],
             "rosens":{
                 "kousoku":["nankainan"]
             }
