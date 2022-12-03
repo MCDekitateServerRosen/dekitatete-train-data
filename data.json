@@ -6,7 +6,7 @@
     "company":{
         "kousoku":{
             "name":"でき鯖高速鉄道グループ",
-            "short":"でき鯖高速鉄道",
+            "short":"高速鉄道",
             "bgcolor":"yellow",
             "color":"#000000"
         },
@@ -46,7 +46,8 @@
             },
             {
                 "name":"南北本線(普通)",
-                "id":"N",
+                "id":"N-normal",
+                "family":"N",
                 "stations":[
                     "nagata",
                     "shinnishikougai",
@@ -84,6 +85,20 @@
                 ]
             },
             {
+                "name":"南海南線",
+                "family":"Y",
+                "id":"nankainan",
+                "stations":[
+                    "nambokushinkawa",
+                    "nankaishinkawa",
+                    "shimosawara",
+                    "nakaoguni",
+                    "shinnakaoguni",
+                    "nakaoyama",
+                    "shintenchi"
+                ]
+            },
+            {
                 "name":"南勢南線",
                 "id":"E",
                 "stations":[
@@ -99,7 +114,7 @@
                 ]
             },
             {
-                "name":"環状線",
+                "name":"環状線(普通)",
                 "id":"O",
                 "stations":[
                     "",
@@ -123,10 +138,11 @@
             },
             {
                 "name":"NR道場線",
-                "id":"D",
+                "id":"dojo",
+                "family":"D",
                 "stations":[
                     "nambokushinkawa",
-                    ""
+                    "dojomae"
                 ]
             },
             {
@@ -134,7 +150,7 @@
                 "id":"NP",
                 "stations":[
                     "nambokushinkawa",
-                    ""
+                    "nekocolosseum"
                 ]
             },
             {
@@ -149,7 +165,12 @@
                     "okakyo",
                     "nishikawa",
                     "nishioyama",
-                    "nanseikogen"
+                    "nanseikogen",
+                    "okusa",
+                    "akagawa",
+                    "shinomura",
+                    "shinsawara",
+                    "nambokushinkawa"
                 ]
             },
             {
@@ -225,10 +246,36 @@
             },
             {
                 "name":"高森線",
-                "id":"K",
+                "id":"takamori",
+                "family":"K",
                 "stations":[
                     "higashioe",
                     "ooe"
+                ]
+            },
+            {
+                "name":"環状線(快速電車)",
+                "id":"A",
+                "stations":[
+                    "minamikougai",
+                    "nagata"
+                ]
+            },
+            {
+                "name":"環状線(快速特急)",
+                "id":"kanjoukaisokutokkyu",
+                "family":"K",
+                "stations":[
+                    "minamikougai"
+                ]
+            },
+            {
+                "name":"南北本線(支線)",
+                "id":"N-sub",
+                "family":"N",
+                "stations":[
+                    "kitakougai-nms",
+                    "higashifukuzaki"
                 ]
             }
         ],
@@ -294,7 +341,7 @@
             "name":"高速長田/新長田",
             "potision":[-234,383],
             "rosens":{
-                "kousoku":["N","O","A"],
+                "kousoku":["N-normal","O","A"],
                 "rtb":["R"]
             }
         },
@@ -304,7 +351,7 @@
             "name":"新西郊外",
             "potision":[-248,-2],
             "rosens":{
-                "kousoku":["N"]
+                "kousoku":["N-normal"]
             }
         },
         {
@@ -313,7 +360,7 @@
             "name":"ネクイベタウン",
             "potision":[],
             "rosens":{
-                "kousoku":["N","T"]
+                "kousoku":["N-normal","T"]
             }
         },
         {
@@ -322,7 +369,7 @@
             "name":"東福崎",
             "potision":[430,-1252],
             "rosens":{
-                "kousoku":["L","N"]
+                "kousoku":["L","N-normal","N-sub"]
             }
         },
         {
@@ -331,7 +378,7 @@
             "name":"浜福崎",
             "potision":[429,-1598],
             "rosens":{
-                "kousoku":["N"]
+                "kousoku":["N-normal"]
             }
         },
         {
@@ -340,7 +387,7 @@
             "name":"臨海広浜",
             "potision":[295,-2355],
             "rosens":{
-                "kousoku":["N","L"]
+                "kousoku":["N-normal","L"]
             }
         },
         {
@@ -349,7 +396,7 @@
             "name":"新岩内",
             "potision":[-89,-3567],
             "rosens":{
-                "kousoku":["N","L","G"]
+                "kousoku":["N-normal","L","G"]
             }
         },
         {
@@ -358,7 +405,7 @@
             "name":"浜境",
             "potision":[-93,-3820],
             "rosens":{
-                "kousoku":["N"]
+                "kousoku":["N-normal"]
             }
         },
         {
@@ -367,7 +414,7 @@
             "name":"森野",
             "potision":[-93,-4086],
             "rosens":{
-                "kousoku":["N"]
+                "kousoku":["N-normal"]
             }
         },
         {
@@ -376,7 +423,7 @@
             "name":"永寧",
             "potision":[150,-4511],
             "rosens":{
-                "kousoku":["N","L"]
+                "kousoku":["N-normal","L"]
             }
         },
         {
@@ -394,7 +441,7 @@
             "name":"みなみ中央",
             "potision":[-63,963],
             "rosens":{
-                "kousoku":["L","Y","E"]
+                "kousoku":["L","nankai","E"]
             }
         },
         {
@@ -421,7 +468,7 @@
             "name":"南北新川",
             "potision":[45,3002],
             "rosens":{
-                "kousoku":["L","D","NP"]
+                "kousoku":["L","dojo","NP","nankainan","H"]
             }
         },
         {
@@ -466,7 +513,7 @@
             "name":"猫猫町",
             "potision":[-63,1213],
             "rosens":{
-                "kousoku":["Y"]
+                "kousoku":["nankai"]
             }
         },
         {
@@ -475,7 +522,7 @@
             "name":"小江",
             "potision":[45,1804],
             "rosens":{
-                "kousoku":["Y"]
+                "kousoku":["nankai"]
             }
         },
         {
@@ -630,7 +677,7 @@
             "name":"新開地",
             "potision":[-815,-605],
             "rosens":{
-                "kousoku":["T","N","U"],
+                "kousoku":["T","N-normal","U"],
                 "rtb":["R"]
             }
         },
@@ -757,7 +804,7 @@
             "name":"夜ノ森/夜ノ森停車場",
             "potision":[-2773,-660],
             "rosens":{
-                "kousoku":["T","Y"]
+                "kousoku":["T","yonomori"]
             }
         },
         {
@@ -802,7 +849,7 @@
             "name":"河津",
             "potision":[-2802,-555],
             "rosens":{
-                "kousoku":["Y"]
+                "kousoku":["yonomori"]
             }
         },
         {
@@ -811,7 +858,7 @@
             "name":"樫河台",
             "potision":[-2710,-333],
             "rosens":{
-                "kousoku":["Y"]
+                "kousoku":["yonomori"]
             }
         },
         {
@@ -921,8 +968,125 @@
             "name":"大江",
             "potision":[-240,1950],
             "rosens":{
-                "kousoku":["K"]
+                "kousoku":["takamori"]
             }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shimosawara",
+            "name":"下砂原",
+            "potision":[403,2737],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"nankaishinkawa",
+            "name":"南海新川",
+            "potision":[99,2733],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shinsawara",
+            "name":"新砂原",
+            "potision":[-230,2738],
+            "rosens":{
+                "kousoku":["E"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shinomura",
+            "name":"新大村",
+            "potision":[-1820,2752],
+            "rosens":{
+                "kousoku":["E"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"akagawa",
+            "name":"赤川",
+            "potision":[-2093,2504],
+            "rosens":{
+                "kousoku":["E"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"okusa",
+            "name":"大草",
+            "potision":[-2558,2072],
+            "rosens":{
+                "kousoku":["E"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"nakaoguni",
+            "name":"中小国",
+            "potision":[678,2766],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shinnakaoguni",
+            "name":"新中小国",
+            "potision":[678,2950],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"nakaoyama",
+            "name":"中大山",
+            "potision":[940,2964],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"shintenchi",
+            "name":"新天地",
+            "potision":[1272,2964],
+            "rosens":{
+                "kousoku":["nankainan"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"nekocolosseum",
+            "name":"猫コロシアム",
+            "potision":[-511,3517],
+            "rosens":{
+                "kousoku":["NP"]
+            } 
+        },
+        {
+            "companies":["kousoku"],
+            "id":"dojomae",
+            "name":"道場前",
+            "potision":[610,3640],
+            "rosens":{
+                "kousoku":["dojo"]
+            } 
+        },
+        {
+            "companies":["kousoku"],
+            "id":"kitakougai-nms",
+            "name":"北郊外(NMS前)",
+            "potision":[-16,-304],
+            "rosens":{
+                "kousoku":["N-sub"]
+            } 
         }
     ]
 }
