@@ -295,7 +295,8 @@
                 "name":"松和線",
                 "id":"UM",
                 "stations":[
-                    "minamiamerica"
+                    "minamiamerica",
+                    "kounotaira"
                 ]
             }
         ],
@@ -306,9 +307,14 @@
                 "stations":[
                     "",
                     "",
+                    "matsuwaminami",
+                    "matsuwanishi",
+                    "hyounandai",
+                    "kounotaira",
+                    "kashigadai",
+                    "nishirinkan",
                     "",
-                    "",
-                    "hyounandai"
+                    ""
                 ]
             },
             {
@@ -317,11 +323,14 @@
                 "loop":true,
                 "stations":[
                     "matsuwaminami",
-                    ""
+                    "togonogyosisetsumae",
+                    "jyutakuchikukita",
+                    "jyutakuchikunishi",
+                    "wafukenchikuku"
                 ]
             },
             {
-                "name":"国営地下鉄線",
+                "name":"国営地下鉄線/新和線",
                 "id":"R",
                 "stations":[
                     "nagata",
@@ -938,8 +947,8 @@
         {
             "companies":["rtb"],
             "id":"matsuwaminami",
-            "name":"松和南",
-            "potision":[],
+            "name":"松和南/リアライ中央",
+            "potision":[-781,-331],
             "rosens":{
                 "rtb":["R","RH","RK"]
             }
@@ -1087,6 +1096,70 @@
             "rosens":{
                 "kousoku":["N-sub"]
             } 
+        },
+        {
+            "companies":["rtb"],
+            "id":"togonogyosisetsumae",
+            "name":"統合農業施設前",
+            "potision":[-892,-379],
+            "rosens":{
+                "rtb":["RK"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"jyutakuchikukita",
+            "name":"住宅地区北",
+            "potision":[-1075,-406],
+            "rosens":{
+                "rtb":["RK"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"jyutakuchikunishi",
+            "name":"住宅地区西",
+            "potision":[-1136,-318],
+            "rosens":{
+                "rtb":["RK"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"wafukenchikuku",
+            "name":"和風建築区",
+            "potision":[-669,-160],
+            "rosens":{
+                "rtb":["RK"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"matsuwanishi",
+            "name":"松和西",
+            "potision":[-1011,-266],
+            "rosens":{
+                "rtb":["RH"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"kounotaira",
+            "name":"耕の平",
+            "potision":[-1857,-365],
+            "rosens":{
+                "rtb":["RH"],
+                "umineko":["UM"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"nishirinkan",
+            "name":"西林間",
+            "potision":[-2321,-358],
+            "rosens":{
+                "rtb":["RH"]
+            }
         }
     ]
 }
