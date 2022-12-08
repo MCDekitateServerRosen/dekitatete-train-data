@@ -1,8 +1,8 @@
 {
     "copyright":"Copyright(c)© 2022 beatbox4108 Dekisaba Rapid Transit Inc. All Rights Reserved.",
     "license":"https://creativecommons.org/licenses/by-nc-nd/4.0/",
-    "version":"2022.1.1a1",
-    "companies":["kousoku","umineko"],
+    "version":"2022.1.1a2",
+    "companies":["kousoku","umineko","rtb"],
     "company":{
         "kousoku":{
             "name":"でき鯖高速鉄道グループ",
@@ -75,11 +75,11 @@
                 ]
             },
             {
-                "name":"夜ノ森線",
+                "name":"夜明線(旧夜ノ森線)",
                 "family":"Y",
                 "id":"yonomori",
                 "stations":[
-                    "yonomori",
+                    "yoake",
                     "kawazu",
                     "kashigadai"
                 ]
@@ -182,6 +182,7 @@
                     "setchu",
                     "shinengaru",
                     "korinkingdom",
+                    "yoake",
                     "ozero",
                     "sangokugaoka",
                     "nishiamerica",
@@ -295,7 +296,8 @@
                 "name":"松和線",
                 "id":"UM",
                 "stations":[
-                    "minamiamerica"
+                    "minamiamerica",
+                    "kounotaira"
                 ]
             }
         ],
@@ -305,10 +307,13 @@
                 "id":"RH",
                 "stations":[
                     "",
-                    "",
-                    "",
-                    "",
-                    "hyounandai"
+                    "matsuwaminami",
+                    "matsuwanishi",
+                    "hyounandai",
+                    "kounotaira",
+                    "kashigadai",
+                    "nishirinkan",
+                    "kashigadai"
                 ]
             },
             {
@@ -317,11 +322,14 @@
                 "loop":true,
                 "stations":[
                     "matsuwaminami",
-                    ""
+                    "togonogyosisetsumae",
+                    "jyutakuchikukita",
+                    "jyutakuchikunishi",
+                    "wafukenchikuku"
                 ]
             },
             {
-                "name":"国営地下鉄線",
+                "name":"国営地下鉄線/新和線",
                 "id":"R",
                 "stations":[
                     "nagata",
@@ -800,15 +808,6 @@
         },
         {
             "companies":["kousoku"],
-            "id":"yonomori",
-            "name":"夜ノ森/夜ノ森停車場",
-            "potision":[-2773,-660],
-            "rosens":{
-                "kousoku":["T","yonomori"]
-            }
-        },
-        {
-            "companies":["kousoku"],
             "id":"shinengaru",
             "name":"新遠軽",
             "potision":[-3955,-685],
@@ -858,7 +857,8 @@
             "name":"樫河台",
             "potision":[-2710,-333],
             "rosens":{
-                "kousoku":["yonomori"]
+                "kousoku":["yonomori"],
+                "rtb":["RH"]
             }
         },
         {
@@ -938,8 +938,8 @@
         {
             "companies":["rtb"],
             "id":"matsuwaminami",
-            "name":"松和南",
-            "potision":[],
+            "name":"松和南/リアライ中央",
+            "potision":[-781,-331],
             "rosens":{
                 "rtb":["R","RH","RK"]
             }
@@ -1087,6 +1087,79 @@
             "rosens":{
                 "kousoku":["N-sub"]
             } 
+        },
+        {
+            "companies":["rtb"],
+            "id":"togonogyosisetsumae",
+            "name":"統合農業施設前",
+            "potision":[-892,-379],
+            "rosens":{
+                "rtb":["RK"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"jyutakuchikukita",
+            "name":"住宅地区北",
+            "potision":[-1075,-406],
+            "rosens":{
+                "rtb":["RK"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"jyutakuchikunishi",
+            "name":"住宅地区西",
+            "potision":[-1136,-318],
+            "rosens":{
+                "rtb":["RK"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"wafukenchikuku",
+            "name":"和風建築区",
+            "potision":[-669,-160],
+            "rosens":{
+                "rtb":["RK"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"matsuwanishi",
+            "name":"松和西",
+            "potision":[-1011,-266],
+            "rosens":{
+                "rtb":["RH"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"kounotaira",
+            "name":"耕の平",
+            "potision":[-1857,-365],
+            "rosens":{
+                "rtb":["RH"],
+                "umineko":["UM"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"nishirinkan",
+            "name":"西林間",
+            "potision":[-2321,-358],
+            "rosens":{
+                "rtb":["RH"]
+            }
+        },
+        {
+            "companies":["rtb"],
+            "id":"yoake",
+            "name":"夜明",
+            "potision":[-2745,-738],
+            "rosens":{
+                "kousoku":["yonomori","T"]
+            }
         }
     ]
 }
