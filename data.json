@@ -75,7 +75,7 @@
                 ]
             },
             {
-                "name":"夜ノ森線",
+                "name":"夜明線(旧夜ノ森線)",
                 "family":"Y",
                 "id":"yonomori",
                 "stations":[
@@ -306,15 +306,13 @@
                 "id":"RH",
                 "stations":[
                     "",
-                    "",
                     "matsuwaminami",
                     "matsuwanishi",
                     "hyounandai",
                     "kounotaira",
                     "kashigadai",
                     "nishirinkan",
-                    "",
-                    ""
+                    "kashigadai"
                 ]
             },
             {
@@ -867,7 +865,8 @@
             "name":"樫河台",
             "potision":[-2710,-333],
             "rosens":{
-                "kousoku":["yonomori"]
+                "kousoku":["yonomori"],
+                "rtb":["RH"]
             }
         },
         {
