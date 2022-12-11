@@ -138,19 +138,15 @@
                 "id":"G",
                 "stations":[
                     "higashinagahama",
-                    "matsushima",
-                    "iwanohara",
-                    "morikawabe",
-                    "hikawakogen",
+                    "higashigochi",
+                    "oikesetsugen",
+                    "himi",
                     "matsudai",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    ""
+                    "hikawakogen",
+                    "morikawabe",
+                    "iwanohara",
+                    "matsushima",
+                    "shingannai"
                 ]
             },
             {
@@ -1387,6 +1383,42 @@
             "id":"matsudai",
             "name":"松代",
             "potision":[2189,-2880],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"himi",
+            "name":"氷海",
+            "potision":[2417,-1889],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"oikesetsugen",
+            "name":"大池雪原",
+            "potision":[2893,-1889],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"higashigochi",
+            "name":"東河内",
+            "potision":[2985,-1646],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"higashigochi",
+            "name":"東河内",
+            "potision":[2985,-1646],
             "rosens":{
                 "kousoku":["G"]
             }
