@@ -139,6 +139,22 @@
                     "higashinagahama",
                     "",
                     "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "iwanohara",
+                    "morikawabe",
+                    "hikawakogen"
+                ]
+            },
+            {
+                "name":"泊港線",
+                "id":"J",
+                "stations":[
+                    "hikawakogen",
+                    "morikawabe",
+                    "iwanohara",
                     ""
                 ]
             },
@@ -1291,9 +1307,36 @@
             "companies":["kousoku"],
             "id":"hikawakogen",
             "name":"氷川高原",
-            "potision":[2584,-3535],
+            "potision":[],
             "rosens":{
                 "kousoku":["P","G","J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"morikawabe",
+            "name":"森川辺",
+            "potision":[1346,-3546],
+            "rosens":{
+                "kousoku":["G","J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"iwanohara",
+            "name":"岩の原・新岩の原",
+            "potision":[642,-3567],
+            "rosens":{
+                "kousoku":["G","J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"numanohashi",
+            "name":"沼の端",
+            "potision":[657,-3807],
+            "rosens":{
+                "kousoku":["J"]
             }
         }
     ]
