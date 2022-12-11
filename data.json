@@ -228,7 +228,15 @@
                 "name":"東海本線",
                 "id":"P",
                 "stations":[
-                    "hasasame"
+                    "hikawakogen",
+                    "tokaioyama",
+                    "suofukagawa",
+                    "morichikagawa",
+                    "wanganomori",
+                    "e",
+                    "tokaihama",
+                    "hasasame",
+                    ""
                 ]
             },
             {
@@ -1223,6 +1231,69 @@
             "potision":[715,965],
             "rosens":{
                 "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"tokaihama",
+            "name":"東海浜",
+            "potision":[4459,-1588],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"e",
+            "name":"江",
+            "potision":[4458,-2244],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"wanganomori",
+            "name":"湾岸大森",
+            "potision":[4338,-2801],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"morichikagawa",
+            "name":"森近川",
+            "potision":[3528,-3535],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"morichikagawa",
+            "name":"州央深川",
+            "potision":[3528,-3535],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"tokaioyama",
+            "name":"東海大山",
+            "potision":[2584,-3535],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"hikawakogen",
+            "name":"氷川高原",
+            "potision":[2584,-3535],
+            "rosens":{
+                "kousoku":["P","G","J"]
             }
         }
     ]
