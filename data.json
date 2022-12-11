@@ -47,7 +47,8 @@
                     "higashifukuzaki",
                     "rinkaihirohama",
                     "shingannai",
-                    "einei"
+                    "einei",
+                    "tomarihara"
                 ]
             },
             {
@@ -137,15 +138,19 @@
                 "id":"G",
                 "stations":[
                     "higashinagahama",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
+                    "matsushima",
                     "iwanohara",
                     "morikawabe",
-                    "hikawakogen"
+                    "hikawakogen",
+                    "matsudai",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
                 ]
             },
             {
@@ -155,7 +160,9 @@
                     "hikawakogen",
                     "morikawabe",
                     "iwanohara",
-                    ""
+                    "kohoku",
+                    "minamitomarihara",
+                    "tomarihara"
                 ]
             },
             {
@@ -1337,6 +1344,51 @@
             "potision":[657,-3807],
             "rosens":{
                 "kousoku":["J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"kohoku",
+            "name":"河北",
+            "potision":[658,-4490],
+            "rosens":{
+                "kousoku":["J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"minamitomarihara",
+            "name":"南泊原",
+            "potision":[217,-4579],
+            "rosens":{
+                "kousoku":["J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"minamitomarihara",
+            "name":"泊原",
+            "potision":[218,-4694],
+            "rosens":{
+                "kousoku":["J","L"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"matsushima",
+            "name":"松島",
+            "potision":[254,-3545],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"matsudai",
+            "name":"松代",
+            "potision":[2189,-2880],
+            "rosens":{
+                "kousoku":["G"]
             }
         }
     ]
