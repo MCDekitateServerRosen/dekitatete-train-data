@@ -12,14 +12,26 @@
         },
         "umineko":{
             "name":"うみねこ鉄道 UminekoRailwayService",
-            "short":"うみねこ鉄道",
+            "short":"うみねこ",
             "bgcolor":"lightblue",
             "color":"#000000"
         },
         "rtb":{
             "name":"リアライ共和国交通局 Realie Transportation Bureru",
-            "short":"リアライ共和国交通局",
+            "short":"リアライ",
+            "bgcolor":"purple",
+            "color":"#ffffff"
+        },
+        "shinko":{
+            "name":"猫鯖交通振興公団",
+            "short":"振興公団",
             "bgcolor":"orange",
+            "color":"#000000"
+        },
+        "numa":{
+            "name":"ぬま旅客鉄道鯖式会社 Numa Railways",
+            "short":"ぬま旅客",
+            "bgcolor":"lightgreen",
             "color":"#000000"
         }
     },
@@ -41,7 +53,8 @@
                     "higashifukuzaki",
                     "rinkaihirohama",
                     "shingannai",
-                    "einei"
+                    "einei",
+                    "tomarihara"
                 ]
             },
             {
@@ -69,9 +82,6 @@
                     "nekonekomachi",
                     "oe",
                     "ooe"
-                ],
-                "memo":[
-                    "小江～大江間は建設中。"
                 ]
             },
             {
@@ -114,26 +124,31 @@
                 ]
             },
             {
-                "name":"環状線(普通)",
-                "id":"O",
-                "stations":[
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "nagata"
-                ]
-            },
-            {
                 "name":"岩日線",
                 "id":"G",
                 "stations":[
                     "higashinagahama",
-                    "",
-                    "",
-                    ""
+                    "higashigochi",
+                    "oikesetsugen",
+                    "himi",
+                    "matsudai",
+                    "hikawakogen",
+                    "morikawabe",
+                    "iwanohara",
+                    "matsushima",
+                    "shingannai"
+                ]
+            },
+            {
+                "name":"泊港線",
+                "id":"J",
+                "stations":[
+                    "hikawakogen",
+                    "morikawabe",
+                    "iwanohara",
+                    "kohoku",
+                    "minamitomarihara",
+                    "tomarihara"
                 ]
             },
             {
@@ -219,10 +234,23 @@
                 ]
             },
             {
-                "name":"東海本線",
+                "name":"東海本線・東海南線",
                 "id":"P",
                 "stations":[
-                    "hasasame"
+                    "hikawakogen",
+                    "tokaioyama",
+                    "suofukagawa",
+                    "morichikagawa",
+                    "wanganomori",
+                    "e",
+                    "tokaihama",
+                    "hasasame",
+                    "minamihasasame",
+                    "hamahara",
+                    "kaihintsutsuishi",
+                    "minamitsutsuishi",
+                    "minamihamano",
+                    "kirinotoge"
                 ]
             },
             {
@@ -277,6 +305,14 @@
                 "stations":[
                     "kitakougai-nms",
                     "higashifukuzaki"
+                ]
+            },
+            {
+                "name":"広尾線",
+                "id":"O",
+                "stations":[
+                    "rinkaihirohama",
+                    "okawa"
                 ]
             }
         ],
@@ -340,6 +376,55 @@
                     "shinkaichi"
                 ]
             }
+        ],
+        "shinko":[
+            {
+                "name":"本線",
+                "id":"honsen",
+                "stations":[
+                    "kanjodorihigashi",
+                    "hitachinoyachi",
+                    "bappururingokyo",
+                    "kinoko",
+                    "tsuishikari"
+                ]
+            }
+        ],
+        "numa":[
+            {
+                "name":"煉瓦通り",
+                "id":"renga",
+                "stations":[
+                    "kirinotoge",
+                    "holidays-mines",
+                    "shepheld",
+                    "harbour",
+                    "numa-ef210"
+                ]
+            },
+            {
+                "name":"[NN]本線",
+                "id":"nn",
+                "stations":[
+                    "harbour",
+                    "dacani",
+                    "forest-e",
+                    "riverside",
+                    "wolf-village"
+                ]
+            },
+            {
+                "name":"[NY]海月村線",
+                "id":"ny",
+                "stations":[
+                    "riverside",
+                    "morinomiya",
+                    "nagisa",
+                    "kurage",
+                    "dragoon",
+                    "sango-bashi"
+                ]
+            }
         ]
     },
     "stations":[
@@ -349,7 +434,7 @@
             "name":"高速長田/新長田",
             "potision":[-234,383],
             "rosens":{
-                "kousoku":["N-normal","O","A"],
+                "kousoku":["N-normal","A"],
                 "rtb":["R"]
             }
         },
@@ -373,7 +458,7 @@
         },
         {
             "companies":["kousoku"],
-            "id":"higashfukuzaki",
+            "id":"higashifukuzaki",
             "name":"東福崎",
             "potision":[430,-1252],
             "rosens":{
@@ -395,7 +480,7 @@
             "name":"臨海広浜",
             "potision":[295,-2355],
             "rosens":{
-                "kousoku":["N-normal","L"]
+                "kousoku":["N-normal","L","O"]
             }
         },
         {
@@ -968,7 +1053,8 @@
             "name":"大江",
             "potision":[-240,1950],
             "rosens":{
-                "kousoku":["takamori"]
+                "kousoku":["takamori"],
+                "numa":["ny"]
             }
         },
         {
@@ -1159,6 +1245,394 @@
             "potision":[-2745,-738],
             "rosens":{
                 "kousoku":["yonomori","T"]
+            }
+        },
+        {
+            "companies":["shinko"],
+            "id":"kanjodorihigashi",
+            "name":"環状通東",
+            "potision":[263,25],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["shinko"],
+            "id":"hitachinoyachi",
+            "name":"ひたち野谷地",
+            "potision":[494,29],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["shinko"],
+            "id":"bappururingokyo",
+            "name":"場古りんご郷",
+            "potision":[644,297],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["shinko"],
+            "id":"kinoko",
+            "name":"きのこ",
+            "potision":[697,680],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["shinko"],
+            "id":"tsuishikari",
+            "name":"対雁",
+            "potision":[715,965],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"tokaihama",
+            "name":"東海浜",
+            "potision":[4459,-1588],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"e",
+            "name":"江",
+            "potision":[4458,-2244],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"wanganomori",
+            "name":"湾岸大森",
+            "potision":[4338,-2801],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"morichikagawa",
+            "name":"森近川",
+            "potision":[3528,-3535],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"morichikagawa",
+            "name":"州央深川",
+            "potision":[3528,-3535],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"tokaioyama",
+            "name":"東海大山",
+            "potision":[2584,-3535],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"hikawakogen",
+            "name":"氷川高原",
+            "potision":[],
+            "rosens":{
+                "kousoku":["P","G","J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"morikawabe",
+            "name":"森川辺",
+            "potision":[1346,-3546],
+            "rosens":{
+                "kousoku":["G","J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"iwanohara",
+            "name":"岩の原・新岩の原",
+            "potision":[642,-3567],
+            "rosens":{
+                "kousoku":["G","J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"numanohashi",
+            "name":"沼の端",
+            "potision":[657,-3807],
+            "rosens":{
+                "kousoku":["J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"kohoku",
+            "name":"河北",
+            "potision":[658,-4490],
+            "rosens":{
+                "kousoku":["J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"minamitomarihara",
+            "name":"南泊原",
+            "potision":[217,-4579],
+            "rosens":{
+                "kousoku":["J"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"minamitomarihara",
+            "name":"泊原",
+            "potision":[218,-4694],
+            "rosens":{
+                "kousoku":["J","L"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"matsushima",
+            "name":"松島",
+            "potision":[254,-3545],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"matsudai",
+            "name":"松代",
+            "potision":[2189,-2880],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"himi",
+            "name":"氷海",
+            "potision":[2417,-1889],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"oikesetsugen",
+            "name":"大池雪原",
+            "potision":[2893,-1889],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"higashigochi",
+            "name":"東河内",
+            "potision":[2985,-1646],
+            "rosens":{
+                "kousoku":["G"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"minamihasasame",
+            "name":"南葉細",
+            "potision":[4243,-448],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"hamahara",
+            "name":"浜原",
+            "potision":[3587,303],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"kaihintsutsuishi",
+            "name":"海浜筒石",
+            "potision":[3430,604],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"minamitsutsuishi",
+            "name":"南筒石",
+            "potision":[3430,1108],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"minamihamano",
+            "name":"南浜野",
+            "potision":[2940,1311],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku","numa"],
+            "id":"kirinotoge",
+            "name":"霧峠",
+            "potision":[],
+            "rosens":{
+                "kousoku":["P"],
+                "numa":["renga"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"holidays-mines",
+            "name":"ホリデー鉱山口",
+            "potision":[],
+            "rosens":{
+                "numa":["renga"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"shepheld",
+            "name":"羊飼い前",
+            "potision":[],
+            "rosens":{
+                "numa":["renga"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"harbour",
+            "name":"ハーバー・ステーション",
+            "potision":[1583,1335],
+            "rosens":{
+                "numa":["renga","nn"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"numa-ef210",
+            "name":"EF210 (ぬま鉄道)",
+            "potision":[1337,1305],
+            "rosens":{
+                "numa":["renga"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"dacani",
+            "name":"ダカニ・ステーション",
+            "potision":[1585,1807],
+            "rosens":{
+                "numa":["nn"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"forest-e",
+            "name":"フォレスト東",
+            "potision":[1912,2128],
+            "rosens":{
+                "numa":["nn"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"riverside",
+            "name":"川のほとりの駅",
+            "potision":[],
+            "rosens":{
+                "numa":["nn","ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"wolf-village",
+            "name":"おおかみ",
+            "potision":[2064,2944],
+            "rosens":{
+                "numa":["nn"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"nagisa",
+            "name":"潮風と渚の駅",
+            "potision":[1498,2126],
+            "rosens":{
+                "numa":["ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"morinomiya",
+            "name":"森ノ宮",
+            "potision":[1599,2364],
+            "rosens":{
+                "numa":["ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"kurage",
+            "name":"海月村",
+            "potision":[1231,1956],
+            "rosens":{
+                "numa":["ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"dragoon",
+            "name":"竜が浦",
+            "potision":[],
+            "rosens":{
+                "numa":["ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"sango-bashi",
+            "name":"珊瑚橋",
+            "potision":[447,1951],
+            "rosens":{
+                "numa":["ny"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"okawa",
+            "name":"尾川",
+            "potision":[-182,-2026],
+            "rosens":{
+                "kousoku":["O"]
             }
         }
     ]
