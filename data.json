@@ -12,13 +12,13 @@
         },
         "umineko":{
             "name":"うみねこ鉄道 UminekoRailwayService",
-            "short":"うみねこ鉄道",
+            "short":"うみねこ",
             "bgcolor":"lightblue",
             "color":"#000000"
         },
         "rtb":{
             "name":"リアライ共和国交通局 Realie Transportation Bureru",
-            "short":"リアライ共和国交通局",
+            "short":"リアライ",
             "bgcolor":"purple",
             "color":"#ffffff"
         },
@@ -26,6 +26,12 @@
             "name":"猫鯖交通振興公団",
             "short":"振興公団",
             "bgcolor":"orange",
+            "color":"#000000"
+        },
+        "numa":{
+            "name":"ぬま旅客鉄道鯖式会社 Numa Railways",
+            "short":"ぬま旅客",
+            "bgcolor":"lightgreen",
             "color":"#000000"
         }
     },
@@ -389,6 +395,42 @@
                     "bappururingokyo",
                     "kinoko",
                     "tsuishikari"
+                ]
+            }
+        ],
+        "numa":[
+            {
+                "name":"煉瓦通り",
+                "id":"renga",
+                "stations":[
+                    "kirinotoge",
+                    "holidays-mines",
+                    "shepheld",
+                    "harbour",
+                    "numa-ef210"
+                ]
+            },
+            {
+                "name":"[NN]本線",
+                "id":"nn",
+                "stations":[
+                    "harbour",
+                    "dacani",
+                    "forest-e",
+                    "riverside",
+                    "wolf-village"
+                ]
+            },
+            {
+                "name":"[NY]海月村線",
+                "id":"ny",
+                "stations":[
+                    "riverside",
+                    "morinomiya",
+                    "nagisa",
+                    "kurage",
+                    "dragoon",
+                    "sango-bashi"
                 ]
             }
         ]
@@ -1472,6 +1514,123 @@
             "rosens":{
                 "kousoku":["P"],
                 "numa":["renga"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"holidays-mines",
+            "name":"ホリデー鉱山口",
+            "potision":[],
+            "rosens":{
+                "numa":["renga"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"shepheld",
+            "name":"羊飼い前",
+            "potision":[],
+            "rosens":{
+                "numa":["renga"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"harbour",
+            "name":"ハーバー・ステーション",
+            "potision":[1583,1335],
+            "rosens":{
+                "numa":["renga","nn"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"numa-ef210",
+            "name":"EF210 (ぬま鉄道)",
+            "potision":[1337,1305],
+            "rosens":{
+                "numa":["renga"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"dacani",
+            "name":"ダカニ・ステーション",
+            "potision":[1585,1807],
+            "rosens":{
+                "numa":["nn"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"forest-e",
+            "name":"フォレスト東",
+            "potision":[1912,2128],
+            "rosens":{
+                "numa":["nn"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"riverside",
+            "name":"川のほとりの駅",
+            "potision":[],
+            "rosens":{
+                "numa":["nn","ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"wolf-village",
+            "name":"おおかみ",
+            "potision":[2064,2944],
+            "rosens":{
+                "numa":["nn"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"nagisa",
+            "name":"潮風と渚の駅",
+            "potision":[1498,2126],
+            "rosens":{
+                "numa":["ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"morinomiya",
+            "name":"森ノ宮",
+            "potision":[1599,2364],
+            "rosens":{
+                "numa":["ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"kurage",
+            "name":"海月村",
+            "potision":[1231,1956],
+            "rosens":{
+                "numa":["ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"dragoon",
+            "name":"竜が浦",
+            "potision":[],
+            "rosens":{
+                "numa":["ny"]
+            }
+        },
+        {
+            "companies":["numa"],
+            "id":"sango-bashi",
+            "name":"珊瑚橋",
+            "potision":[447,1951],
+            "rosens":{
+                "numa":["ny"]
             }
         }
     ]
