@@ -82,9 +82,6 @@
                     "nekonekomachi",
                     "oe",
                     "ooe"
-                ],
-                "memo":[
-                    "小江～大江間は建設中。"
                 ]
             },
             {
@@ -1061,7 +1058,8 @@
             "name":"大江",
             "potision":[-240,1950],
             "rosens":{
-                "kousoku":["takamori"]
+                "kousoku":["takamori"],
+                "numa":["ny"]
             }
         },
         {
