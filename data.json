@@ -244,7 +244,7 @@
                 ]
             },
             {
-                "name":"東海本線",
+                "name":"東海本線・東海南線",
                 "id":"P",
                 "stations":[
                     "hikawakogen",
@@ -255,7 +255,12 @@
                     "e",
                     "tokaihama",
                     "hasasame",
-                    ""
+                    "minamihasasame",
+                    "hamahara",
+                    "kaihintsutsuishi",
+                    "minamitsutsuishi",
+                    "minamihamano",
+                    "kirinotoge"
                 ]
             },
             {
@@ -1416,11 +1421,57 @@
         },
         {
             "companies":["kousoku"],
-            "id":"higashigochi",
-            "name":"東河内",
-            "potision":[2985,-1646],
+            "id":"minamihasasame",
+            "name":"南葉細",
+            "potision":[4243,-448],
             "rosens":{
-                "kousoku":["G"]
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"hamahara",
+            "name":"浜原",
+            "potision":[3587,303],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"kaihintsutsuishi",
+            "name":"海浜筒石",
+            "potision":[3430,604],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"minamitsutsuishi",
+            "name":"南筒石",
+            "potision":[3430,1108],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"minamihamano",
+            "name":"南浜野",
+            "potision":[2940,1311],
+            "rosens":{
+                "kousoku":["P"]
+            }
+        },
+        {
+            "companies":["kousoku","numa"],
+            "id":"kirinotoge",
+            "name":"霧峠",
+            "potision":[],
+            "rosens":{
+                "kousoku":["P"],
+                "numa":["renga"]
             }
         }
     ]
