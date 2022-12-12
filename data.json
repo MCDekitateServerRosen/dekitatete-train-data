@@ -18,13 +18,7 @@
         },
         "rtb":{
             "name":"リアライ共和国交通局 Realie Transportation Bureru",
-            "short":"リアライ",
-            "bgcolor":"purple",
-            "color":"#ffffff"
-        },
-        "shinko":{
-            "name":"猫鯖交通振興公団",
-            "short":"振興公団",
+            "short":"リアライ共和国交通局",
             "bgcolor":"orange",
             "color":"#000000"
         },
@@ -374,19 +368,6 @@
                     "matsuwaminami",
                     "dainijyutakuchiku",
                     "shinkaichi"
-                ]
-            }
-        ],
-        "shinko":[
-            {
-                "name":"本線",
-                "id":"honsen",
-                "stations":[
-                    "kanjodorihigashi",
-                    "hitachinoyachi",
-                    "bappururingokyo",
-                    "kinoko",
-                    "tsuishikari"
                 ]
             }
         ],
@@ -1245,51 +1226,6 @@
             "potision":[-2745,-738],
             "rosens":{
                 "kousoku":["yonomori","T"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"kanjodorihigashi",
-            "name":"環状通東",
-            "potision":[263,25],
-            "rosens":{
-                "shinko":["honsen"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"hitachinoyachi",
-            "name":"ひたち野谷地",
-            "potision":[494,29],
-            "rosens":{
-                "shinko":["honsen"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"bappururingokyo",
-            "name":"場古りんご郷",
-            "potision":[644,297],
-            "rosens":{
-                "shinko":["honsen"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"kinoko",
-            "name":"きのこ",
-            "potision":[697,680],
-            "rosens":{
-                "shinko":["honsen"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"tsuishikari",
-            "name":"対雁",
-            "potision":[715,965],
-            "rosens":{
-                "shinko":["honsen"]
             }
         },
         {
