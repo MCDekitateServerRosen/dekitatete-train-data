@@ -364,55 +364,6 @@
                     "shinkaichi"
                 ]
             }
-        ],
-        "shinko":[
-            {
-                "name":"本線",
-                "id":"honsen",
-                "stations":[
-                    "kanjodorihigashi",
-                    "hitachinoyachi",
-                    "bappururingokyo",
-                    "kinoko",
-                    "tsuishikari"
-                ]
-            }
-        ],
-        "numa":[
-            {
-                "name":"煉瓦通り",
-                "id":"renga",
-                "stations":[
-                    "kirinotoge",
-                    "holidays-mines",
-                    "shepheld",
-                    "harbour",
-                    "numa-ef210"
-                ]
-            },
-            {
-                "name":"[NN]本線",
-                "id":"nn",
-                "stations":[
-                    "harbour",
-                    "dacani",
-                    "forest-e",
-                    "riverside",
-                    "wolf-village"
-                ]
-            },
-            {
-                "name":"[NY]海月村線",
-                "id":"ny",
-                "stations":[
-                    "riverside",
-                    "morinomiya",
-                    "nagisa",
-                    "kurage",
-                    "dragoon",
-                    "sango-bashi"
-                ]
-            }
         ]
     },
     "stations":[
