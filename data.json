@@ -124,19 +124,6 @@
                 ]
             },
             {
-                "name":"環状線(普通)",
-                "id":"O",
-                "stations":[
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "",
-                    "nagata"
-                ]
-            },
-            {
                 "name":"岩日線",
                 "id":"G",
                 "stations":[
@@ -319,6 +306,14 @@
                     "kitakougai-nms",
                     "higashifukuzaki"
                 ]
+            },
+            {
+                "name":"広尾線",
+                "id":"O",
+                "stations":[
+                    "rinkaihirohama",
+                    "okawa"
+                ]
             }
         ],
         "umineko":[
@@ -439,7 +434,7 @@
             "name":"高速長田/新長田",
             "potision":[-234,383],
             "rosens":{
-                "kousoku":["N-normal","O","A"],
+                "kousoku":["N-normal","A"],
                 "rtb":["R"]
             }
         },
@@ -485,7 +480,7 @@
             "name":"臨海広浜",
             "potision":[295,-2355],
             "rosens":{
-                "kousoku":["N-normal","L"]
+                "kousoku":["N-normal","L","O"]
             }
         },
         {
@@ -1629,6 +1624,15 @@
             "potision":[447,1951],
             "rosens":{
                 "numa":["ny"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"okawa",
+            "name":"尾川",
+            "potision":[-182,-2026],
+            "rosens":{
+                "kousoku":["O"]
             }
         }
     ]
