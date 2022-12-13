@@ -50,15 +50,13 @@
                 "id":"N-normal",
                 "family":"N",
                 "stations":[
-                    "nagata",
-                    "shinnishikougai",
-                    "nekuibetown",
                     "higashifukuzaki",
                     "hamafukuzaki",
                     "rinkaihirohama",
                     "shingannai",
                     "hamasakai",
-                    "moriya"
+                    "moriya",
+                    "einei"
                 ]
             },
             {
@@ -271,22 +269,6 @@
                 ]
             },
             {
-                "name":"環状線(快速電車)",
-                "id":"A",
-                "stations":[
-                    "minamikougai",
-                    "nagata"
-                ]
-            },
-            {
-                "name":"環状線(快速特急)",
-                "id":"kanjoukaisokutokkyu",
-                "family":"K",
-                "stations":[
-                    "minamikougai"
-                ]
-            },
-            {
                 "name":"南北本線(支線)",
                 "id":"N-sub",
                 "family":"N",
@@ -373,26 +355,7 @@
             "name":"高速長田/新長田",
             "potision":[-234,383],
             "rosens":{
-                "kousoku":["N-normal","A"],
                 "rtb":["R"]
-            }
-        },
-        {
-            "companies":["kousoku"],
-            "id":"shinnishikougai",
-            "name":"新西郊外",
-            "potision":[-248,-2],
-            "rosens":{
-                "kousoku":["N-normal"]
-            }
-        },
-        {
-            "companies":["kousoku"],
-            "id":"nekuibetown",
-            "name":"ネクイベタウン",
-            "potision":[],
-            "rosens":{
-                "kousoku":["N-normal","T"]
             }
         },
         {
