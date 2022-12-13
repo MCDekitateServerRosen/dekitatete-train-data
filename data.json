@@ -175,7 +175,7 @@
                 ]
             },
             {
-                "name":"東西線(普通) / みなとみさき線",
+                "name":"東西本線(普通)",
                 "id":"T",
                 "stations":[
                     "nishitoyokawa",
@@ -199,7 +199,7 @@
                 ]
             },
             {
-                "name":"東西線(快速)",
+                "name":"東西本線(快速)",
                 "id":"I",
                 "stations":[
                     "izumocity",
