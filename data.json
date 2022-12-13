@@ -251,14 +251,6 @@
                 ]
             },
             {
-                "name":"北西線",
-                "id":"Z",
-                "stations":[
-                    "yukiyado",
-                    ""
-                ]
-            },
-            {
                 "name":"高森線",
                 "id":"takamori",
                 "family":"K",
