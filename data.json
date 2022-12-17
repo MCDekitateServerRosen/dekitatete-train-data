@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2022 beatbox4108 Dekisaba Rapid Transit Inc. All Rights Reserved.",
     "license":"https://creativecommons.org/licenses/by-nc-nd/4.0/",
-    "version":"2022.1.2b1",
+    "version":"2022.1.2",
     "companies":["kousoku","umineko","rtb"],
     "company":{
         "kousoku":{
@@ -248,14 +248,6 @@
                     "nakanoitsuki",
                     "nakanohigashi",
                     "ozero"
-                ]
-            },
-            {
-                "name":"北西線",
-                "id":"Z",
-                "stations":[
-                    "yukiyado",
-                    ""
                 ]
             },
             {
@@ -1140,7 +1132,7 @@
             }
         },
         {
-            "companies":["rtb"],
+            "companies":["kousoku"],
             "id":"yoake",
             "name":"夜明",
             "potision":[-2745,-738],
@@ -1258,7 +1250,7 @@
         },
         {
             "companies":["kousoku"],
-            "id":"minamitomarihara",
+            "id":"tomarihara",
             "name":"泊原",
             "potision":[218,-4694],
             "rosens":{
