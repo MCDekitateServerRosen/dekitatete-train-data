@@ -356,42 +356,6 @@
                     "tsuishikari"
                 ]
             }
-        ],
-        "numa":[
-            {
-                "name":"煉瓦通り",
-                "id":"renga",
-                "stations":[
-                    "kirinotoge",
-                    "holidays-mines",
-                    "shepheld",
-                    "harbour",
-                    "numa-ef210"
-                ]
-            },
-            {
-                "name":"[NN]本線",
-                "id":"nn",
-                "stations":[
-                    "harbour",
-                    "dacani",
-                    "forest-e",
-                    "riverside",
-                    "wolf-village"
-                ]
-            },
-            {
-                "name":"[NY]海月村線",
-                "id":"ny",
-                "stations":[
-                    "riverside",
-                    "morinomiya",
-                    "nagisa",
-                    "kurage",
-                    "dragoon",
-                    "sango-bashi"
-                ]
-            }
         ]
     },
     "stations":[
@@ -1001,8 +965,7 @@
             "name":"大江",
             "potision":[-240,1950],
             "rosens":{
-                "kousoku":["takamori"],
-                "numa":["ny"]
+                "kousoku":["takamori"]
             }
         },
         {
@@ -1448,13 +1411,12 @@
             }
         },
         {
-            "companies":["kousoku","numa"],
+            "companies":["kousoku"],
             "id":"kirinotoge",
             "name":"霧峠",
             "potision":[],
             "rosens":{
-                "kousoku":["P"],
-                "numa":["renga"]
+                "kousoku":["P"]
             }
         },
         {
