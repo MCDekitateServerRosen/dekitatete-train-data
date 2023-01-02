@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2022 beatbox4108 Dekisaba Rapid Transit Inc. All Rights Reserved.",
     "license":"https://creativecommons.org/licenses/by-nc-nd/4.0/",
-    "version":"2022.1.2",
+    "version":"2023.1.1",
     "companies":["kousoku","umineko","rtb"],
     "company":{
         "kousoku":{
@@ -18,7 +18,13 @@
         },
         "rtb":{
             "name":"リアライ共和国交通局 Realie Transportation Bureru",
-            "short":"リアライ共和国交通局",
+            "short":"リアライ",
+            "bgcolor":"purple",
+            "color":"#ffffff"
+        },
+        "shinko":{
+            "name":"猫鯖交通振興公団",
+            "short":"振興公団",
             "bgcolor":"orange",
             "color":"#000000"
         }
@@ -132,6 +138,7 @@
                     "hikawakogen",
                     "morikawabe",
                     "iwanohara",
+                    "numanohashi",
                     "kohoku",
                     "minamitomarihara",
                     "tomarihara"
@@ -335,6 +342,19 @@
                     "matsuwaminami",
                     "dainijyutakuchiku",
                     "shinkaichi"
+                ]
+            }
+        ],
+        "shinko":[
+            {
+                "name":"本線",
+                "id":"honsen",
+                "stations":[
+                    "kanjodorihigashi",
+                    "hitachinoyachi",
+                    "bappururingokyo",
+                    "kinoko",
+                    "tsuishikari"
                 ]
             }
         ]
@@ -946,8 +966,7 @@
             "name":"大江",
             "potision":[-240,1950],
             "rosens":{
-                "kousoku":["takamori"],
-                "numa":["ny"]
+                "kousoku":["takamori"]
             }
         },
         {
@@ -1141,6 +1160,51 @@
             }
         },
         {
+            "companies":["shinko"],
+            "id":"kanjodorihigashi",
+            "name":"環状通東",
+            "potision":[263,25],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["shinko"],
+            "id":"hitachinoyachi",
+            "name":"ひたち野谷地",
+            "potision":[494,29],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["shinko"],
+            "id":"bappururingokyo",
+            "name":"場古りんご郷",
+            "potision":[644,297],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["shinko"],
+            "id":"kinoko",
+            "name":"きのこ",
+            "potision":[697,680],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
+            "companies":["shinko"],
+            "id":"tsuishikari",
+            "name":"対雁",
+            "potision":[715,965],
+            "rosens":{
+                "shinko":["honsen"]
+            }
+        },
+        {
             "companies":["kousoku"],
             "id":"tokaihama",
             "name":"東海浜",
@@ -1178,7 +1242,7 @@
         },
         {
             "companies":["kousoku"],
-            "id":"morichikagawa",
+            "id":"suofukagawa",
             "name":"州央深川",
             "potision":[3528,-3535],
             "rosens":{
@@ -1348,13 +1412,12 @@
             }
         },
         {
-            "companies":["kousoku","numa"],
+            "companies":["kousoku"],
             "id":"kirinotoge",
             "name":"霧峠",
             "potision":[],
             "rosens":{
-                "kousoku":["P"],
-                "numa":["renga"]
+                "kousoku":["P"]
             }
         },
         {
