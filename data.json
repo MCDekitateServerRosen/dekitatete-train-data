@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2022 beatbox4108 Dekisaba Rapid Transit Inc. All Rights Reserved.",
     "license":"https://creativecommons.org/licenses/by-nc-nd/4.0/",
-    "version":"2022.1.1",
+    "version":"2022.1.2",
     "companies":["kousoku","umineko","rtb"],
     "company":{
         "kousoku":{
@@ -12,26 +12,14 @@
         },
         "umineko":{
             "name":"うみねこ鉄道 UminekoRailwayService",
-            "short":"うみねこ",
+            "short":"うみねこ鉄道",
             "bgcolor":"lightblue",
             "color":"#000000"
         },
         "rtb":{
             "name":"リアライ共和国交通局 Realie Transportation Bureru",
-            "short":"リアライ",
-            "bgcolor":"purple",
-            "color":"#ffffff"
-        },
-        "shinko":{
-            "name":"猫鯖交通振興公団",
-            "short":"振興公団",
+            "short":"リアライ共和国交通局",
             "bgcolor":"orange",
-            "color":"#000000"
-        },
-        "numa":{
-            "name":"ぬま旅客鉄道鯖式会社 Numa Railways",
-            "short":"ぬま旅客",
-            "bgcolor":"lightgreen",
             "color":"#000000"
         }
     },
@@ -62,15 +50,13 @@
                 "id":"N-normal",
                 "family":"N",
                 "stations":[
-                    "nagata",
-                    "shinnishikougai",
-                    "nekuibetown",
                     "higashifukuzaki",
                     "hamafukuzaki",
                     "rinkaihirohama",
                     "shingannai",
                     "hamasakai",
-                    "moriya"
+                    "moriya",
+                    "einei"
                 ]
             },
             {
@@ -189,7 +175,7 @@
                 ]
             },
             {
-                "name":"東西線(普通) / みなとみさき線",
+                "name":"東西本線(普通)",
                 "id":"T",
                 "stations":[
                     "nishitoyokawa",
@@ -204,7 +190,6 @@
                     "minamiamerica",
                     "shinizumo",
                     "shinkaichi",
-                    "nekuibetown",
                     "shinkitagawa",
                     "mizuanagunko",
                     "higashinagahama",
@@ -213,7 +198,7 @@
                 ]
             },
             {
-                "name":"東西線(快速)",
+                "name":"東西本線(快速)",
                 "id":"I",
                 "stations":[
                     "izumocity",
@@ -266,36 +251,12 @@
                 ]
             },
             {
-                "name":"北西線",
-                "id":"Z",
-                "stations":[
-                    "yukiyado",
-                    ""
-                ]
-            },
-            {
                 "name":"高森線",
                 "id":"takamori",
                 "family":"K",
                 "stations":[
                     "higashioe",
                     "ooe"
-                ]
-            },
-            {
-                "name":"環状線(快速電車)",
-                "id":"A",
-                "stations":[
-                    "minamikougai",
-                    "nagata"
-                ]
-            },
-            {
-                "name":"環状線(快速特急)",
-                "id":"kanjoukaisokutokkyu",
-                "family":"K",
-                "stations":[
-                    "minamikougai"
                 ]
             },
             {
@@ -376,55 +337,6 @@
                     "shinkaichi"
                 ]
             }
-        ],
-        "shinko":[
-            {
-                "name":"本線",
-                "id":"honsen",
-                "stations":[
-                    "kanjodorihigashi",
-                    "hitachinoyachi",
-                    "bappururingokyo",
-                    "kinoko",
-                    "tsuishikari"
-                ]
-            }
-        ],
-        "numa":[
-            {
-                "name":"煉瓦通り",
-                "id":"renga",
-                "stations":[
-                    "kirinotoge",
-                    "holidays-mines",
-                    "shepheld",
-                    "harbour",
-                    "numa-ef210"
-                ]
-            },
-            {
-                "name":"[NN]本線",
-                "id":"nn",
-                "stations":[
-                    "harbour",
-                    "dacani",
-                    "forest-e",
-                    "riverside",
-                    "wolf-village"
-                ]
-            },
-            {
-                "name":"[NY]海月村線",
-                "id":"ny",
-                "stations":[
-                    "riverside",
-                    "morinomiya",
-                    "nagisa",
-                    "kurage",
-                    "dragoon",
-                    "sango-bashi"
-                ]
-            }
         ]
     },
     "stations":[
@@ -434,26 +346,7 @@
             "name":"高速長田/新長田",
             "potision":[-234,383],
             "rosens":{
-                "kousoku":["N-normal","A"],
                 "rtb":["R"]
-            }
-        },
-        {
-            "companies":["kousoku"],
-            "id":"shinnishikougai",
-            "name":"新西郊外",
-            "potision":[-248,-2],
-            "rosens":{
-                "kousoku":["N-normal"]
-            }
-        },
-        {
-            "companies":["kousoku"],
-            "id":"nekuibetown",
-            "name":"ネクイベタウン",
-            "potision":[],
-            "rosens":{
-                "kousoku":["N-normal","T"]
             }
         },
         {
@@ -1239,57 +1132,12 @@
             }
         },
         {
-            "companies":["rtb"],
+            "companies":["kousoku"],
             "id":"yoake",
             "name":"夜明",
             "potision":[-2745,-738],
             "rosens":{
                 "kousoku":["yonomori","T"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"kanjodorihigashi",
-            "name":"環状通東",
-            "potision":[263,25],
-            "rosens":{
-                "shinko":["honsen"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"hitachinoyachi",
-            "name":"ひたち野谷地",
-            "potision":[494,29],
-            "rosens":{
-                "shinko":["honsen"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"bappururingokyo",
-            "name":"場古りんご郷",
-            "potision":[644,297],
-            "rosens":{
-                "shinko":["honsen"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"kinoko",
-            "name":"きのこ",
-            "potision":[697,680],
-            "rosens":{
-                "shinko":["honsen"]
-            }
-        },
-        {
-            "companies":["shinko"],
-            "id":"tsuishikari",
-            "name":"対雁",
-            "potision":[715,965],
-            "rosens":{
-                "shinko":["honsen"]
             }
         },
         {
@@ -1330,7 +1178,7 @@
         },
         {
             "companies":["kousoku"],
-            "id":"morichikagawa",
+            "id":"suofukagawa",
             "name":"州央深川",
             "potision":[3528,-3535],
             "rosens":{
@@ -1402,7 +1250,7 @@
         },
         {
             "companies":["kousoku"],
-            "id":"minamitomarihara",
+            "id":"tomarihara",
             "name":"泊原",
             "potision":[218,-4694],
             "rosens":{
@@ -1507,123 +1355,6 @@
             "rosens":{
                 "kousoku":["P"],
                 "numa":["renga"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"holidays-mines",
-            "name":"ホリデー鉱山口",
-            "potision":[],
-            "rosens":{
-                "numa":["renga"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"shepheld",
-            "name":"羊飼い前",
-            "potision":[],
-            "rosens":{
-                "numa":["renga"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"harbour",
-            "name":"ハーバー・ステーション",
-            "potision":[1583,1335],
-            "rosens":{
-                "numa":["renga","nn"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"numa-ef210",
-            "name":"EF210 (ぬま鉄道)",
-            "potision":[1337,1305],
-            "rosens":{
-                "numa":["renga"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"dacani",
-            "name":"ダカニ・ステーション",
-            "potision":[1585,1807],
-            "rosens":{
-                "numa":["nn"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"forest-e",
-            "name":"フォレスト東",
-            "potision":[1912,2128],
-            "rosens":{
-                "numa":["nn"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"riverside",
-            "name":"川のほとりの駅",
-            "potision":[],
-            "rosens":{
-                "numa":["nn","ny"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"wolf-village",
-            "name":"おおかみ",
-            "potision":[2064,2944],
-            "rosens":{
-                "numa":["nn"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"nagisa",
-            "name":"潮風と渚の駅",
-            "potision":[1498,2126],
-            "rosens":{
-                "numa":["ny"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"morinomiya",
-            "name":"森ノ宮",
-            "potision":[1599,2364],
-            "rosens":{
-                "numa":["ny"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"kurage",
-            "name":"海月村",
-            "potision":[1231,1956],
-            "rosens":{
-                "numa":["ny"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"dragoon",
-            "name":"竜が浦",
-            "potision":[],
-            "rosens":{
-                "numa":["ny"]
-            }
-        },
-        {
-            "companies":["numa"],
-            "id":"sango-bashi",
-            "name":"珊瑚橋",
-            "potision":[447,1951],
-            "rosens":{
-                "numa":["ny"]
             }
         },
         {
