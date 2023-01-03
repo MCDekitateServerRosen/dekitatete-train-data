@@ -201,7 +201,8 @@
                     "mizuanagunko",
                     "higashinagahama",
                     "higashihamasaka",
-                    "hasasame"
+                    "hasasame",
+                    "higashishinkawa"
                 ]
             },
             {
@@ -1427,6 +1428,15 @@
             "potision":[-182,-2026],
             "rosens":{
                 "kousoku":["O"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"higashishinkawa",
+            "name":"東新川",
+            "potision":[4989,-1506],
+            "rosens":{
+                "kousoku":["T"]
             }
         }
     ]
