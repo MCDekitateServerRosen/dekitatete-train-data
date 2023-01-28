@@ -1007,7 +1007,7 @@
             "name":"新砂原",
             "potision":[-230,2738],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["H"]
             }
         },
         {
@@ -1016,7 +1016,7 @@
             "name":"新大村",
             "potision":[-1820,2752],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["H"]
             }
         },
         {
@@ -1025,7 +1025,7 @@
             "name":"赤川",
             "potision":[-2093,2504],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["H"]
             }
         },
         {
@@ -1034,7 +1034,7 @@
             "name":"大草",
             "potision":[-2558,2072],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["H"]
             }
         },
         {
