@@ -1,7 +1,7 @@
 {
-    "copyright":"Copyright(c)© 2022 beatbox4108 Dekisaba Rapid Transit Inc. All Rights Reserved.",
+    "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by-nc-nd/4.0/",
-    "version":"2023.1.1",
+    "version":"2023.2.1",
     "companies":["kousoku","umineko","rtb"],
     "company":{
         "kousoku":{
@@ -26,6 +26,12 @@
             "name":"猫鯖交通振興公団",
             "short":"振興公団",
             "bgcolor":"orange",
+            "color":"#000000"
+        },
+        "nishiuwagawa":{
+            "name":"西宇和川鉄道",
+            "short":"西宇和川",
+            "bgcolor":"blueviolet",
             "color":"#000000"
         }
     },
@@ -145,15 +151,6 @@
                 ]
             },
             {
-                "name":"NR道場線",
-                "id":"dojo",
-                "family":"D",
-                "stations":[
-                    "nambokushinkawa",
-                    "dojomae"
-                ]
-            },
-            {
                 "name":"猫野ライン(NEKOPvP)",
                 "id":"NP",
                 "stations":[
@@ -201,7 +198,8 @@
                     "mizuanagunko",
                     "higashinagahama",
                     "higashihamasaka",
-                    "hasasame"
+                    "hasasame",
+                    "higashishinkawa"
                 ]
             },
             {
@@ -357,6 +355,22 @@
                     "tsuishikari"
                 ]
             }
+        ],
+        "nishiuwagawa":[
+            {
+                "name":"宇和川線 (旧NR道場線)",
+                "id":"NR",
+                "family":"NR",
+                "stations":[
+                    "dojomae",
+                    "nambokushinkawa",
+                    "uwagawa",
+                    "nakaishihara",
+                    "shimosawara",
+                    "nakaumisaki",
+                    "mitsuhoshi"
+                ]
+            }
         ]
     },
     "stations":[
@@ -469,12 +483,12 @@
             }
         },
         {
-            "companies":["kousoku"],
+            "companies":["kousoku","nishiuwagawa"],
             "id":"nambokushinkawa",
             "name":"南北新川",
             "potision":[45,3002],
             "rosens":{
-                "kousoku":["L","dojo","NP","nankainan","H"]
+                "kousoku":["L","NR","NP","nankainan","H"]
             }
         },
         {
@@ -1069,12 +1083,12 @@
             } 
         },
         {
-            "companies":["kousoku"],
+            "companies":["nishiuwagawa"],
             "id":"dojomae",
             "name":"道場前",
             "potision":[610,3640],
             "rosens":{
-                "kousoku":["dojo"]
+                "nishiuwagawa":["NR"]
             } 
         },
         {
@@ -1427,6 +1441,60 @@
             "potision":[-182,-2026],
             "rosens":{
                 "kousoku":["O"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"higashishinkawa",
+            "name":"東新川",
+            "potision":[4989,-1506],
+            "rosens":{
+                "kousoku":["T"]
+            }
+        },
+        {
+            "companies":["nishiuwagawa"],
+            "id":"uwagawa",
+            "name":"宇和川",
+            "potision":[85,2761],
+            "rosens":{
+                "nishiuwagawa":["NR"]
+            }
+        },
+        {
+            "companies":["nishiuwagawa"],
+            "id":"nakaishihara",
+            "name":"中石原",
+            "potision":[181,2611],
+            "rosens":{
+                "nishiuwagawa":["NR"]
+            }
+        },
+        {
+            "companies":["nishiuwagawa"],
+            "id":"shimosawara",
+            "name":"下砂原",
+            "potision":[428,2468],
+            "rosens":{
+                "nishiuwagawa":["NR"]
+            }
+        },
+        {
+            "companies":["nishiuwagawa"],
+            "id":"nakaumisaki",
+            "name":"中海崎",
+            "potision":[501,2241],
+            "rosens":{
+                "nishiuwagawa":["NR"]
+            }
+        },
+        {
+            "companies":["nishiuwagawa"],
+            "id":"mitsuhoshi",
+            "name":"三星",
+            "potision":[501,2241],
+            "rosens":{
+                "nishiuwagawa":["NR"]
             }
         }
     ]
