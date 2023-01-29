@@ -295,10 +295,11 @@
                 ]
             },
             {
-                "name":"松和線",
+                "name":"松和線(支線)",
                 "id":"UM",
                 "stations":[
                     "minamiamerica",
+                    "kawagishi",
                     "kounotaira"
                 ]
             }
@@ -1141,7 +1142,7 @@
             }
         },
         {
-            "companies":["rtb"],
+            "companies":["rtb","kousoku"],
             "id":"kounotaira",
             "name":"耕の平",
             "potision":[-1857,-365],
@@ -1490,6 +1491,15 @@
             "potision":[501,2241],
             "rosens":{
                 "nishiuwagawa":["NR"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "id":"kawagishi",
+            "name":"川岸",
+            "potision":[-1857,-365],
+            "rosens":{
+                "kousoku":["UM"]
             }
         }
     ]
