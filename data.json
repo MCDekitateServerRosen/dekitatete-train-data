@@ -2,18 +2,12 @@
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
     "version":"2023.2.1post1",
-    "companies":["kousoku","umineko","rtb"],
+    "companies":["kousoku","rtb"],
     "company":{
         "kousoku":{
             "name":"でき鯖高速鉄道グループ",
             "short":"高速鉄道",
             "bgcolor":"yellow",
-            "color":"#000000"
-        },
-        "umineko":{
-            "name":"うみねこ鉄道 UminekoRailwayService",
-            "short":"うみねこ鉄道",
-            "bgcolor":"lightblue",
             "color":"#000000"
         },
         "rtb":{
@@ -245,7 +239,7 @@
             },
             {
                 "name":"雪宿線",
-                "id":"U",
+                "id":"yukiyado",
                 "stations":[
                     "izumotakamori",
                     "toyosaka",
@@ -280,18 +274,24 @@
                     "rinkaihirohama",
                     "okawa"
                 ]
-            }
-        ],
-        "umineko":[
+            },
             {
-                "name":"本線",
-                "id":"U",
+                "name":"出雲線",
+                "id":"izumo",
+                "stations":[
+                    "izumotakamori",
+                    "toyosaka",
+                    "izumocity"
+                ]
+            },
+            {
+                "name":"うみねこ本線",
+                "id":"umineko",
                 "stations":[
                     "shinkaichi",
                     "hinatamigaoka",
                     "tsurugahama",
-                    "izumotakamori",
-                    "toyosaka"
+                    "izumotakamori"
                 ]
             },
             {
@@ -681,23 +681,21 @@
             }
         },
         {
-            "companies":["kousoku","umineko"],
+            "companies":["kousoku"],
             "id":"minamiamerica",
             "name":"南アメリカ",
             "potision":[-1719,-653],
             "rosens":{
-                "kousoku":["H","T","I"],
-                "umineko":["UM"]
+                "kousoku":["H","T","I","UM"]
             }
         },
         {
-            "companies":["kousoku","umineko"],
+            "companies":["kousoku"],
             "id":"shinkaichi",
             "name":"新開地",
             "potision":[-815,-605],
             "rosens":{
-                "kousoku":["T","U"],
-                "rtb":["R"]
+                "kousoku":["T","umineko"]
             }
         },
         {
@@ -791,12 +789,12 @@
             }
         },
         {
-            "companies":["kousoku","umineko"],
+            "companies":["kousoku"],
             "id":"izumocity",
             "name":"出雲市",
             "potision":[-1652,-1026],
             "rosens":{
-                "kousoku":["I","U"]
+                "kousoku":["I","izumo"]
             }
         },
         {
@@ -814,7 +812,7 @@
             "name":"オーゼロ",
             "potision":[],
             "rosens":{
-                "kousoku":["T","U"]
+                "kousoku":["T","yukiyado"]
             }
         },
         {
@@ -878,7 +876,7 @@
             "name":"中野東",
             "potision":[-2298,-1106],
             "rosens":{
-                "kousoku":["U"]
+                "kousoku":["yukiyado"]
             }
         },
         {
@@ -887,7 +885,7 @@
             "name":"中野五月",
             "potision":[-2146,-1106],
             "rosens":{
-                "kousoku":["U"]
+                "kousoku":["yukiyado"]
             }
         },
         {
@@ -896,7 +894,7 @@
             "name":"雪宿",
             "potision":[-1992,-1142],
             "rosens":{
-                "kousoku":["U","Z"]
+                "kousoku":["yukiyado","Z"]
             }
         },
         {
@@ -905,8 +903,7 @@
             "name":"豊坂",
             "potision":[-1530,-1140],
             "rosens":{
-                "kousoku":["U"],
-                "umineko":["U"]
+                "kousoku":["yukiyado","izumo"]
             }
         },
         {
@@ -915,8 +912,7 @@
             "name":"出雲高森",
             "potision":[-1169,-1138],
             "rosens":{
-                "kousoku":["U"],
-                "umineko":["U"]
+                "kousoku":["yukiyado","izumo","umineko"]
             }
         },
         {
@@ -925,7 +921,7 @@
             "name":"鶴ヶ浜",
             "potision":[-1013,-1068],
             "rosens":{
-                "umineko":["U"]
+                "kousoku":["umineko"]
             }
         },
         {
@@ -934,7 +930,7 @@
             "name":"日向見ヶ丘",
             "potision":[-1016,-864],
             "rosens":{
-                "umineko":["U"]
+                "kousoku":["umineko"]
             }
         },
         {
@@ -1151,7 +1147,7 @@
             "potision":[-1857,-365],
             "rosens":{
                 "rtb":["RH"],
-                "umineko":["UM"]
+                "kousoku":["UM"]
             }
         },
         {
