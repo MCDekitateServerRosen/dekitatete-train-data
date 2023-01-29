@@ -696,7 +696,7 @@
             "name":"新開地",
             "potision":[-815,-605],
             "rosens":{
-                "kousoku":["T","N-normal","U"],
+                "kousoku":["T","U"],
                 "rtb":["R"]
             }
         },
