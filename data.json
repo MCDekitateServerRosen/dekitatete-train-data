@@ -488,7 +488,8 @@
             "name":"南北新川",
             "potision":[45,3002],
             "rosens":{
-                "kousoku":["L","NR","NP","nankainan","H"]
+                "kousoku":["L","NP","nankainan","H"],
+                "nishiuwagawa":["NR"]
             }
         },
         {
