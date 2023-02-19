@@ -17,4 +17,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r .test/requirements.txt
       - name: Check Consistency
-        run: python ./test/main.py
+        run: python .test/main.py
