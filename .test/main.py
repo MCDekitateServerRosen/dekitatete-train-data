@@ -54,7 +54,7 @@ for id,station in stations.items():
         for line in rosens:
             if line not in lines[company].keys():
                 report(f"駅ID '{id}' の乗り入れ路線一覧に不整合があります： ID={line} の路線は存在しません。")
-            elif line in lines[company][line].get("stations"):
+            elif id not in lines[company][line].get("stations"):
                 report(f"駅ID '{id}' の乗り入れ路線一覧に不整合があります： ID={line} の路線に該当の駅は存在しません。")
     
 
