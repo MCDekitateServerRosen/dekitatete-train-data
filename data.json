@@ -2,7 +2,7 @@
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
     "version":"2023.2.2",
-    "companies":["kousoku","rtb"],
+    "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
             "name":"でき鯖高速鉄道グループ",
@@ -192,6 +192,7 @@
                     "mizuanagunko",
                     "higashinagahama",
                     "higashihamasaka",
+                    "nichihara",
                     "hasasame",
                     "higashishinkawa"
                 ]
@@ -313,7 +314,6 @@
                     "matsuwanishi",
                     "hyounandai",
                     "kounotaira",
-                    "kashigadai",
                     "nishirinkan",
                     "kashigadai"
                 ]
@@ -375,10 +375,10 @@
     },
     "stations":[
         {
-            "companies":["kousoku"],
+            "companies":["rtb"],
             "aliases":["nagata"],
             "name":"高速長田/新長田",
-            "potision":[-234,383],
+            "position":[-234,383],
             "rosens":{
                 "rtb":["R"]
             }
@@ -387,7 +387,7 @@
             "companies":["kousoku"],
             "aliases":["higashifukuzaki"],
             "name":"東福崎",
-            "potision":[430,-1252],
+            "position":[430,-1252],
             "rosens":{
                 "kousoku":["L","N-normal","N-sub"]
             }
@@ -396,7 +396,7 @@
             "companies":["kousoku"],
             "aliases":["hamafukuzaki"],
             "name":"浜福崎",
-            "potision":[429,-1598],
+            "position":[429,-1598],
             "rosens":{
                 "kousoku":["N-normal"]
             }
@@ -405,7 +405,7 @@
             "companies":["kousoku"],
             "aliases":["rinkaihirohama"],
             "name":"臨海広浜",
-            "potision":[295,-2355],
+            "position":[295,-2355],
             "rosens":{
                 "kousoku":["N-normal","L","O"]
             }
@@ -414,7 +414,7 @@
             "companies":["kousoku"],
             "aliases":["shingannai"],
             "name":"新岩内",
-            "potision":[-89,-3567],
+            "position":[-89,-3567],
             "rosens":{
                 "kousoku":["N-normal","L","G"]
             }
@@ -423,7 +423,7 @@
             "companies":["kousoku"],
             "aliases":["hamasakai"],
             "name":"浜境",
-            "potision":[-93,-3820],
+            "position":[-93,-3820],
             "rosens":{
                 "kousoku":["N-normal"]
             }
@@ -432,7 +432,7 @@
             "companies":["kousoku"],
             "aliases":["moriya"],
             "name":"森野",
-            "potision":[-93,-4086],
+            "position":[-93,-4086],
             "rosens":{
                 "kousoku":["N-normal"]
             }
@@ -441,7 +441,7 @@
             "companies":["kousoku"],
             "aliases":["einei"],
             "name":"永寧",
-            "potision":[150,-4511],
+            "position":[150,-4511],
             "rosens":{
                 "kousoku":["N-normal","L"]
             }
@@ -450,7 +450,7 @@
             "companies":["kousoku"],
             "aliases":["higashikougai"],
             "name":"東郊外",
-            "potision":[251,28],
+            "position":[251,28],
             "rosens":{
                 "kousoku":["L"]
             }
@@ -459,7 +459,7 @@
             "companies":["kousoku"],
             "aliases":["minamichuo"],
             "name":"みなみ中央",
-            "potision":[-63,963],
+            "position":[-63,963],
             "rosens":{
                 "kousoku":["L","nankai","E"]
             }
@@ -468,7 +468,7 @@
             "companies":["kousoku"],
             "aliases":["higashioe"],
             "name":"東大江",
-            "potision":[-23,1941],
+            "position":[-23,1941],
             "rosens":{
                 "kousoku":["L"]
             }
@@ -477,7 +477,7 @@
             "companies":["kousoku"],
             "aliases":["numanosawa"],
             "name":"沼ノ沢",
-            "potision":[-23,2327],
+            "position":[-23,2327],
             "rosens":{
                 "kousoku":["L"]
             }
@@ -486,16 +486,17 @@
             "companies":["kousoku","nishiuwagawa"],
             "aliases":["nambokushinkawa"],
             "name":"南北新川",
-            "potision":[45,3002],
+            "position":[45,3002],
             "rosens":{
-                "kousoku":["L","NR","NP","nankainan","H"]
+                "kousoku":["L","NP","nankainan","H"],
+                "nishiuwagawa":["NR"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nishioji"],
             "name":"西大路(本社前)",
-            "potision":[45,3474],
+            "position":[45,3474],
             "rosens":{
                 "kousoku":["L"]
             }
@@ -504,7 +505,7 @@
             "companies":["kousoku"],
             "aliases":["mikawachi"],
             "name":"三河内",
-            "potision":[20,3770],
+            "position":[20,3770],
             "rosens":{
                 "kousoku":["L"]
             }
@@ -513,7 +514,7 @@
             "companies":["kousoku"],
             "aliases":["minamiumikoshi"],
             "name":"南海越",
-            "potision":[-96,4138],
+            "position":[-96,4138],
             "rosens":{
                 "kousoku":["L"]
             }
@@ -522,7 +523,7 @@
             "companies":["kousoku"],
             "aliases":["sanhou"],
             "name":"三峰",
-            "potision":[],
+            "position":[],
             "rosens":{
                 "kousoku":["L"]
             }
@@ -531,7 +532,7 @@
             "companies":["kousoku"],
             "aliases":["nekonekomachi"],
             "name":"猫猫町",
-            "potision":[-63,1213],
+            "position":[-63,1213],
             "rosens":{
                 "kousoku":["nankai"]
             }
@@ -540,7 +541,7 @@
             "companies":["kousoku"],
             "aliases":["oe"],
             "name":"小江",
-            "potision":[45,1804],
+            "position":[45,1804],
             "rosens":{
                 "kousoku":["nankai"]
             }
@@ -549,7 +550,7 @@
             "companies":["kousoku"],
             "aliases":["shirasaka"],
             "name":"白坂",
-            "potision":[-270,1104],
+            "position":[-270,1104],
             "rosens":{
                 "kousoku":["E"]
             }
@@ -558,7 +559,7 @@
             "companies":["kousoku"],
             "aliases":["hikawa"],
             "name":"氷川",
-            "potision":[-641,1249],
+            "position":[-641,1249],
             "rosens":{
                 "kousoku":["E"]
             }
@@ -567,7 +568,7 @@
             "companies":["kousoku"],
             "aliases":["kogegawa"],
             "name":"郡家川",
-            "potision":[-1117,1253],
+            "position":[-1117,1253],
             "rosens":{
                 "kousoku":["E"]
             }
@@ -576,7 +577,7 @@
             "companies":["kousoku"],
             "aliases":["omori"],
             "name":"大森",
-            "potision":[-1425,1253],
+            "position":[-1425,1253],
             "rosens":{
                 "kousoku":["E"]
             }
@@ -585,7 +586,7 @@
             "companies":["kousoku"],
             "aliases":["ono"],
             "name":"大野",
-            "potision":[-1850,1251],
+            "position":[-1850,1251],
             "rosens":{
                 "kousoku":["E"]
             }
@@ -594,7 +595,7 @@
             "companies":["kousoku"],
             "aliases":["sendai"],
             "name":"川内",
-            "potision":[-2147,1304],
+            "position":[-2147,1304],
             "rosens":{
                 "kousoku":["E"]
             }
@@ -603,7 +604,7 @@
             "companies":["kousoku"],
             "aliases":["takatobara"],
             "name":"高遠原",
-            "potision":[-2441,1233],
+            "position":[-2441,1233],
             "rosens":{
                 "kousoku":["E"]
             }
@@ -612,7 +613,7 @@
             "companies":["kousoku"],
             "aliases":["nanseikogen"],
             "name":"南西高原",
-            "potision":[-2600,1268],
+            "position":[-2600,1268],
             "rosens":{
                 "kousoku":["E","H"]
             }
@@ -621,7 +622,7 @@
             "companies":["kousoku"],
             "aliases":["nishioyama"],
             "name":"西大山",
-            "potision":[-2564,484],
+            "position":[-2564,484],
             "rosens":{
                 "kousoku":["H"]
             }
@@ -630,7 +631,7 @@
             "companies":["kousoku"],
             "aliases":["nishikawa"],
             "name":"西川",
-            "potision":[-2001,484],
+            "position":[-2001,484],
             "rosens":{
                 "kousoku":["H"]
             }
@@ -639,7 +640,7 @@
             "companies":["kousoku"],
             "aliases":["okakyo"],
             "name":"大河峡",
-            "potision":[-1418,458],
+            "position":[-1418,458],
             "rosens":{
                 "kousoku":["H"]
             }
@@ -648,7 +649,7 @@
             "companies":["kousoku"],
             "aliases":["sekitoucho"],
             "name":"赤塔町",
-            "potision":[-1380,65],
+            "position":[-1380,65],
             "rosens":{
                 "kousoku":["H"]
             }
@@ -657,7 +658,7 @@
             "companies":["kousoku","rtb"],
             "aliases":["hyounandai"],
             "name":"氷南台",
-            "potision":[-1239,-266],
+            "position":[-1239,-266],
             "rosens":{
                 "kousoku":["H"],
                 "rtb":["RH"]
@@ -667,7 +668,7 @@
             "companies":["kousoku"],
             "aliases":["shinbaragaoka"],
             "name":"新薔薇ヶ丘",
-            "potision":[-1236,-442],
+            "position":[-1236,-442],
             "rosens":{
                 "kousoku":["H"]
             }
@@ -676,7 +677,7 @@
             "companies":["kousoku"],
             "aliases":["shinizumo"],
             "name":"新出雲",
-            "potision":[],
+            "position":[],
             "rosens":{
                 "kousoku":["H","T"]
             }
@@ -685,16 +686,16 @@
             "companies":["kousoku"],
             "aliases":["minamiamerica"],
             "name":"南アメリカ",
-            "potision":[-1719,-653],
+            "position":[-1719,-653],
             "rosens":{
-                "kousoku":["H","T","I","UM"]
+                "kousoku":["T","I","UM"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shinkaichi"],
             "name":"新開地",
-            "potision":[-815,-605],
+            "position":[-815,-605],
             "rosens":{
                 "kousoku":["T","umineko"]
             }
@@ -703,7 +704,7 @@
             "companies":["kousoku"],
             "aliases":["shinkitagawa"],
             "name":"新北川",
-            "potision":[704,-377],
+            "position":[704,-377],
             "rosens":{
                 "kousoku":["T"]
             }
@@ -712,7 +713,7 @@
             "companies":["kousoku"],
             "aliases":["mizuanagunko"],
             "name":"みずあな軍港",
-            "potision":[1262,-549],
+            "position":[1262,-549],
             "rosens":{
                 "kousoku":["T"]
             }
@@ -721,7 +722,7 @@
             "companies":["kousoku"],
             "aliases":["higashinagahama"],
             "name":"東長浜",
-            "potision":[3000,-1115],
+            "position":[3000,-1115],
             "rosens":{
                 "kousoku":["T","G","F"]
             }
@@ -730,7 +731,7 @@
             "companies":["kousoku"],
             "aliases":["higashihamasaka"],
             "name":"東浜坂",
-            "potision":[3413,-1112],
+            "position":[3413,-1112],
             "rosens":{
                 "kousoku":["T"]
             }
@@ -739,7 +740,7 @@
             "companies":["kousoku"],
             "aliases":["nichihara"],
             "name":"日原",
-            "potision":[4050,-1110],
+            "position":[4050,-1110],
             "rosens":{
                 "kousoku":["T","F"]
             }
@@ -748,7 +749,7 @@
             "companies":["kousoku"],
             "aliases":["hasasame"],
             "name":"葉細",
-            "potision":[4450,-1230],
+            "position":[4450,-1230],
             "rosens":{
                 "kousoku":["T","F","P"]
             }
@@ -757,7 +758,7 @@
             "companies":["kousoku"],
             "aliases":["nishizono"],
             "name":"西園",
-            "potision":[3600,-1353],
+            "position":[3600,-1353],
             "rosens":{
                 "kousoku":["F"]
             }
@@ -766,7 +767,7 @@
             "companies":["kousoku"],
             "aliases":["chigusa"],
             "name":"千草",
-            "potision":[3270,-1185],
+            "position":[3270,-1185],
             "rosens":{
                 "kousoku":["F"]
             }
@@ -775,7 +776,7 @@
             "companies":["kousoku"],
             "aliases":["sangokugaoka"],
             "name":"三国ヶ丘",
-            "potision":[2270,-657],
+            "position":[2270,-657],
             "rosens":{
                 "kousoku":["T","I"]
             }
@@ -784,7 +785,7 @@
             "companies":["kousoku"],
             "aliases":["korinkingdom"],
             "name":"こりん王国",
-            "potision":[3345,-732],
+            "position":[3345,-732],
             "rosens":{
                 "kousoku":["T","I"]
             }
@@ -793,7 +794,7 @@
             "companies":["kousoku"],
             "aliases":["izumocity"],
             "name":"出雲市",
-            "potision":[-1652,-1026],
+            "position":[-1652,-1026],
             "rosens":{
                 "kousoku":["I","izumo"]
             }
@@ -802,7 +803,7 @@
             "companies":["kousoku"],
             "aliases":["nishiamerica"],
             "name":"西アメリカ",
-            "potision":[-2033,-662],
+            "position":[-2033,-662],
             "rosens":{
                 "kousoku":["T"]
             }
@@ -811,7 +812,7 @@
             "companies":["kousoku"],
             "aliases":["ozero"],
             "name":"オーゼロ",
-            "potision":[],
+            "position":[],
             "rosens":{
                 "kousoku":["T","yukiyado"]
             }
@@ -820,7 +821,7 @@
             "companies":["kousoku"],
             "aliases":["shinengaru"],
             "name":"新遠軽",
-            "potision":[-3955,-685],
+            "position":[-3955,-685],
             "rosens":{
                 "kousoku":["T"]
             }
@@ -829,7 +830,7 @@
             "companies":["kousoku"],
             "aliases":["setchu"],
             "name":"雪中",
-            "potision":[-4218,-691],
+            "position":[-4218,-691],
             "rosens":{
                 "kousoku":["T"]
             }
@@ -838,7 +839,7 @@
             "companies":["kousoku"],
             "aliases":["housuikyou"],
             "name":"豊水峡",
-            "potision":[-4508,-691],
+            "position":[-4508,-691],
             "rosens":{
                 "kousoku":["T"]
             }
@@ -847,7 +848,7 @@
             "companies":["kousoku"],
             "aliases":["nishitoyokawa"],
             "name":"西豊川",
-            "potision":[],
+            "position":[],
             "rosens":{
                 "kousoku":["T"]
             }
@@ -856,16 +857,16 @@
             "companies":["kousoku"],
             "aliases":["kawazu"],
             "name":"河津",
-            "potision":[-2802,-555],
+            "position":[-2802,-555],
             "rosens":{
                 "kousoku":["yonomori"]
             }
         },
         {
-            "companies":["kousoku"],
+            "companies":["kousoku","rtb"],
             "aliases":["kashigadai"],
             "name":"樫河台",
-            "potision":[-2710,-333],
+            "position":[-2710,-333],
             "rosens":{
                 "kousoku":["yonomori"],
                 "rtb":["RH"]
@@ -875,7 +876,7 @@
             "companies":["kousoku"],
             "aliases":["nakanohigashi"],
             "name":"中野東",
-            "potision":[-2298,-1106],
+            "position":[-2298,-1106],
             "rosens":{
                 "kousoku":["yukiyado"]
             }
@@ -884,7 +885,7 @@
             "companies":["kousoku"],
             "aliases":["nakanoitsuki"],
             "name":"中野五月",
-            "potision":[-2146,-1106],
+            "position":[-2146,-1106],
             "rosens":{
                 "kousoku":["yukiyado"]
             }
@@ -893,16 +894,16 @@
             "companies":["kousoku"],
             "aliases":["yukiyado"],
             "name":"雪宿",
-            "potision":[-1992,-1142],
+            "position":[-1992,-1142],
             "rosens":{
-                "kousoku":["yukiyado","Z"]
+                "kousoku":["yukiyado"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["toyosaka"],
             "name":"豊坂",
-            "potision":[-1530,-1140],
+            "position":[-1530,-1140],
             "rosens":{
                 "kousoku":["yukiyado","izumo"]
             }
@@ -911,7 +912,7 @@
             "companies":["kousoku"],
             "aliases":["izumotakamori"],
             "name":"出雲高森",
-            "potision":[-1169,-1138],
+            "position":[-1169,-1138],
             "rosens":{
                 "kousoku":["yukiyado","izumo","umineko"]
             }
@@ -920,7 +921,7 @@
             "companies":["kousoku"],
             "aliases":["tsurugahama"],
             "name":"鶴ヶ浜",
-            "potision":[-1013,-1068],
+            "position":[-1013,-1068],
             "rosens":{
                 "kousoku":["umineko"]
             }
@@ -929,7 +930,7 @@
             "companies":["kousoku"],
             "aliases":["hinatamigaoka"],
             "name":"日向見ヶ丘",
-            "potision":[-1016,-864],
+            "position":[-1016,-864],
             "rosens":{
                 "kousoku":["umineko"]
             }
@@ -938,7 +939,7 @@
             "companies":["rtb"],
             "aliases":["dainijyutakuchiku"],
             "name":"第二住宅地区",
-            "potision":[-789,-465],
+            "position":[-789,-465],
             "rosens":{
                 "rtb":["R"]
             }
@@ -947,7 +948,7 @@
             "companies":["rtb"],
             "aliases":["matsuwaminami"],
             "name":"松和南/リアライ中央",
-            "potision":[-781,-331],
+            "position":[-781,-331],
             "rosens":{
                 "rtb":["R","RH","RK"]
             }
@@ -956,7 +957,7 @@
             "companies":["rtb"],
             "aliases":["sabachuo"],
             "name":"佐波中央",
-            "potision":[-574,-10],
+            "position":[-574,-10],
             "rosens":{
                 "rtb":["R"]
             }
@@ -965,7 +966,7 @@
             "companies":["rtb"],
             "aliases":["nishikougai"],
             "name":"西郊外",
-            "potision":[-280,2],
+            "position":[-280,2],
             "rosens":{
                 "rtb":["R"]
             }
@@ -974,7 +975,7 @@
             "companies":["kousoku"],
             "aliases":["ooe"],
             "name":"大江",
-            "potision":[-240,1950],
+            "position":[-240,1950],
             "rosens":{
                 "kousoku":["takamori"]
             }
@@ -983,7 +984,7 @@
             "companies":["kousoku"],
             "aliases":["shimosawara"],
             "name":"下砂原",
-            "potision":[403,2737],
+            "position":[403,2737],
             "rosens":{
                 "kousoku":["nankainan"]
             }
@@ -992,7 +993,7 @@
             "companies":["kousoku"],
             "aliases":["nankaishinkawa"],
             "name":"南海新川",
-            "potision":[99,2733],
+            "position":[99,2733],
             "rosens":{
                 "kousoku":["nankainan"]
             }
@@ -1001,7 +1002,7 @@
             "companies":["kousoku"],
             "aliases":["shinsawara"],
             "name":"新砂原",
-            "potision":[-230,2738],
+            "position":[-230,2738],
             "rosens":{
                 "kousoku":["H"]
             }
@@ -1010,7 +1011,7 @@
             "companies":["kousoku"],
             "aliases":["shinomura"],
             "name":"新大村",
-            "potision":[-1820,2752],
+            "position":[-1820,2752],
             "rosens":{
                 "kousoku":["H"]
             }
@@ -1019,7 +1020,7 @@
             "companies":["kousoku"],
             "aliases":["akagawa"],
             "name":"赤川",
-            "potision":[-2093,2504],
+            "position":[-2093,2504],
             "rosens":{
                 "kousoku":["H"]
             }
@@ -1028,7 +1029,7 @@
             "companies":["kousoku"],
             "aliases":["okusa"],
             "name":"大草",
-            "potision":[-2558,2072],
+            "position":[-2558,2072],
             "rosens":{
                 "kousoku":["H"]
             }
@@ -1037,7 +1038,7 @@
             "companies":["kousoku"],
             "aliases":["nakaoguni"],
             "name":"中小国",
-            "potision":[678,2766],
+            "position":[678,2766],
             "rosens":{
                 "kousoku":["nankainan"]
             }
@@ -1046,7 +1047,7 @@
             "companies":["kousoku"],
             "aliases":["shinnakaoguni"],
             "name":"新中小国",
-            "potision":[678,2950],
+            "position":[678,2950],
             "rosens":{
                 "kousoku":["nankainan"]
             }
@@ -1055,7 +1056,7 @@
             "companies":["kousoku"],
             "aliases":["nakaoyama"],
             "name":"中大山",
-            "potision":[940,2964],
+            "position":[940,2964],
             "rosens":{
                 "kousoku":["nankainan"]
             }
@@ -1064,7 +1065,7 @@
             "companies":["kousoku"],
             "aliases":["shintenchi"],
             "name":"新天地",
-            "potision":[1272,2964],
+            "position":[1272,2964],
             "rosens":{
                 "kousoku":["nankainan"]
             }
@@ -1073,7 +1074,7 @@
             "companies":["kousoku"],
             "aliases":["nekocolosseum"],
             "name":"猫コロシアム",
-            "potision":[-511,3517],
+            "position":[-511,3517],
             "rosens":{
                 "kousoku":["NP"]
             } 
@@ -1082,7 +1083,7 @@
             "companies":["nishiuwagawa"],
             "aliases":["dojomae"],
             "name":"道場前",
-            "potision":[610,3640],
+            "position":[610,3640],
             "rosens":{
                 "nishiuwagawa":["NR"]
             } 
@@ -1091,7 +1092,7 @@
             "companies":["kousoku"],
             "aliases":["kitakougai-nms"],
             "name":"北郊外(NMS前)",
-            "potision":[-16,-304],
+            "position":[-16,-304],
             "rosens":{
                 "kousoku":["N-sub"]
             } 
@@ -1100,7 +1101,7 @@
             "companies":["rtb"],
             "aliases":["togonogyosisetsumae"],
             "name":"統合農業施設前",
-            "potision":[-892,-379],
+            "position":[-892,-379],
             "rosens":{
                 "rtb":["RK"]
             }
@@ -1109,7 +1110,7 @@
             "companies":["rtb"],
             "aliases":["jyutakuchikukita"],
             "name":"住宅地区北",
-            "potision":[-1075,-406],
+            "position":[-1075,-406],
             "rosens":{
                 "rtb":["RK"]
             }
@@ -1118,7 +1119,7 @@
             "companies":["rtb"],
             "aliases":["jyutakuchikunishi"],
             "name":"住宅地区西",
-            "potision":[-1136,-318],
+            "position":[-1136,-318],
             "rosens":{
                 "rtb":["RK"]
             }
@@ -1127,7 +1128,7 @@
             "companies":["rtb"],
             "aliases":["wafukenchikuku"],
             "name":"和風建築区",
-            "potision":[-669,-160],
+            "position":[-669,-160],
             "rosens":{
                 "rtb":["RK"]
             }
@@ -1136,7 +1137,7 @@
             "companies":["rtb"],
             "aliases":["matsuwanishi"],
             "name":"松和西",
-            "potision":[-1011,-266],
+            "position":[-1011,-266],
             "rosens":{
                 "rtb":["RH"]
             }
@@ -1145,7 +1146,7 @@
             "companies":["rtb","kousoku"],
             "aliases":["kounotaira"],
             "name":"耕の平",
-            "potision":[-1857,-365],
+            "position":[-1857,-365],
             "rosens":{
                 "rtb":["RH"],
                 "kousoku":["UM"]
@@ -1155,7 +1156,7 @@
             "companies":["rtb"],
             "aliases":["nishirinkan"],
             "name":"西林間",
-            "potision":[-2321,-358],
+            "position":[-2321,-358],
             "rosens":{
                 "rtb":["RH"]
             }
@@ -1164,7 +1165,7 @@
             "companies":["kousoku"],
             "aliases":["yoake"],
             "name":"夜明",
-            "potision":[-2745,-738],
+            "position":[-2745,-738],
             "rosens":{
                 "kousoku":["yonomori","T"]
             }
@@ -1173,7 +1174,7 @@
             "companies":["shinko"],
             "aliases":["kanjodorihigashi"],
             "name":"環状通東",
-            "potision":[263,25],
+            "position":[263,25],
             "rosens":{
                 "shinko":["honsen"]
             }
@@ -1182,7 +1183,7 @@
             "companies":["shinko"],
             "aliases":["hitachinoyachi"],
             "name":"ひたち野谷地",
-            "potision":[494,29],
+            "position":[494,29],
             "rosens":{
                 "shinko":["honsen"]
             }
@@ -1191,7 +1192,7 @@
             "companies":["shinko"],
             "aliases":["bappururingokyo"],
             "name":"場古りんご郷",
-            "potision":[644,297],
+            "position":[644,297],
             "rosens":{
                 "shinko":["honsen"]
             }
@@ -1200,7 +1201,7 @@
             "companies":["shinko"],
             "aliases":["kinoko"],
             "name":"きのこ",
-            "potision":[697,680],
+            "position":[697,680],
             "rosens":{
                 "shinko":["honsen"]
             }
@@ -1209,7 +1210,7 @@
             "companies":["shinko"],
             "aliases":["tsuishikari"],
             "name":"対雁",
-            "potision":[715,965],
+            "position":[715,965],
             "rosens":{
                 "shinko":["honsen"]
             }
@@ -1218,7 +1219,7 @@
             "companies":["kousoku"],
             "aliases":["tokaihama"],
             "name":"東海浜",
-            "potision":[4459,-1588],
+            "position":[4459,-1588],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1227,7 +1228,7 @@
             "companies":["kousoku"],
             "aliases":["e"],
             "name":"江",
-            "potision":[4458,-2244],
+            "position":[4458,-2244],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1236,7 +1237,7 @@
             "companies":["kousoku"],
             "aliases":["wanganomori"],
             "name":"湾岸大森",
-            "potision":[4338,-2801],
+            "position":[4338,-2801],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1245,7 +1246,7 @@
             "companies":["kousoku"],
             "aliases":["morichikagawa"],
             "name":"森近川",
-            "potision":[3528,-3535],
+            "position":[3528,-3535],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1254,7 +1255,7 @@
             "companies":["kousoku"],
             "aliases":["suofukagawa"],
             "name":"州央深川",
-            "potision":[3528,-3535],
+            "position":[3528,-3535],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1263,7 +1264,7 @@
             "companies":["kousoku"],
             "aliases":["tokaioyama"],
             "name":"東海大山",
-            "potision":[2584,-3535],
+            "position":[2584,-3535],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1272,7 +1273,7 @@
             "companies":["kousoku"],
             "aliases":["hikawakogen"],
             "name":"氷川高原",
-            "potision":[],
+            "position":[],
             "rosens":{
                 "kousoku":["P","G","J"]
             }
@@ -1281,7 +1282,7 @@
             "companies":["kousoku"],
             "aliases":["morikawabe"],
             "name":"森川辺",
-            "potision":[1346,-3546],
+            "position":[1346,-3546],
             "rosens":{
                 "kousoku":["G","J"]
             }
@@ -1290,7 +1291,7 @@
             "companies":["kousoku"],
             "aliases":["iwanohara"],
             "name":"岩の原・新岩の原",
-            "potision":[642,-3567],
+            "position":[642,-3567],
             "rosens":{
                 "kousoku":["G","J"]
             }
@@ -1299,7 +1300,7 @@
             "companies":["kousoku"],
             "aliases":["numanohashi"],
             "name":"沼の端",
-            "potision":[657,-3807],
+            "position":[657,-3807],
             "rosens":{
                 "kousoku":["J"]
             }
@@ -1308,7 +1309,7 @@
             "companies":["kousoku"],
             "aliases":["kohoku"],
             "name":"河北",
-            "potision":[658,-4490],
+            "position":[658,-4490],
             "rosens":{
                 "kousoku":["J"]
             }
@@ -1317,7 +1318,7 @@
             "companies":["kousoku"],
             "aliases":["minamitomarihara"],
             "name":"南泊原",
-            "potision":[217,-4579],
+            "position":[217,-4579],
             "rosens":{
                 "kousoku":["J"]
             }
@@ -1326,7 +1327,7 @@
             "companies":["kousoku"],
             "aliases":["tomarihara"],
             "name":"泊原",
-            "potision":[218,-4694],
+            "position":[218,-4694],
             "rosens":{
                 "kousoku":["J","L"]
             }
@@ -1335,7 +1336,7 @@
             "companies":["kousoku"],
             "aliases":["matsushima"],
             "name":"松島",
-            "potision":[254,-3545],
+            "position":[254,-3545],
             "rosens":{
                 "kousoku":["G"]
             }
@@ -1344,7 +1345,7 @@
             "companies":["kousoku"],
             "aliases":["matsudai"],
             "name":"松代",
-            "potision":[2189,-2880],
+            "position":[2189,-2880],
             "rosens":{
                 "kousoku":["G"]
             }
@@ -1353,7 +1354,7 @@
             "companies":["kousoku"],
             "aliases":["himi"],
             "name":"氷海",
-            "potision":[2417,-1889],
+            "position":[2417,-1889],
             "rosens":{
                 "kousoku":["G"]
             }
@@ -1362,7 +1363,7 @@
             "companies":["kousoku"],
             "aliases":["oikesetsugen"],
             "name":"大池雪原",
-            "potision":[2893,-1889],
+            "position":[2893,-1889],
             "rosens":{
                 "kousoku":["G"]
             }
@@ -1371,7 +1372,7 @@
             "companies":["kousoku"],
             "aliases":["higashigochi"],
             "name":"東河内",
-            "potision":[2985,-1646],
+            "position":[2985,-1646],
             "rosens":{
                 "kousoku":["G"]
             }
@@ -1380,7 +1381,7 @@
             "companies":["kousoku"],
             "aliases":["minamihasasame"],
             "name":"南葉細",
-            "potision":[4243,-448],
+            "position":[4243,-448],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1389,7 +1390,7 @@
             "companies":["kousoku"],
             "aliases":["hamahara"],
             "name":"浜原",
-            "potision":[3587,303],
+            "position":[3587,303],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1398,7 +1399,7 @@
             "companies":["kousoku"],
             "aliases":["kaihintsutsuishi"],
             "name":"海浜筒石",
-            "potision":[3430,604],
+            "position":[3430,604],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1407,7 +1408,7 @@
             "companies":["kousoku"],
             "aliases":["minamitsutsuishi"],
             "name":"南筒石",
-            "potision":[3430,1108],
+            "position":[3430,1108],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1416,7 +1417,7 @@
             "companies":["kousoku"],
             "aliases":["minamihamano"],
             "name":"南浜野",
-            "potision":[2940,1311],
+            "position":[2940,1311],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1425,7 +1426,7 @@
             "companies":["kousoku"],
             "aliases":["kirinotoge"],
             "name":"霧峠",
-            "potision":[],
+            "position":[],
             "rosens":{
                 "kousoku":["P"]
             }
@@ -1434,7 +1435,7 @@
             "companies":["kousoku"],
             "aliases":["okawa"],
             "name":"尾川",
-            "potision":[-182,-2026],
+            "position":[-182,-2026],
             "rosens":{
                 "kousoku":["O"]
             }
@@ -1443,7 +1444,7 @@
             "companies":["kousoku"],
             "aliases":["higashishinkawa"],
             "name":"東新川",
-            "potision":[4989,-1506],
+            "position":[4989,-1506],
             "rosens":{
                 "kousoku":["T"]
             }
@@ -1452,7 +1453,7 @@
             "companies":["nishiuwagawa"],
             "aliases":["uwagawa"],
             "name":"宇和川",
-            "potision":[85,2761],
+            "position":[85,2761],
             "rosens":{
                 "nishiuwagawa":["NR"]
             }
@@ -1461,7 +1462,7 @@
             "companies":["nishiuwagawa"],
             "aliases":["nakaishihara"],
             "name":"中石原",
-            "potision":[181,2611],
+            "position":[181,2611],
             "rosens":{
                 "nishiuwagawa":["NR"]
             }
@@ -1470,7 +1471,7 @@
             "companies":["nishiuwagawa"],
             "aliases":["shimosawara"],
             "name":"下砂原",
-            "potision":[428,2468],
+            "position":[428,2468],
             "rosens":{
                 "nishiuwagawa":["NR"]
             }
@@ -1479,7 +1480,7 @@
             "companies":["nishiuwagawa"],
             "aliases":["nakaumisaki"],
             "name":"中海崎",
-            "potision":[501,2241],
+            "position":[501,2241],
             "rosens":{
                 "nishiuwagawa":["NR"]
             }
@@ -1488,7 +1489,7 @@
             "companies":["nishiuwagawa"],
             "aliases":["mitsuhoshi"],
             "name":"三星",
-            "potision":[501,2241],
+            "position":[501,2241],
             "rosens":{
                 "nishiuwagawa":["NR"]
             }
@@ -1497,7 +1498,7 @@
             "companies":["kousoku"],
             "aliases":["kawagishi"],
             "name":"川岸",
-            "potision":[-1857,-365],
+            "position":[-1857,-365],
             "rosens":{
                 "kousoku":["UM"]
             }
