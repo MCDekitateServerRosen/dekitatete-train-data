@@ -2,7 +2,7 @@
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
     "version":"2023.2.2",
-    "companies":["kousoku","rtb"],
+    "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
             "name":"でき鯖高速鉄道グループ",
@@ -192,6 +192,7 @@
                     "mizuanagunko",
                     "higashinagahama",
                     "higashihamasaka",
+                    "nichihara",
                     "hasasame",
                     "higashishinkawa"
                 ]
@@ -313,7 +314,6 @@
                     "matsuwanishi",
                     "hyounandai",
                     "kounotaira",
-                    "kashigadai",
                     "nishirinkan",
                     "kashigadai"
                 ]
@@ -375,7 +375,7 @@
     },
     "stations":[
         {
-            "companies":["kousoku"],
+            "companies":["rtb"],
             "id":"nagata",
             "name":"高速長田/新長田",
             "position":[-234,383],
@@ -688,7 +688,7 @@
             "name":"南アメリカ",
             "position":[-1719,-653],
             "rosens":{
-                "kousoku":["H","T","I","UM"]
+                "kousoku":["T","I","UM"]
             }
         },
         {
@@ -863,7 +863,7 @@
             }
         },
         {
-            "companies":["kousoku"],
+            "companies":["kousoku","rtb"],
             "id":"kashigadai",
             "name":"樫河台",
             "position":[-2710,-333],
@@ -896,7 +896,7 @@
             "name":"雪宿",
             "position":[-1992,-1142],
             "rosens":{
-                "kousoku":["yukiyado","Z"]
+                "kousoku":["yukiyado"]
             }
         },
         {
