@@ -34,274 +34,295 @@
             {
                 "name":"南北本線(快速)",
                 "aliases":["L"],
+                "id":"2bb32a71-4202-4b83-b1e7-c9ed7bad6640",
                 "stations":[
-                    "sanhou",
-                    "minamiumikoshi",
-                    "mikawachi",
-                    "nishioji",
-                    "nambokushinkawa",
-                    "numanosawa",
-                    "higashioe",
-                    "minamichuo",
-                    "higashikougai",
-                    "higashifukuzaki",
-                    "rinkaihirohama",
-                    "shingannai",
-                    "einei",
-                    "tomarihara"
+                    "2dec51f7-6bc9-44aa-b34d-3b4b89ab8c62",
+                    "2e337250-17ab-4d89-b74a-e5d84d9a3d1e",
+                    "ad9b07f2-bed9-4b2d-a24a-8833d764da70",
+                    "3ed1c9ac-d041-4cbe-83af-f9a2dbd4c894",
+                    "bda21852-88a5-4207-9c1e-32b04d690e9e",
+                    "afd33e9f-ae93-4452-aba1-b9ec73a5fc9c",
+                    "7e2090ab-25c7-4219-b13d-f1757f184a3d",
+                    "e985d64a-d1f5-4743-a4ad-761527d5205b",
+                    "808bfee4-045f-473c-86c1-0aab0743fd37",
+                    "a8b1fa9d-3a5e-4ca7-ae2b-00206a05a84f",
+                    "9122afda-6aec-40f3-a089-31551c4eab0a",
+                    "3dbc4823-0079-4866-8052-ab5a8b39c79f",
+                    "abd1da13-4f05-4b8c-96f0-8f625fc60d6c",
+                    "45646416-a40c-44a3-b45b-5bc2bab1d6b5"
                 ]
             },
             {
                 "name":"南北本線(普通)",
                 "aliases":["N-normal"],
+                "id":"0654f249-1ecd-439a-8879-3a1f42bd2eef",
                 "family":"N",
                 "stations":[
-                    "higashifukuzaki",
-                    "hamafukuzaki",
-                    "rinkaihirohama",
-                    "shingannai",
-                    "hamasakai",
-                    "moriya",
-                    "einei"
+                    "a8b1fa9d-3a5e-4ca7-ae2b-00206a05a84f",
+                    "7ce71b40-24ab-4cf1-bbb4-cd6d1e4dbd14",
+                    "9122afda-6aec-40f3-a089-31551c4eab0a",
+                    "3dbc4823-0079-4866-8052-ab5a8b39c79f",
+                    "237599f6-e9d5-4a30-bd40-2002a0833b9e",
+                    "39af1651-4ae3-41ff-8ba8-2cd10ea35fda",
+                    "abd1da13-4f05-4b8c-96f0-8f625fc60d6c"
                 ]
             },
             {
                 "name":"南海線",
                 "family":"Y",
                 "aliases":["nankai"],
+                "id":"4b9a549d-da7c-4f09-bee6-1683a5e3d077",
                 "stations":[
-                    "minamichuo",
-                    "nekonekomachi",
-                    "oe",
-                    "ooe"
+                    "e985d64a-d1f5-4743-a4ad-761527d5205b",
+                    "de385889-1509-4160-9d80-2d759780ef87",
+                    "fa8a743e-63b2-4086-a593-4b9318995afa",
+                    "1a69b040-6a27-404f-9558-ab354c30d56e"
                 ]
             },
             {
                 "name":"夜明線(旧夜ノ森線)",
                 "family":"Y",
-                "aliases":["yonomori"],
+                "aliases":["yonomori","yoake"],
+                "id":"2d69ad57-1796-4a4d-9e1c-edfe0351baa4",
                 "stations":[
-                    "yoake",
-                    "kawazu",
-                    "kashigadai"
+                    "53c5f3b8-792f-40de-8e3f-1c001752fd0b",
+                    "d3a95a11-933e-48fc-b42e-a0c7c9f3bb3b",
+                    "5c2fd8ae-572d-4fbf-9d2a-0fe7bd7f44d5"
                 ]
             },
             {
                 "name":"南海南線",
                 "family":"Y",
+                "id":"70e67792-f34f-4fe4-9fc8-d6fd1e876e79",
                 "aliases":["nankainan"],
                 "stations":[
-                    "nambokushinkawa",
-                    "nankaishinkawa",
-                    "shimosawara",
-                    "nakaoguni",
-                    "shinnakaoguni",
-                    "nakaoyama",
-                    "shintenchi"
+                    "bda21852-88a5-4207-9c1e-32b04d690e9e",
+                    "aae8ad88-2b03-45bc-8540-61f40e8b4918",
+                    "e1aace51-a0f2-4286-9813-1703361153fb",
+                    "01f1c120-7045-4796-bb5b-420edb2820a3",
+                    "e9fd418b-54e3-4535-a332-4e2dfaa43e69",
+                    "7afc5ce5-a3e9-4430-b4ea-3249bf53b4d6",
+                    "903dc165-1602-43dc-bb65-2ce42037011b"
                 ]
             },
             {
                 "name":"南勢南線",
                 "aliases":["E"],
+                "id":"5cf00d1d-7e52-4d8e-96b3-0c18240aed14",
                 "stations":[
-                    "nanseikogen",
-                    "takatobara",
-                    "sendai",
-                    "ono",
-                    "omori",
-                    "kogegawa",
-                    "hikawa",
-                    "shirasaka",
-                    "minamichuo"
+                    "d55e8c8b-a5c6-4382-b157-90de7a47048e",
+                    "84142d54-bd10-4221-80e9-d2ff71c91a72",
+                    "57fde5fc-39d2-4cb3-ae8c-543835c5ecaf",
+                    "0f5bb3a2-0bfa-4cd2-b31d-5741f7a63bd3",
+                    "9b97b60b-0e2c-4085-8552-46332ad1220c",
+                    "223574f1-30bd-4994-9be4-5c4b3ae253a2",
+                    "67e44172-ccae-43c7-a6ca-05bfc7a44e2b",
+                    "305d3cc7-ac56-4d65-a29c-d0da56169cb0",
+                    "e985d64a-d1f5-4743-a4ad-761527d5205b"
                 ]
             },
             {
                 "name":"岩日線",
                 "aliases":["G"],
+                "id":"e0ab16d1-b3f9-4774-8757-20720399f851",
                 "stations":[
-                    "higashinagahama",
-                    "higashigochi",
-                    "oikesetsugen",
-                    "himi",
-                    "matsudai",
-                    "hikawakogen",
-                    "morikawabe",
-                    "iwanohara",
-                    "matsushima",
-                    "shingannai"
+                    "5edb262e-7b79-4c95-a396-c36c2ff06364",
+                    "d3a5d7bd-e72a-44fe-8485-a8b390924482",
+                    "73ed3218-ee03-42ad-907d-cd43f018dfb2",
+                    "58ebcde6-2b5b-432a-b747-2e7c6d51ffa8",
+                    "0ca181f2-8d54-4e73-a41c-68f5a43943c8",
+                    "4b661b07-db6f-4c30-8152-75bbff863cfd",
+                    "e50dc32e-fe79-43a4-abed-ae523ce08009",
+                    "7475ba0f-c2ae-4ed0-9209-088102d40a58",
+                    "41313f4d-2b9a-4a2b-bd36-3926f883860c",
+                    "3dbc4823-0079-4866-8052-ab5a8b39c79f"
                 ]
             },
             {
                 "name":"泊港線",
                 "aliases":["J"],
+                "id":"369dd19d-af8d-4ed8-86d9-6a73e930c606",
                 "stations":[
-                    "hikawakogen",
-                    "morikawabe",
-                    "iwanohara",
-                    "numanohashi",
-                    "kohoku",
-                    "minamitomarihara",
-                    "tomarihara"
+                    "4b661b07-db6f-4c30-8152-75bbff863cfd",
+                    "e50dc32e-fe79-43a4-abed-ae523ce08009",
+                    "7475ba0f-c2ae-4ed0-9209-088102d40a58",
+                    "2ecdf667-ce4f-48d3-89bb-3cb9cba98c46",
+                    "e4b40c96-6e6e-4168-bbc6-c74819ef0a37",
+                    "593755f1-728d-4009-a912-c09793337727",
+                    "45646416-a40c-44a3-b45b-5bc2bab1d6b5"
                 ]
             },
             {
                 "name":"猫野ライン(NEKOPvP)",
                 "aliases":["NP"],
+                "id":"31bc1cbf-d955-45d6-8ea5-65b38950ed9e",
                 "stations":[
-                    "nambokushinkawa",
-                    "nekocolosseum"
+                    "bda21852-88a5-4207-9c1e-32b04d690e9e",
+                    "875d8b5d-b1f3-42cc-9e3a-0a871c596277"
                 ]
             },
             {
                 "name":"南勢線",
                 "aliases":["H"],
+                "id":"619bb0d7-d061-4aae-a0a7-54eeba6e5dc6",
                 "starts":0,
                 "stations":[
-                    "shinizumo",
-                    "shinbaragaoka",
-                    "hyounandai",
-                    "sekitoucho",
-                    "okakyo",
-                    "nishikawa",
-                    "nishioyama",
-                    "nanseikogen",
-                    "okusa",
-                    "akagawa",
-                    "shinomura",
-                    "shinsawara",
-                    "nambokushinkawa"
+                    "f56fa3e1-71a8-41fb-bee2-7804eff27bcf",
+                    "8b6045a7-cc95-4e8a-84a1-0aef5e27876c",
+                    "2ed3dbab-0f8f-4442-91eb-d8bf816350c1",
+                    "fbd3a353-e88e-4517-8170-44024cfb4664",
+                    "3753950f-b350-4523-8534-3856573bfa1c",
+                    "c45ac075-dcc1-43a3-b0f7-c18918ce06e9",
+                    "fa846afa-bdd1-427a-b7ea-a4fc3b0ba666",
+                    "d55e8c8b-a5c6-4382-b157-90de7a47048e",
+                    "f968223d-ad54-4274-b617-977b0e736b21",
+                    "8fa29ec6-8f09-490a-ad01-1ee6363149fb",
+                    "fbcd6f51-bb6d-41e7-862d-1351eef64679",
+                    "fa137f61-2a74-498b-907f-6973aca36268",
+                    "bda21852-88a5-4207-9c1e-32b04d690e9e"
                 ]
             },
             {
                 "name":"東西本線(普通)",
                 "aliases":["T"],
+                "id":"5a4e1457-7c94-47d8-95d6-248c28a63912",
                 "stations":[
-                    "nishitoyokawa",
-                    "housuikyou",
-                    "setchu",
-                    "shinengaru",
-                    "korinkingdom",
-                    "yoake",
-                    "ozero",
-                    "sangokugaoka",
-                    "nishiamerica",
-                    "minamiamerica",
-                    "shinizumo",
-                    "shinkaichi",
-                    "shinkitagawa",
-                    "mizuanagunko",
-                    "higashinagahama",
-                    "higashihamasaka",
-                    "nichihara",
-                    "hasasame",
-                    "higashishinkawa"
+                    "7edd11a2-c1e6-4067-9f07-9fce77da6951",
+                    "d56863ec-682c-44c4-b051-f91a3254b748",
+                    "5c4e6f27-7513-4f7b-942d-60ec8d16971e",
+                    "b6fd0e46-543d-4cc2-9bb8-7fe89d631274",
+                    "3cba8bfa-9a49-4d32-8454-74a314726075",
+                    "53c5f3b8-792f-40de-8e3f-1c001752fd0b",
+                    "8698839d-188b-418d-b76c-763bc4d71de9",
+                    "1fa059bc-2933-455b-a77f-65e1edae9112",
+                    "4a8c3e69-c2c6-4f31-a3b6-5532e97c059f",
+                    "39c6bfc4-7a23-4d02-99b0-31255f585178",
+                    "f56fa3e1-71a8-41fb-bee2-7804eff27bcf",
+                    "7aa296a3-1839-4d24-a74a-41247386d38e",
+                    "83c02af6-e348-4189-a1f4-cb311937c208",
+                    "59c3c225-a06e-4c0c-9efc-b27eb41915f5",
+                    "5edb262e-7b79-4c95-a396-c36c2ff06364",
+                    "4414f061-0655-4bee-85ed-d3eee3417793",
+                    "079c0888-93e6-4a73-bf2a-8d377bb6dc45",
+                    "3bee6927-652f-4a42-9357-6808445badbe",
+                    "576c1387-fae2-4c02-9b1d-58324912296f"
                 ]
             },
             {
                 "name":"東西本線(快速)",
                 "aliases":["I"],
+                "id":"7b727404-fb8f-4408-baf4-47e45af21a5b",
                 "stations":[
-                    "izumocity",
-                    "minamiamerica",
-                    "sangokugaoka",
-                    "korinkingdom"
+                    "5fc83f45-922b-4f3a-9306-37bfd0b56b32",
+                    "39c6bfc4-7a23-4d02-99b0-31255f585178",
+                    "1fa059bc-2933-455b-a77f-65e1edae9112",
+                    "3cba8bfa-9a49-4d32-8454-74a314726075"
                 ]
             },
             {
                 "name":"二俣線",
                 "aliases":["F"],
+                "id":"0836d88e-e87d-4864-af1c-1bf104a79b79",
                 "stations":[
-                    "higashinagahama",
-                    "chigusa",
-                    "nishizono",
-                    "nichihara",
-                    "hasasame"
+                    "5edb262e-7b79-4c95-a396-c36c2ff06364",
+                    "ea98faa5-31b1-4a69-bbda-63527c015f7e",
+                    "f5145fce-dd8c-4512-98b3-fbe5c5684703",
+                    "079c0888-93e6-4a73-bf2a-8d377bb6dc45",
+                    "3bee6927-652f-4a42-9357-6808445badbe"
                 ]
             },
             {
                 "name":"東海本線・東海南線",
                 "aliases":["P"],
+                "id":"2cabba0c-48ce-41d4-a4e7-f1740d1422bc",
                 "stations":[
-                    "hikawakogen",
-                    "tokaioyama",
-                    "suofukagawa",
-                    "morichikagawa",
-                    "wanganomori",
-                    "e",
-                    "tokaihama",
-                    "hasasame",
-                    "minamihasasame",
-                    "hamahara",
-                    "kaihintsutsuishi",
-                    "minamitsutsuishi",
-                    "minamihamano",
-                    "kirinotoge"
+                    "4b661b07-db6f-4c30-8152-75bbff863cfd",
+                    "bb07c66f-31fa-4bf7-a70a-b0e4a2e1d0c6",
+                    "5a4ee659-8023-45d0-a274-1853f326ee79",
+                    "482aaf7c-7ae3-453d-a8db-12df7196adc2",
+                    "e5d7078b-a7a1-4a8c-b01d-31e9c3c6bca8",
+                    "07a5a4f2-c591-43a3-8e91-85c2be414dba",
+                    "823a0e6d-66d4-4be0-95c6-22e8212d7eae",
+                    "3bee6927-652f-4a42-9357-6808445badbe",
+                    "020a2e6d-b17d-4701-8e28-6265b27c0be0",
+                    "0cf66eba-bcf4-42c3-8f36-9c06270de3ea",
+                    "3a233653-4af6-43dc-a738-e468ae28adee",
+                    "6d73cdf8-2b06-4bd2-8a63-fb23bab4078e",
+                    "40b9d211-5c7f-4d72-85d7-05653ae3f0d1",
+                    "dc7388a1-2ec9-4290-8b4c-55c5a1899623"
                 ]
             },
             {
                 "name":"雪宿線",
                 "aliases":["yukiyado"],
+                "id":"75300999-3e9d-496e-a693-65bdf3ce1e33",
                 "stations":[
-                    "izumotakamori",
-                    "toyosaka",
-                    "yukiyado",
-                    "nakanoitsuki",
-                    "nakanohigashi",
-                    "ozero"
+                    "b26e1776-c817-45a3-9e3c-0a8e7a038d89",
+                    "de3d7290-9982-4b9f-8616-a9547798a78e",
+                    "9a16d852-5cb8-421b-aa56-1daa7f424e55",
+                    "97bda943-bd39-4bfa-9eb2-1542e358e9b3",
+                    "db8a31a6-e596-41b0-8c91-a1528cf3df02",
+                    "8698839d-188b-418d-b76c-763bc4d71de9"
                 ]
             },
             {
                 "name":"高森線",
                 "aliases":["takamori"],
+                "id":"607bc657-2b85-4759-a405-bf93b4776ebe",
                 "family":"K",
                 "stations":[
-                    "higashioe",
-                    "ooe"
+                    "7e2090ab-25c7-4219-b13d-f1757f184a3d",
+                    "1a69b040-6a27-404f-9558-ab354c30d56e"
                 ]
             },
             {
                 "name":"南北本線(支線)",
                 "aliases":["N-sub"],
+                "id":"21eedd3f-b08d-4a1b-b32e-b8c912161a78",
                 "family":"N",
                 "stations":[
-                    "kitakougai-nms",
-                    "higashifukuzaki"
+                    "6094386c-9c86-4198-8025-ed77363652d3",
+                    "a8b1fa9d-3a5e-4ca7-ae2b-00206a05a84f"
                 ]
             },
             {
                 "name":"広尾線",
                 "aliases":["O"],
+                "id":"dee3072d-07bf-485e-9c03-3b2492e5d41b",
                 "stations":[
-                    "rinkaihirohama",
-                    "okawa"
+                    "9122afda-6aec-40f3-a089-31551c4eab0a",
+                    "34e243f1-2fef-469e-acdf-558737a22736"
                 ]
             },
             {
                 "name":"出雲線",
                 "aliases":["izumo"],
+                "id":"c316c213-e9ba-46fc-ace8-1154811cf40b",
                 "stations":[
-                    "izumotakamori",
-                    "toyosaka",
-                    "izumocity"
+                    "b26e1776-c817-45a3-9e3c-0a8e7a038d89",
+                    "de3d7290-9982-4b9f-8616-a9547798a78e",
+                    "5fc83f45-922b-4f3a-9306-37bfd0b56b32"
                 ]
             },
             {
                 "name":"うみねこ本線",
                 "aliases":["umineko"],
+                "id":"8bf03b34-8291-407d-aa71-50bc0adc0cc4",
                 "stations":[
-                    "shinkaichi",
-                    "hinatamigaoka",
-                    "tsurugahama",
-                    "izumotakamori"
+                    "7aa296a3-1839-4d24-a74a-41247386d38e",
+                    "cfd16770-053b-4869-ae64-55f3cc40613b",
+                    "f01a1282-3f2c-4b15-a113-791a910e2004",
+                    "b26e1776-c817-45a3-9e3c-0a8e7a038d89"
                 ]
             },
             {
                 "name":"松和線(支線)",
                 "aliases":["UM"],
+                "id":"1e539bd3-0ce5-4418-8705-a98dfe974056",
                 "stations":[
-                    "minamiamerica",
-                    "kawagishi",
-                    "kounotaira"
+                    "39c6bfc4-7a23-4d02-99b0-31255f585178",
+                    "a8b9568c-b5d3-45b2-8fb3-5a4037396fb3",
+                    "39c015b4-7558-4e1a-8395-2dc06e46f2a6"
                 ]
             }
         ],
@@ -312,10 +333,10 @@
                 "stations":[
                     "matsuwaminami",
                     "matsuwanishi",
-                    "hyounandai",
-                    "kounotaira",
+                    "2ed3dbab-0f8f-4442-91eb-d8bf816350c1",
+                    "39c015b4-7558-4e1a-8395-2dc06e46f2a6",
                     "nishirinkan",
-                    "kashigadai"
+                    "5c2fd8ae-572d-4fbf-9d2a-0fe7bd7f44d5"
                 ]
             },
             {
@@ -339,7 +360,7 @@
                     "sabachuo",
                     "matsuwaminami",
                     "dainijyutakuchiku",
-                    "shinkaichi"
+                    "7aa296a3-1839-4d24-a74a-41247386d38e"
                 ]
             }
         ],
@@ -363,10 +384,10 @@
                 "family":"NR",
                 "stations":[
                     "dojomae",
-                    "nambokushinkawa",
+                    "bda21852-88a5-4207-9c1e-32b04d690e9e",
                     "uwagawa",
                     "nakaishihara",
-                    "shimosawara",
+                    "nakasahara",
                     "nakaumisaki",
                     "mitsuhoshi"
                 ]
@@ -386,553 +407,614 @@
         {
             "companies":["kousoku"],
             "aliases":["higashifukuzaki"],
+            "id":"a8b1fa9d-3a5e-4ca7-ae2b-00206a05a84f",
             "name":"東福崎",
             "position":[430,-1252],
             "rosens":{
-                "kousoku":["L","N-normal","N-sub"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","0654f249-1ecd-439a-8879-3a1f42bd2eef","21eedd3f-b08d-4a1b-b32e-b8c912161a78"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["hamafukuzaki"],
+            "id":"7ce71b40-24ab-4cf1-bbb4-cd6d1e4dbd14",
             "name":"浜福崎",
             "position":[429,-1598],
             "rosens":{
-                "kousoku":["N-normal"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["rinkaihirohama"],
+            "id":"9122afda-6aec-40f3-a089-31551c4eab0a",
             "name":"臨海広浜",
             "position":[295,-2355],
             "rosens":{
-                "kousoku":["N-normal","L","O"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef","2bb32a71-4202-4b83-b1e7-c9ed7bad6640","dee3072d-07bf-485e-9c03-3b2492e5d41b"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shingannai"],
+            "id":"3dbc4823-0079-4866-8052-ab5a8b39c79f",
             "name":"新岩内",
             "position":[-89,-3567],
             "rosens":{
-                "kousoku":["N-normal","L","G"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef","2bb32a71-4202-4b83-b1e7-c9ed7bad6640","e0ab16d1-b3f9-4774-8757-20720399f851"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["hamasakai"],
+            "id":"237599f6-e9d5-4a30-bd40-2002a0833b9e",
             "name":"浜境",
             "position":[-93,-3820],
             "rosens":{
-                "kousoku":["N-normal"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["moriya"],
+            "id":"39af1651-4ae3-41ff-8ba8-2cd10ea35fda",
             "name":"森野",
             "position":[-93,-4086],
             "rosens":{
-                "kousoku":["N-normal"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["einei"],
+            "id":"abd1da13-4f05-4b8c-96f0-8f625fc60d6c",
             "name":"永寧",
             "position":[150,-4511],
             "rosens":{
-                "kousoku":["N-normal","L"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef","2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["higashikougai"],
+            "id":"808bfee4-045f-473c-86c1-0aab0743fd37",
             "name":"東郊外",
             "position":[251,28],
             "rosens":{
-                "kousoku":["L"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["minamichuo"],
+            "id":"e985d64a-d1f5-4743-a4ad-761527d5205b",
             "name":"みなみ中央",
             "position":[-63,963],
             "rosens":{
-                "kousoku":["L","nankai","E"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","4b9a549d-da7c-4f09-bee6-1683a5e3d077","5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["higashioe"],
+            "id":"7e2090ab-25c7-4219-b13d-f1757f184a3d",
             "name":"東大江",
             "position":[-23,1941],
             "rosens":{
-                "kousoku":["L"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["numanosawa"],
+            "id":"afd33e9f-ae93-4452-aba1-b9ec73a5fc9c",
             "name":"沼ノ沢",
             "position":[-23,2327],
             "rosens":{
-                "kousoku":["L"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
             }
         },
         {
             "companies":["kousoku","nishiuwagawa"],
             "aliases":["nambokushinkawa"],
+            "id":"bda21852-88a5-4207-9c1e-32b04d690e9e",
             "name":"南北新川",
             "position":[45,3002],
             "rosens":{
-                "kousoku":["L","NP","nankainan","H"],
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","31bc1cbf-d955-45d6-8ea5-65b38950ed9e","70e67792-f34f-4fe4-9fc8-d6fd1e876e79","619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"],
                 "nishiuwagawa":["NR"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nishioji"],
+            "id":"3ed1c9ac-d041-4cbe-83af-f9a2dbd4c894",
             "name":"西大路(本社前)",
             "position":[45,3474],
             "rosens":{
-                "kousoku":["L"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["mikawachi"],
+            "id":"ad9b07f2-bed9-4b2d-a24a-8833d764da70",
             "name":"三河内",
             "position":[20,3770],
             "rosens":{
-                "kousoku":["L"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["minamiumikoshi"],
+            "id":"2e337250-17ab-4d89-b74a-e5d84d9a3d1e",
             "name":"南海越",
             "position":[-96,4138],
             "rosens":{
-                "kousoku":["L"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["sanhou"],
+            "id":"2dec51f7-6bc9-44aa-b34d-3b4b89ab8c62",
             "name":"三峰",
             "position":[],
             "rosens":{
-                "kousoku":["L"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nekonekomachi"],
+            "id":"de385889-1509-4160-9d80-2d759780ef87",
             "name":"猫猫町",
             "position":[-63,1213],
             "rosens":{
-                "kousoku":["nankai"]
+                "kousoku":["4b9a549d-da7c-4f09-bee6-1683a5e3d077"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["oe"],
             "name":"小江",
+            "id":"fa8a743e-63b2-4086-a593-4b9318995afa",
             "position":[45,1804],
             "rosens":{
-                "kousoku":["nankai"]
+                "kousoku":["4b9a549d-da7c-4f09-bee6-1683a5e3d077"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shirasaka"],
+            "id":"305d3cc7-ac56-4d65-a29c-d0da56169cb0",
             "name":"白坂",
             "position":[-270,1104],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["hikawa"],
+            "id":"67e44172-ccae-43c7-a6ca-05bfc7a44e2b",
             "name":"氷川",
             "position":[-641,1249],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["kogegawa"],
+            "id":"223574f1-30bd-4994-9be4-5c4b3ae253a2",
             "name":"郡家川",
             "position":[-1117,1253],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["omori"],
+            "id":"9b97b60b-0e2c-4085-8552-46332ad1220c",
             "name":"大森",
             "position":[-1425,1253],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["ono"],
+            "id":"0f5bb3a2-0bfa-4cd2-b31d-5741f7a63bd3",
             "name":"大野",
             "position":[-1850,1251],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["sendai"],
+            "id":"57fde5fc-39d2-4cb3-ae8c-543835c5ecaf",
             "name":"川内",
             "position":[-2147,1304],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["takatobara"],
+            "id":"84142d54-bd10-4221-80e9-d2ff71c91a72",
             "name":"高遠原",
             "position":[-2441,1233],
             "rosens":{
-                "kousoku":["E"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nanseikogen"],
+            "id":"d55e8c8b-a5c6-4382-b157-90de7a47048e",
             "name":"南西高原",
             "position":[-2600,1268],
             "rosens":{
-                "kousoku":["E","H"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14","619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nishioyama"],
+            "id":"fa846afa-bdd1-427a-b7ea-a4fc3b0ba666",
             "name":"西大山",
             "position":[-2564,484],
             "rosens":{
-                "kousoku":["H"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nishikawa"],
+            "id":"c45ac075-dcc1-43a3-b0f7-c18918ce06e9",
             "name":"西川",
             "position":[-2001,484],
             "rosens":{
-                "kousoku":["H"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["okakyo"],
+            "id":"3753950f-b350-4523-8534-3856573bfa1c",
             "name":"大河峡",
             "position":[-1418,458],
             "rosens":{
-                "kousoku":["H"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["sekitoucho"],
+            "id":"fbd3a353-e88e-4517-8170-44024cfb4664",
             "name":"赤塔町",
             "position":[-1380,65],
             "rosens":{
-                "kousoku":["H"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku","rtb"],
             "aliases":["hyounandai"],
+            "id":"2ed3dbab-0f8f-4442-91eb-d8bf816350c1",
             "name":"氷南台",
             "position":[-1239,-266],
             "rosens":{
-                "kousoku":["H"],
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"],
                 "rtb":["RH"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shinbaragaoka"],
+            "id":"8b6045a7-cc95-4e8a-84a1-0aef5e27876c",
             "name":"新薔薇ヶ丘",
             "position":[-1236,-442],
             "rosens":{
-                "kousoku":["H"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shinizumo"],
+            "id":"f56fa3e1-71a8-41fb-bee2-7804eff27bcf",
             "name":"新出雲",
             "position":[],
             "rosens":{
-                "kousoku":["H","T"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6","5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["minamiamerica"],
+            "id":"39c6bfc4-7a23-4d02-99b0-31255f585178",
             "name":"南アメリカ",
             "position":[-1719,-653],
             "rosens":{
-                "kousoku":["T","I","UM"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","7b727404-fb8f-4408-baf4-47e45af21a5b","1e539bd3-0ce5-4418-8705-a98dfe974056"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shinkaichi"],
+            "id":"7aa296a3-1839-4d24-a74a-41247386d38e",
             "name":"新開地",
             "position":[-815,-605],
             "rosens":{
-                "kousoku":["T","umineko"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","8bf03b34-8291-407d-aa71-50bc0adc0cc4"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shinkitagawa"],
+            "id":"83c02af6-e348-4189-a1f4-cb311937c208",
             "name":"新北川",
             "position":[704,-377],
             "rosens":{
-                "kousoku":["T"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["mizuanagunko"],
+            "id":"59c3c225-a06e-4c0c-9efc-b27eb41915f5",
             "name":"みずあな軍港",
             "position":[1262,-549],
             "rosens":{
-                "kousoku":["T"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["higashinagahama"],
+            "id":"5edb262e-7b79-4c95-a396-c36c2ff06364",
             "name":"東長浜",
             "position":[3000,-1115],
             "rosens":{
-                "kousoku":["T","G","F"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","e0ab16d1-b3f9-4774-8757-20720399f851","0836d88e-e87d-4864-af1c-1bf104a79b79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["higashihamasaka"],
+            "id":"4414f061-0655-4bee-85ed-d3eee3417793",
             "name":"東浜坂",
             "position":[3413,-1112],
             "rosens":{
-                "kousoku":["T"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nichihara"],
+            "id":"079c0888-93e6-4a73-bf2a-8d377bb6dc45",
             "name":"日原",
             "position":[4050,-1110],
             "rosens":{
-                "kousoku":["T","F"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","0836d88e-e87d-4864-af1c-1bf104a79b79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["hasasame"],
+            "id":"3bee6927-652f-4a42-9357-6808445badbe",
             "name":"葉細",
             "position":[4450,-1230],
             "rosens":{
-                "kousoku":["T","F","P"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","0836d88e-e87d-4864-af1c-1bf104a79b79","2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nishizono"],
+            "id":"f5145fce-dd8c-4512-98b3-fbe5c5684703",
             "name":"西園",
             "position":[3600,-1353],
             "rosens":{
-                "kousoku":["F"]
+                "kousoku":["0836d88e-e87d-4864-af1c-1bf104a79b79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["chigusa"],
+            "id":"ea98faa5-31b1-4a69-bbda-63527c015f7e",
             "name":"千草",
             "position":[3270,-1185],
             "rosens":{
-                "kousoku":["F"]
+                "kousoku":["0836d88e-e87d-4864-af1c-1bf104a79b79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["sangokugaoka"],
+            "id":"1fa059bc-2933-455b-a77f-65e1edae9112",
             "name":"三国ヶ丘",
             "position":[2270,-657],
             "rosens":{
-                "kousoku":["T","I"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","7b727404-fb8f-4408-baf4-47e45af21a5b"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["korinkingdom"],
+            "id":"3cba8bfa-9a49-4d32-8454-74a314726075",
             "name":"こりん王国",
             "position":[3345,-732],
             "rosens":{
-                "kousoku":["T","I"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","7b727404-fb8f-4408-baf4-47e45af21a5b"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["izumocity"],
+            "id":"5fc83f45-922b-4f3a-9306-37bfd0b56b32",
             "name":"出雲市",
             "position":[-1652,-1026],
             "rosens":{
-                "kousoku":["I","izumo"]
+                "kousoku":["7b727404-fb8f-4408-baf4-47e45af21a5b","c316c213-e9ba-46fc-ace8-1154811cf40b"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nishiamerica"],
+            "id":"4a8c3e69-c2c6-4f31-a3b6-5532e97c059f",
             "name":"西アメリカ",
             "position":[-2033,-662],
             "rosens":{
-                "kousoku":["T"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["ozero"],
+            "id":"8698839d-188b-418d-b76c-763bc4d71de9",
             "name":"オーゼロ",
             "position":[],
             "rosens":{
-                "kousoku":["T","yukiyado"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","75300999-3e9d-496e-a693-65bdf3ce1e33"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shinengaru"],
+            "id":"b6fd0e46-543d-4cc2-9bb8-7fe89d631274",
             "name":"新遠軽",
             "position":[-3955,-685],
             "rosens":{
-                "kousoku":["T"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["setchu"],
+            "id":"5c4e6f27-7513-4f7b-942d-60ec8d16971e",
             "name":"雪中",
             "position":[-4218,-691],
             "rosens":{
-                "kousoku":["T"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["housuikyou"],
+            "id":"d56863ec-682c-44c4-b051-f91a3254b748",
             "name":"豊水峡",
             "position":[-4508,-691],
             "rosens":{
-                "kousoku":["T"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nishitoyokawa"],
+            "id":"7edd11a2-c1e6-4067-9f07-9fce77da6951",
             "name":"西豊川",
             "position":[],
             "rosens":{
-                "kousoku":["T"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["kawazu"],
+            "id":"d3a95a11-933e-48fc-b42e-a0c7c9f3bb3b",
             "name":"河津",
             "position":[-2802,-555],
             "rosens":{
-                "kousoku":["yonomori"]
+                "kousoku":["2d69ad57-1796-4a4d-9e1c-edfe0351baa4"]
             }
         },
         {
             "companies":["kousoku","rtb"],
             "aliases":["kashigadai"],
+            "id":"5c2fd8ae-572d-4fbf-9d2a-0fe7bd7f44d5",
             "name":"樫河台",
             "position":[-2710,-333],
             "rosens":{
-                "kousoku":["yonomori"],
+                "kousoku":["2d69ad57-1796-4a4d-9e1c-edfe0351baa4"],
                 "rtb":["RH"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nakanohigashi"],
+            "id":"db8a31a6-e596-41b0-8c91-a1528cf3df02",
             "name":"中野東",
             "position":[-2298,-1106],
             "rosens":{
-                "kousoku":["yukiyado"]
+                "kousoku":["75300999-3e9d-496e-a693-65bdf3ce1e33"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nakanoitsuki"],
+            "id":"97bda943-bd39-4bfa-9eb2-1542e358e9b3",
             "name":"中野五月",
             "position":[-2146,-1106],
             "rosens":{
-                "kousoku":["yukiyado"]
+                "kousoku":["75300999-3e9d-496e-a693-65bdf3ce1e33"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["yukiyado"],
+            "id":"9a16d852-5cb8-421b-aa56-1daa7f424e55",
             "name":"雪宿",
             "position":[-1992,-1142],
             "rosens":{
-                "kousoku":["yukiyado"]
+                "kousoku":["75300999-3e9d-496e-a693-65bdf3ce1e33"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["toyosaka"],
+            "id":"de3d7290-9982-4b9f-8616-a9547798a78e",
             "name":"豊坂",
             "position":[-1530,-1140],
             "rosens":{
-                "kousoku":["yukiyado","izumo"]
+                "kousoku":["75300999-3e9d-496e-a693-65bdf3ce1e33","c316c213-e9ba-46fc-ace8-1154811cf40b"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["izumotakamori"],
+            "id":"b26e1776-c817-45a3-9e3c-0a8e7a038d89",
             "name":"出雲高森",
             "position":[-1169,-1138],
             "rosens":{
-                "kousoku":["yukiyado","izumo","umineko"]
+                "kousoku":["75300999-3e9d-496e-a693-65bdf3ce1e33","c316c213-e9ba-46fc-ace8-1154811cf40b","8bf03b34-8291-407d-aa71-50bc0adc0cc4"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["tsurugahama"],
+            "id":"f01a1282-3f2c-4b15-a113-791a910e2004",
             "name":"鶴ヶ浜",
             "position":[-1013,-1068],
             "rosens":{
-                "kousoku":["umineko"]
+                "kousoku":["8bf03b34-8291-407d-aa71-50bc0adc0cc4"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["hinatamigaoka"],
+            "id":"cfd16770-053b-4869-ae64-55f3cc40613b",
             "name":"日向見ヶ丘",
             "position":[-1016,-864],
             "rosens":{
-                "kousoku":["umineko"]
+                "kousoku":["8bf03b34-8291-407d-aa71-50bc0adc0cc4"]
             }
         },
         {
@@ -974,109 +1056,121 @@
         {
             "companies":["kousoku"],
             "aliases":["ooe"],
+            "id":"1a69b040-6a27-404f-9558-ab354c30d56e",
             "name":"大江",
             "position":[-240,1950],
             "rosens":{
-                "kousoku":["takamori"]
+                "kousoku":["607bc657-2b85-4759-a405-bf93b4776ebe"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shimosawara"],
+            "id":"e1aace51-a0f2-4286-9813-1703361153fb",
             "name":"下砂原",
             "position":[403,2737],
             "rosens":{
-                "kousoku":["nankainan"]
+                "kousoku":["70e67792-f34f-4fe4-9fc8-d6fd1e876e79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nankaishinkawa"],
+            "id":"aae8ad88-2b03-45bc-8540-61f40e8b4918",
             "name":"南海新川",
             "position":[99,2733],
             "rosens":{
-                "kousoku":["nankainan"]
+                "kousoku":["70e67792-f34f-4fe4-9fc8-d6fd1e876e79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shinsawara"],
+            "id":"fa137f61-2a74-498b-907f-6973aca36268",
             "name":"新砂原",
             "position":[-230,2738],
             "rosens":{
-                "kousoku":["H"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shinomura"],
+            "id":"fbcd6f51-bb6d-41e7-862d-1351eef64679",
             "name":"新大村",
             "position":[-1820,2752],
             "rosens":{
-                "kousoku":["H"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["akagawa"],
+            "id":"8fa29ec6-8f09-490a-ad01-1ee6363149fb",
             "name":"赤川",
             "position":[-2093,2504],
             "rosens":{
-                "kousoku":["H"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["okusa"],
+            "id":"f968223d-ad54-4274-b617-977b0e736b21",
             "name":"大草",
             "position":[-2558,2072],
             "rosens":{
-                "kousoku":["H"]
+                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nakaoguni"],
+            "id":"01f1c120-7045-4796-bb5b-420edb2820a3",
             "name":"中小国",
             "position":[678,2766],
             "rosens":{
-                "kousoku":["nankainan"]
+                "kousoku":["70e67792-f34f-4fe4-9fc8-d6fd1e876e79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shinnakaoguni"],
+            "id":"e9fd418b-54e3-4535-a332-4e2dfaa43e69",
             "name":"新中小国",
             "position":[678,2950],
             "rosens":{
-                "kousoku":["nankainan"]
+                "kousoku":["70e67792-f34f-4fe4-9fc8-d6fd1e876e79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nakaoyama"],
+            "id":"7afc5ce5-a3e9-4430-b4ea-3249bf53b4d6",
             "name":"中大山",
             "position":[940,2964],
             "rosens":{
-                "kousoku":["nankainan"]
+                "kousoku":["70e67792-f34f-4fe4-9fc8-d6fd1e876e79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["shintenchi"],
+            "id":"903dc165-1602-43dc-bb65-2ce42037011b",
             "name":"新天地",
             "position":[1272,2964],
             "rosens":{
-                "kousoku":["nankainan"]
+                "kousoku":["70e67792-f34f-4fe4-9fc8-d6fd1e876e79"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["nekocolosseum"],
+            "id":"875d8b5d-b1f3-42cc-9e3a-0a871c596277",
             "name":"猫コロシアム",
             "position":[-511,3517],
             "rosens":{
-                "kousoku":["NP"]
+                "kousoku":["31bc1cbf-d955-45d6-8ea5-65b38950ed9e"]
             } 
         },
         {
@@ -1091,10 +1185,11 @@
         {
             "companies":["kousoku"],
             "aliases":["kitakougai-nms"],
+            "id":"6094386c-9c86-4198-8025-ed77363652d3",
             "name":"北郊外(NMS前)",
             "position":[-16,-304],
             "rosens":{
-                "kousoku":["N-sub"]
+                "kousoku":["21eedd3f-b08d-4a1b-b32e-b8c912161a78"]
             } 
         },
         {
@@ -1145,11 +1240,12 @@
         {
             "companies":["rtb","kousoku"],
             "aliases":["kounotaira"],
+            "id":"39c015b4-7558-4e1a-8395-2dc06e46f2a6",
             "name":"耕の平",
             "position":[-1857,-365],
             "rosens":{
                 "rtb":["RH"],
-                "kousoku":["UM"]
+                "kousoku":["1e539bd3-0ce5-4418-8705-a98dfe974056"]
             }
         },
         {
@@ -1164,10 +1260,11 @@
         {
             "companies":["kousoku"],
             "aliases":["yoake"],
+            "id":"53c5f3b8-792f-40de-8e3f-1c001752fd0b",
             "name":"夜明",
             "position":[-2745,-738],
             "rosens":{
-                "kousoku":["yonomori","T"]
+                "kousoku":["2d69ad57-1796-4a4d-9e1c-edfe0351baa4","5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
@@ -1218,235 +1315,261 @@
         {
             "companies":["kousoku"],
             "aliases":["tokaihama"],
+            "id":"823a0e6d-66d4-4be0-95c6-22e8212d7eae",
             "name":"東海浜",
             "position":[4459,-1588],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["e"],
+            "id":"07a5a4f2-c591-43a3-8e91-85c2be414dba",
             "name":"江",
             "position":[4458,-2244],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["wanganomori"],
+            "id":"e5d7078b-a7a1-4a8c-b01d-31e9c3c6bca8",
             "name":"湾岸大森",
             "position":[4338,-2801],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["morichikagawa"],
+            "id":"482aaf7c-7ae3-453d-a8db-12df7196adc2",
             "name":"森近川",
             "position":[3528,-3535],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["suofukagawa"],
+            "id":"5a4ee659-8023-45d0-a274-1853f326ee79",
             "name":"州央深川",
             "position":[3528,-3535],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["tokaioyama"],
+            "id":"bb07c66f-31fa-4bf7-a70a-b0e4a2e1d0c6",
             "name":"東海大山",
             "position":[2584,-3535],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["hikawakogen"],
+            "id":"4b661b07-db6f-4c30-8152-75bbff863cfd",
             "name":"氷川高原",
             "position":[],
             "rosens":{
-                "kousoku":["P","G","J"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc","e0ab16d1-b3f9-4774-8757-20720399f851","369dd19d-af8d-4ed8-86d9-6a73e930c606"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["morikawabe"],
+            "id":"e50dc32e-fe79-43a4-abed-ae523ce08009",
             "name":"森川辺",
             "position":[1346,-3546],
             "rosens":{
-                "kousoku":["G","J"]
+                "kousoku":["e0ab16d1-b3f9-4774-8757-20720399f851","369dd19d-af8d-4ed8-86d9-6a73e930c606"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["iwanohara"],
+            "id":"7475ba0f-c2ae-4ed0-9209-088102d40a58",
             "name":"岩の原・新岩の原",
             "position":[642,-3567],
             "rosens":{
-                "kousoku":["G","J"]
+                "kousoku":["e0ab16d1-b3f9-4774-8757-20720399f851","369dd19d-af8d-4ed8-86d9-6a73e930c606"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["numanohashi"],
+            "id":"2ecdf667-ce4f-48d3-89bb-3cb9cba98c46",
             "name":"沼の端",
             "position":[657,-3807],
             "rosens":{
-                "kousoku":["J"]
+                "kousoku":["369dd19d-af8d-4ed8-86d9-6a73e930c606"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["kohoku"],
+            "id":"e4b40c96-6e6e-4168-bbc6-c74819ef0a37",
             "name":"河北",
             "position":[658,-4490],
             "rosens":{
-                "kousoku":["J"]
+                "kousoku":["369dd19d-af8d-4ed8-86d9-6a73e930c606"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["minamitomarihara"],
+            "id":"593755f1-728d-4009-a912-c09793337727",
             "name":"南泊原",
             "position":[217,-4579],
             "rosens":{
-                "kousoku":["J"]
+                "kousoku":["369dd19d-af8d-4ed8-86d9-6a73e930c606"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["tomarihara"],
+            "id":"45646416-a40c-44a3-b45b-5bc2bab1d6b5",
             "name":"泊原",
             "position":[218,-4694],
             "rosens":{
-                "kousoku":["J","L"]
+                "kousoku":["369dd19d-af8d-4ed8-86d9-6a73e930c606","2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["matsushima"],
+            "id":"41313f4d-2b9a-4a2b-bd36-3926f883860c",
             "name":"松島",
             "position":[254,-3545],
             "rosens":{
-                "kousoku":["G"]
+                "kousoku":["e0ab16d1-b3f9-4774-8757-20720399f851"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["matsudai"],
+            "id":"0ca181f2-8d54-4e73-a41c-68f5a43943c8",
             "name":"松代",
             "position":[2189,-2880],
             "rosens":{
-                "kousoku":["G"]
+                "kousoku":["e0ab16d1-b3f9-4774-8757-20720399f851"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["himi"],
+            "id":"58ebcde6-2b5b-432a-b747-2e7c6d51ffa8",
             "name":"氷海",
             "position":[2417,-1889],
             "rosens":{
-                "kousoku":["G"]
+                "kousoku":["e0ab16d1-b3f9-4774-8757-20720399f851"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["oikesetsugen"],
+            "id":"73ed3218-ee03-42ad-907d-cd43f018dfb2",
             "name":"大池雪原",
             "position":[2893,-1889],
             "rosens":{
-                "kousoku":["G"]
+                "kousoku":["e0ab16d1-b3f9-4774-8757-20720399f851"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["higashigochi"],
             "name":"東河内",
+            "id":"d3a5d7bd-e72a-44fe-8485-a8b390924482",
             "position":[2985,-1646],
             "rosens":{
-                "kousoku":["G"]
+                "kousoku":["e0ab16d1-b3f9-4774-8757-20720399f851"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["minamihasasame"],
+            "id":"020a2e6d-b17d-4701-8e28-6265b27c0be0",
             "name":"南葉細",
             "position":[4243,-448],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["hamahara"],
+            "id":"0cf66eba-bcf4-42c3-8f36-9c06270de3ea",
             "name":"浜原",
             "position":[3587,303],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["kaihintsutsuishi"],
+            "id":"3a233653-4af6-43dc-a738-e468ae28adee",
             "name":"海浜筒石",
             "position":[3430,604],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["minamitsutsuishi"],
+            "id":"6d73cdf8-2b06-4bd2-8a63-fb23bab4078e",
             "name":"南筒石",
             "position":[3430,1108],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["minamihamano"],
+            "id":"40b9d211-5c7f-4d72-85d7-05653ae3f0d1",
             "name":"南浜野",
             "position":[2940,1311],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["kirinotoge"],
+            "id":"dc7388a1-2ec9-4290-8b4c-55c5a1899623",
             "name":"霧峠",
             "position":[],
             "rosens":{
-                "kousoku":["P"]
+                "kousoku":["2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["okawa"],
+            "id":"34e243f1-2fef-469e-acdf-558737a22736",
             "name":"尾川",
             "position":[-182,-2026],
             "rosens":{
-                "kousoku":["O"]
+                "kousoku":["dee3072d-07bf-485e-9c03-3b2492e5d41b"]
             }
         },
         {
             "companies":["kousoku"],
             "aliases":["higashishinkawa"],
+            "id":"576c1387-fae2-4c02-9b1d-58324912296f",
             "name":"東新川",
             "position":[4989,-1506],
             "rosens":{
-                "kousoku":["T"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
@@ -1469,8 +1592,8 @@
         },
         {
             "companies":["nishiuwagawa"],
-            "aliases":["shimosawara"],
-            "name":"下砂原",
+            "aliases":["nakasahara"],
+            "name":"中砂原",
             "position":[428,2468],
             "rosens":{
                 "nishiuwagawa":["NR"]
@@ -1497,10 +1620,11 @@
         {
             "companies":["kousoku"],
             "aliases":["kawagishi"],
+            "id":"a8b9568c-b5d3-45b2-8fb3-5a4037396fb3",
             "name":"川岸",
             "position":[-1857,-365],
             "rosens":{
-                "kousoku":["UM"]
+                "kousoku":["1e539bd3-0ce5-4418-8705-a98dfe974056"]
             }
         }
     ]
