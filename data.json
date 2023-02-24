@@ -385,15 +385,16 @@
             {
                 "name":"宇和川線 (旧NR道場線)",
                 "aliases":["NR"],
+                "id":"4b7f9c05-f0aa-422a-b951-0680775621e4",
                 "family":"NR",
                 "stations":[
-                    "dojomae",
+                    "e55ca361-983d-4c7f-9fd1-1ffc3802fa52",
                     "bda21852-88a5-4207-9c1e-32b04d690e9e",
-                    "uwagawa",
-                    "nakaishihara",
-                    "nakasahara",
-                    "nakaumisaki",
-                    "mitsuhoshi"
+                    "4f248452-c82a-4a1f-97ee-4b274c73295d",
+                    "16ae55ca-63b9-4206-8dfe-32d520301f52",
+                    "4914bbd3-e46d-4d31-9441-763b9dc9f6d2",
+                    "8abb2831-1c3f-4a30-9ba0-fb747ba6e84f",
+                    "a3d23bc2-e9ec-4337-8db8-481883f06aee"
                 ]
             }
         ]
@@ -527,7 +528,7 @@
             "position":[45,3002],
             "rosens":{
                 "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","31bc1cbf-d955-45d6-8ea5-65b38950ed9e","70e67792-f34f-4fe4-9fc8-d6fd1e876e79","619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"],
-                "nishiuwagawa":["NR"]
+                "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             }
         },
         {
@@ -1185,10 +1186,11 @@
         {
             "companies":["nishiuwagawa"],
             "aliases":["dojomae"],
+            "id":"e55ca361-983d-4c7f-9fd1-1ffc3802fa52",
             "name":"道場前",
             "position":[610,3640],
             "rosens":{
-                "nishiuwagawa":["NR"]
+                "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             } 
         },
         {
@@ -1595,46 +1597,51 @@
         {
             "companies":["nishiuwagawa"],
             "aliases":["uwagawa"],
+            "id":"4f248452-c82a-4a1f-97ee-4b274c73295d",
             "name":"宇和川",
             "position":[85,2761],
             "rosens":{
-                "nishiuwagawa":["NR"]
+                "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             }
         },
         {
             "companies":["nishiuwagawa"],
             "aliases":["nakaishihara"],
+            "id":"16ae55ca-63b9-4206-8dfe-32d520301f52",
             "name":"中石原",
             "position":[181,2611],
             "rosens":{
-                "nishiuwagawa":["NR"]
+                "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             }
         },
         {
             "companies":["nishiuwagawa"],
             "aliases":["nakasahara"],
+            "id":"4914bbd3-e46d-4d31-9441-763b9dc9f6d2",
             "name":"中砂原",
             "position":[428,2468],
             "rosens":{
-                "nishiuwagawa":["NR"]
+                "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             }
         },
         {
             "companies":["nishiuwagawa"],
             "aliases":["nakaumisaki"],
+            "id":"8abb2831-1c3f-4a30-9ba0-fb747ba6e84f",
             "name":"中海崎",
             "position":[501,2241],
             "rosens":{
-                "nishiuwagawa":["NR"]
+                "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             }
         },
         {
             "companies":["nishiuwagawa"],
             "aliases":["mitsuhoshi"],
+            "id":"a3d23bc2-e9ec-4337-8db8-481883f06aee",
             "name":"三星",
             "position":[501,2241],
             "rosens":{
-                "nishiuwagawa":["NR"]
+                "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             }
         },
         {
