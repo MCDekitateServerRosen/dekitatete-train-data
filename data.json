@@ -371,12 +371,13 @@
             {
                 "name":"本線",
                 "aliases":["honsen"],
+                "id":"ff35afdf-14ae-4db1-ac1c-368872705c01",
                 "stations":[
-                    "kanjodorihigashi",
-                    "hitachinoyachi",
-                    "bappururingokyo",
-                    "kinoko",
-                    "tsuishikari"
+                    "da170103-cadd-4112-9ccc-e77599402bd1",
+                    "6608ec61-9956-4848-bef8-b2ace8cc746c",
+                    "0861c854-513a-49b5-8465-762dc75fd159",
+                    "80417155-fc7d-4700-9b1c-e1b4fe758fb4",
+                    "140410dc-7dbf-4730-acbf-046415a5c5cb"
                 ]
             }
         ],
@@ -1284,46 +1285,51 @@
         {
             "companies":["shinko"],
             "aliases":["kanjodorihigashi"],
+            "id":"da170103-cadd-4112-9ccc-e77599402bd1",
             "name":"環状通東",
             "position":[263,25],
             "rosens":{
-                "shinko":["honsen"]
+                "shinko":["ff35afdf-14ae-4db1-ac1c-368872705c01"]
             }
         },
         {
             "companies":["shinko"],
             "aliases":["hitachinoyachi"],
+            "id":"6608ec61-9956-4848-bef8-b2ace8cc746c",
             "name":"ひたち野谷地",
             "position":[494,29],
             "rosens":{
-                "shinko":["honsen"]
+                "shinko":["ff35afdf-14ae-4db1-ac1c-368872705c01"]
             }
         },
         {
             "companies":["shinko"],
             "aliases":["bappururingokyo"],
+            "id":"0861c854-513a-49b5-8465-762dc75fd159",
             "name":"場古りんご郷",
             "position":[644,297],
             "rosens":{
-                "shinko":["honsen"]
+                "shinko":["ff35afdf-14ae-4db1-ac1c-368872705c01"]
             }
         },
         {
             "companies":["shinko"],
             "aliases":["kinoko"],
+            "id":"80417155-fc7d-4700-9b1c-e1b4fe758fb4",
             "name":"きのこ",
             "position":[697,680],
             "rosens":{
-                "shinko":["honsen"]
+                "shinko":["ff35afdf-14ae-4db1-ac1c-368872705c01"]
             }
         },
         {
             "companies":["shinko"],
             "aliases":["tsuishikari"],
+            "id":"140410dc-7dbf-4730-acbf-046415a5c5cb",
             "name":"対雁",
             "position":[715,965],
             "rosens":{
-                "shinko":["honsen"]
+                "shinko":["ff35afdf-14ae-4db1-ac1c-368872705c01"]
             }
         },
         {
