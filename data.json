@@ -330,36 +330,39 @@
             {
                 "name":"松和本線",
                 "aliases":["RH"],
+                "id":"34d8946e-5b21-46e2-bd06-07d848a71fe8",
                 "stations":[
-                    "matsuwaminami",
-                    "matsuwanishi",
+                    "b8df705e-a843-4fd1-9476-f214b3cd1a73",
+                    "0a7b7c78-5c9c-4741-b2dc-c6356bc110a7",
                     "2ed3dbab-0f8f-4442-91eb-d8bf816350c1",
                     "39c015b4-7558-4e1a-8395-2dc06e46f2a6",
-                    "nishirinkan",
+                    "0bb21322-dbbe-4516-8af3-1d1e4d49fc08",
                     "5c2fd8ae-572d-4fbf-9d2a-0fe7bd7f44d5"
                 ]
             },
             {
                 "name":"リアライ共和国営環状線(普通)",
                 "aliases":["RK"],
+                "id":"30733781-b4a5-4e82-ab0c-b9d93ea93415",
                 "loop":true,
                 "stations":[
-                    "matsuwaminami",
-                    "togonogyosisetsumae",
-                    "jyutakuchikukita",
-                    "jyutakuchikunishi",
-                    "wafukenchikuku"
+                    "b8df705e-a843-4fd1-9476-f214b3cd1a73",
+                    "9c2e31ea-3c73-4988-9579-4e574c390df6",
+                    "4a4e6fd7-c0d6-4e6e-aad3-f87555441236",
+                    "967ced9a-c469-461e-a12b-16eee72d1f9b",
+                    "b2b9e4fa-ec1f-42e8-b670-c2690f0c57b5"
                 ]
             },
             {
                 "name":"国営地下鉄線/新和線",
                 "aliases":["R"],
+                "id":"467abbc3-9ee5-4200-9b9c-ac27aec35c7b",
                 "stations":[
-                    "nagata",
-                    "nishikougai",
-                    "sabachuo",
-                    "matsuwaminami",
-                    "dainijyutakuchiku",
+                    "fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
+                    "d4548f47-46bf-401f-a630-0b7685ca67fe",
+                    "48a1ffe2-0421-405b-ab5d-a2bb702973d4",
+                    "b8df705e-a843-4fd1-9476-f214b3cd1a73",
+                    "163f91f1-c7e7-496f-8cf4-0cfcefc4b243",
                     "7aa296a3-1839-4d24-a74a-41247386d38e"
                 ]
             }
@@ -398,10 +401,11 @@
         {
             "companies":["rtb"],
             "aliases":["nagata"],
+            "id":"fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
             "name":"高速長田/新長田",
             "position":[-234,383],
             "rosens":{
-                "rtb":["R"]
+                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
             }
         },
         {
@@ -713,7 +717,7 @@
             "position":[-1239,-266],
             "rosens":{
                 "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"],
-                "rtb":["RH"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
@@ -944,7 +948,7 @@
             "position":[-2710,-333],
             "rosens":{
                 "kousoku":["2d69ad57-1796-4a4d-9e1c-edfe0351baa4"],
-                "rtb":["RH"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
@@ -1020,37 +1024,41 @@
         {
             "companies":["rtb"],
             "aliases":["dainijyutakuchiku"],
+            "id":"163f91f1-c7e7-496f-8cf4-0cfcefc4b243",
             "name":"第二住宅地区",
             "position":[-789,-465],
             "rosens":{
-                "rtb":["R"]
+                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
             }
         },
         {
             "companies":["rtb"],
             "aliases":["matsuwaminami"],
             "name":"松和南/リアライ中央",
+            "id":"b8df705e-a843-4fd1-9476-f214b3cd1a73",
             "position":[-781,-331],
             "rosens":{
-                "rtb":["R","RH","RK"]
+                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b","34d8946e-5b21-46e2-bd06-07d848a71fe8","30733781-b4a5-4e82-ab0c-b9d93ea93415"]
             }
         },
         {
             "companies":["rtb"],
             "aliases":["sabachuo"],
+            "id":"48a1ffe2-0421-405b-ab5d-a2bb702973d4",
             "name":"佐波中央",
             "position":[-574,-10],
             "rosens":{
-                "rtb":["R"]
+                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
             }
         },
         {
             "companies":["rtb"],
             "aliases":["nishikougai"],
+            "id":"d4548f47-46bf-401f-a630-0b7685ca67fe",
             "name":"西郊外",
             "position":[-280,2],
             "rosens":{
-                "rtb":["R"]
+                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
             }
         },
         {
@@ -1195,46 +1203,51 @@
         {
             "companies":["rtb"],
             "aliases":["togonogyosisetsumae"],
+            "id":"9c2e31ea-3c73-4988-9579-4e574c390df6",
             "name":"統合農業施設前",
             "position":[-892,-379],
             "rosens":{
-                "rtb":["RK"]
+                "rtb":["30733781-b4a5-4e82-ab0c-b9d93ea93415"]
             }
         },
         {
             "companies":["rtb"],
             "aliases":["jyutakuchikukita"],
+            "id":"4a4e6fd7-c0d6-4e6e-aad3-f87555441236",
             "name":"住宅地区北",
             "position":[-1075,-406],
             "rosens":{
-                "rtb":["RK"]
+                "rtb":["30733781-b4a5-4e82-ab0c-b9d93ea93415"]
             }
         },
         {
             "companies":["rtb"],
             "aliases":["jyutakuchikunishi"],
+            "id":"967ced9a-c469-461e-a12b-16eee72d1f9b",
             "name":"住宅地区西",
             "position":[-1136,-318],
             "rosens":{
-                "rtb":["RK"]
+                "rtb":["30733781-b4a5-4e82-ab0c-b9d93ea93415"]
             }
         },
         {
             "companies":["rtb"],
             "aliases":["wafukenchikuku"],
+            "id":"b2b9e4fa-ec1f-42e8-b670-c2690f0c57b5",
             "name":"和風建築区",
             "position":[-669,-160],
             "rosens":{
-                "rtb":["RK"]
+                "rtb":["30733781-b4a5-4e82-ab0c-b9d93ea93415"]
             }
         },
         {
             "companies":["rtb"],
             "aliases":["matsuwanishi"],
+            "id":"0a7b7c78-5c9c-4741-b2dc-c6356bc110a7",
             "name":"松和西",
             "position":[-1011,-266],
             "rosens":{
-                "rtb":["RH"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
@@ -1244,17 +1257,18 @@
             "name":"耕の平",
             "position":[-1857,-365],
             "rosens":{
-                "rtb":["RH"],
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"],
                 "kousoku":["1e539bd3-0ce5-4418-8705-a98dfe974056"]
             }
         },
         {
             "companies":["rtb"],
             "aliases":["nishirinkan"],
+            "id":"0bb21322-dbbe-4516-8af3-1d1e4d49fc08",
             "name":"西林間",
             "position":[-2321,-358],
             "rosens":{
-                "rtb":["RH"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
