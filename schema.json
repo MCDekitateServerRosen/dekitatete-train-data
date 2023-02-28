@@ -1,0 +1,182 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "dekitate-train-data Validate",
+    "description": "Varidate dekitate-train-data",
+    "properties" :{
+        "copyright": {
+            "type": "string"
+        },
+        "license": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "companies": {
+            "type": "array",
+            "items": {
+                "type":"string"
+            }
+        },
+        "company": {
+            "type": "array",
+            "items": {
+                "type":"object",
+                "properties": {
+                    "name":{
+                        "type":"string"
+                    },
+                    "short":{
+                        "type":"string"
+                    },
+                    "bgcolor":{
+                        "type":"string"
+                    },
+                    "color":{
+                        "type":"string"
+                    }
+                },
+                "required": [
+                    "name",
+                    "short",
+                    "bgcolor",
+                    "color"
+                ]
+            }
+        },
+        "rosens":{
+            "type":"object",
+            "items": {
+                "type":"array",
+                "patternProperties": {
+                    "^.*$":{
+                        "type":"array",
+                        "items": {
+                            "type":"object",
+                            "properties": {
+                                "name":{
+                                    "type":"string"
+                                },
+                                "aliases":{
+                                    "type":"array",
+                                    "items": {
+                                        "type":"string"
+                                    }
+                                },
+                                "id":{
+                                    "type":"string"
+                                },
+                                "stations":{
+                                    "type":"string"
+                                },
+                                "starts":{
+                                    "type":"integer"
+                                },
+                                "loop":{
+                                    "type":"boolean"
+                                }
+                            },
+                            "required": [
+                                "id",
+                                "name",
+                                "stations",
+                                "aliases"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "aliases":{
+            "type":"object",
+            "properties": {
+                "rosens":{
+                    "type":"object",
+                    "patternProperties": {
+                        "^.*$":{
+                            "type":"object",
+                            "patternProperties": {
+                                "^.*$":{
+                                    "type":"string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "stations":{
+                    "type":"object",
+                    "patternProperties": {
+                        "^.*$":{
+                            "type":"string"
+                        }
+                    }
+                }
+            },
+            "required": [
+                "rosens",
+                "stations"
+            ]
+        },
+        "stations":{
+            "type":"array",
+            "items": {
+                "type":"object",
+                "properties": {
+                    "companies":{
+                        "type":"array",
+                        "items": {
+                            "type":"string"
+                        }
+                    },
+                    "aliases":{
+                        "type":"array",
+                        "items": {
+                            "type":"string"
+                        }
+                    },
+                    "id":{
+                        "type":"string"
+                    },
+                    "name":{
+                        "type":"string"
+                    },
+                    "position":{
+                        "type":"array",
+                        "items": {
+                            "type":"integer"
+                        },
+                        "minItems":0,
+                        "maxItems":2
+                    },
+                    "rosens":{
+                        "type":"object",
+                        "patternProperties": {
+                            "^.*$":{
+                                "type":"array",
+                                "items": {
+                                    "type":"string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "required": [
+                    "companies",
+                    "aliases",
+                    "id",
+                    "name",
+                    "position",
+                    "rosens"
+                ]
+            }
+        }
+    },
+    "required": [
+        "version",
+        "companies",
+        "company",
+        "rosens",
+        "aliases",
+        "stations"
+    ]
+}
