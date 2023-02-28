@@ -36,6 +36,8 @@ if tuple(data["companies"])!=tuple(data["company"].keys()):
     report("会社一覧に不整合があります。")
 
 lines={}
+alias_stations=data["aliases"]["stations"]
+alias_rosens=data["aliases"]["rosens"]
 
 for company,rosens in data["rosens"].items():
     lines[company]={}
@@ -44,6 +46,14 @@ for company,rosens in data["rosens"].items():
         for sta in rosen["stations"]:
             if sta not in stations.keys():
                 report(f"路線ID '{rosen['id']}' の駅一覧に不整合があります： ID={sta} の駅は存在しません。")
+        for alias in rosen["aliases"]:
+            if alias not in alias_rosens.get(company,{}):
+                report(f"路線ID '{rosen['id']}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} はエイリアス辞書に存在しません。")
+                continue
+            elif alias_rosens.get(alias,"")!=rosen["id"]:
+                report(f"路線ID '{rosen['id']}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} のエイリアス辞書IDと一致しません。")
+                continue
+
 
 for id,station in stations.items():
     if tuple(station["rosens"])!=tuple(station["companies"]):
@@ -56,6 +66,15 @@ for id,station in stations.items():
                 report(f"駅ID '{id}' の乗り入れ路線一覧に不整合があります： ID={line} の路線は存在しません。")
             elif id not in lines[company][line].get("stations"):
                 report(f"駅ID '{id}' の乗り入れ路線一覧に不整合があります： ID={line} の路線に該当の駅は存在しません。")
+    for alias in station["aliases"]:
+            if alias not in alias_stations:
+                report(f"駅ID '{id}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} はエイリアス辞書に存在しません。")
+                continue
+            elif alias_rosens.get(alias,"")!=rosen["id"]:
+                report(f"駅ID '{id}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} のエイリアス辞書IDと一致しません。")
+                continue
+
+
     
 
 logging.info(f"{len(warnings)} warnings and {len(errors)} errors found!")
