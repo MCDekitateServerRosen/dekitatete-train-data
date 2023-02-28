@@ -45,13 +45,13 @@ for company,rosens in data["rosens"].items():
         lines[company][rosen["id"]]=rosen
         for sta in rosen["stations"]:
             if sta not in stations.keys():
-                report(f"路線ID '{rosen['id']}' の駅一覧に不整合があります： ID={sta} の駅は存在しません。")
+                report(f"路線ID '{company}' / '{rosen['id']}' の駅一覧に不整合があります： ID={sta} の駅は存在しません。")
         for alias in rosen["aliases"]:
             if alias not in alias_rosens.get(company,{}):
-                report(f"路線ID '{rosen['id']}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} はエイリアス辞書に存在しません。")
+                report(f"路線ID '{company}' / '{rosen['id']}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} はエイリアス辞書に存在しません。")
                 continue
             elif alias_rosens.get(company,{}).get(alias,"")!=rosen["id"]:
-                report(f"路線ID '{rosen['id']}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} のエイリアス辞書IDと一致しません。")
+                report(f"路線ID '{company}' / '{rosen['id']}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} のエイリアス辞書IDと一致しません。")
                 continue
 
 
