@@ -50,7 +50,7 @@ for company,rosens in data["rosens"].items():
             if alias not in alias_rosens.get(company,{}):
                 report(f"路線ID '{rosen['id']}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} はエイリアス辞書に存在しません。")
                 continue
-            elif alias_rosens.get(alias,"")!=rosen["id"]:
+            elif alias_rosens.get(company,{}).get(alias,"")!=rosen["id"]:
                 report(f"路線ID '{rosen['id']}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} のエイリアス辞書IDと一致しません。")
                 continue
 
@@ -67,12 +67,12 @@ for id,station in stations.items():
             elif id not in lines[company][line].get("stations"):
                 report(f"駅ID '{id}' の乗り入れ路線一覧に不整合があります： ID={line} の路線に該当の駅は存在しません。")
     for alias in station["aliases"]:
-            if alias not in alias_stations:
-                report(f"駅ID '{id}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} はエイリアス辞書に存在しません。")
-                continue
-            elif alias_rosens.get(alias,"")!=rosen["id"]:
-                report(f"駅ID '{id}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} のエイリアス辞書IDと一致しません。")
-                continue
+        if alias not in alias_stations:
+            report(f"駅ID '{id}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} はエイリアス辞書に存在しません。")
+            continue
+        elif alias_stations.get(alias,"")!=id:
+            report(f"駅ID '{id}' のエイリアスとエイリアス辞書間に不整合があります： ALIAS={alias} のエイリアス辞書IDと一致しません。")
+            continue
 
 
     
