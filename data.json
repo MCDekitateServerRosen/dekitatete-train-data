@@ -403,7 +403,27 @@
         "rosens":{
             "kousoku":{
                 "L":"2bb32a71-4202-4b83-b1e7-c9ed7bad6640",
-                "N-normal":"0654f249-1ecd-439a-8879-3a1f42bd2eef"
+                "N-normal":"0654f249-1ecd-439a-8879-3a1f42bd2eef",
+                "nankai":"4b9a549d-da7c-4f09-bee6-1683a5e3d077",
+                "yonomori":"2d69ad57-1796-4a4d-9e1c-edfe0351baa4",
+                "yoake":"2d69ad57-1796-4a4d-9e1c-edfe0351baa4",
+                "nankainan":"70e67792-f34f-4fe4-9fc8-d6fd1e876e79",
+                "E":"5cf00d1d-7e52-4d8e-96b3-0c18240aed14",
+                "G":"e0ab16d1-b3f9-4774-8757-20720399f851",
+                "J":"369dd19d-af8d-4ed8-86d9-6a73e930c606",
+                "NP":"31bc1cbf-d955-45d6-8ea5-65b38950ed9e",
+                "H":"619bb0d7-d061-4aae-a0a7-54eeba6e5dc6",
+                "T":"5a4e1457-7c94-47d8-95d6-248c28a63912",
+                "I":"7b727404-fb8f-4408-baf4-47e45af21a5b",
+                "F":"0836d88e-e87d-4864-af1c-1bf104a79b79",
+                "P":"2cabba0c-48ce-41d4-a4e7-f1740d1422bc",
+                "yukiyado":"75300999-3e9d-496e-a693-65bdf3ce1e33",
+                "takamori":"607bc657-2b85-4759-a405-bf93b4776ebe",
+                "N-sub":"21eedd3f-b08d-4a1b-b32e-b8c912161a78",
+                "O":"dee3072d-07bf-485e-9c03-3b2492e5d41b",
+                "izumo":"c316c213-e9ba-46fc-ace8-1154811cf40b",
+                "umineko":"8bf03b34-8291-407d-aa71-50bc0adc0cc4",
+                "UM":"1e539bd3-0ce5-4418-8705-a98dfe974056"
             }
         },
         "stations":{
