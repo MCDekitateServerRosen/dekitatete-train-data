@@ -399,6 +399,19 @@
             }
         ]
     },
+    "aliases":{
+        "rosens":{
+            "kousoku":{
+                "L":"2bb32a71-4202-4b83-b1e7-c9ed7bad6640",
+                "N-normal":"0654f249-1ecd-439a-8879-3a1f42bd2eef"
+            }
+        },
+        "stations":{
+            "nagata":"fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
+            "higashifukuzaki":"a8b1fa9d-3a5e-4ca7-ae2b-00206a05a84f",
+            "hamafukuzaki":"7ce71b40-24ab-4cf1-bbb4-cd6d1e4dbd14"
+        }
+    },
     "stations":[
         {
             "companies":["rtb"],
