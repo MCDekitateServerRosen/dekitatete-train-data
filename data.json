@@ -424,6 +424,17 @@
                 "izumo":"c316c213-e9ba-46fc-ace8-1154811cf40b",
                 "umineko":"8bf03b34-8291-407d-aa71-50bc0adc0cc4",
                 "UM":"1e539bd3-0ce5-4418-8705-a98dfe974056"
+            },
+            "rtb":{
+                "RH":"34d8946e-5b21-46e2-bd06-07d848a71fe8",
+                "RK":"30733781-b4a5-4e82-ab0c-b9d93ea93415",
+                "R":"467abbc3-9ee5-4200-9b9c-ac27aec35c7b"
+            },
+            "shinko":{
+                "honsen":"ff35afdf-14ae-4db1-ac1c-368872705c01"
+            },
+            "nishiuwagawa":{
+                "NR":"4b7f9c05-f0aa-422a-b951-0680775621e4"
             }
         },
         "stations":{
