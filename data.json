@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.3.1",
+    "version":"2023.3.2b1.dev1",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -570,7 +570,7 @@
             "companies":["rtb"],
             "aliases":["nagata"],
             "id":"fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
-            "name":"高速長田/新長田",
+            "name":"高速長田",
             "position":[-234,383],
             "rosens":{
                 "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
