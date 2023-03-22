@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.3.2b1.dev3",
+    "version":"2023.3.2b1.dev4",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -271,7 +271,9 @@
                 "id":"dee3072d-07bf-485e-9c03-3b2492e5d41b",
                 "stations":[
                     "9122afda-6aec-40f3-a089-31551c4eab0a",
-                    "34e243f1-2fef-469e-acdf-558737a22736"
+                    "34e243f1-2fef-469e-acdf-558737a22736",
+                    "5e40c2b4-6e5d-4371-ab98-7ddc00d8d89d",
+                    "f01a1282-3f2c-4b15-a113-791a910e2004"
                 ]
             },
             {
@@ -555,7 +557,8 @@
             "nakasahara":"4914bbd3-e46d-4d31-9441-763b9dc9f6d2",
             "nakaumisaki":"8abb2831-1c3f-4a30-9ba0-fb747ba6e84f",
             "mitsuhoshi":"a3d23bc2-e9ec-4337-8db8-481883f06aee",
-            "kawagishi":"a8b9568c-b5d3-45b2-8fb3-5a4037396fb3"
+            "kawagishi":"a8b9568c-b5d3-45b2-8fb3-5a4037396fb3",
+            "kitagata":"5e40c2b4-6e5d-4371-ab98-7ddc00d8d89d"
         }
     },
     "stations":[
@@ -1150,7 +1153,7 @@
             "name":"鶴ヶ浜",
             "position":[-1013,-1068],
             "rosens":{
-                "kousoku":["8bf03b34-8291-407d-aa71-50bc0adc0cc4"]
+                "kousoku":["8bf03b34-8291-407d-aa71-50bc0adc0cc4","dee3072d-07bf-485e-9c03-3b2492e5d41b"]
             }
         },
         {
@@ -1792,6 +1795,16 @@
             "position":[-1857,-365],
             "rosens":{
                 "kousoku":["1e539bd3-0ce5-4418-8705-a98dfe974056"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["kitagata"],
+            "id":"5e40c2b4-6e5d-4371-ab98-7ddc00d8d89d",
+            "name":"北方",
+            "position":[-868,-1326],
+            "rosens":{
+                "kousoku":["dee3072d-07bf-485e-9c03-3b2492e5d41b"]
             }
         }
     ]
