@@ -161,13 +161,7 @@
                     "fbd3a353-e88e-4517-8170-44024cfb4664",
                     "3753950f-b350-4523-8534-3856573bfa1c",
                     "c45ac075-dcc1-43a3-b0f7-c18918ce06e9",
-                    "fa846afa-bdd1-427a-b7ea-a4fc3b0ba666",
-                    "d55e8c8b-a5c6-4382-b157-90de7a47048e",
-                    "f968223d-ad54-4274-b617-977b0e736b21",
-                    "8fa29ec6-8f09-490a-ad01-1ee6363149fb",
-                    "fbcd6f51-bb6d-41e7-862d-1351eef64679",
-                    "fa137f61-2a74-498b-907f-6973aca36268",
-                    "bda21852-88a5-4207-9c1e-32b04d690e9e"
+                    "fa846afa-bdd1-427a-b7ea-a4fc3b0ba666"
                 ]
             },
             {
@@ -310,6 +304,19 @@
                     "a8b9568c-b5d3-45b2-8fb3-5a4037396fb3",
                     "39c015b4-7558-4e1a-8395-2dc06e46f2a6"
                 ]
+            },
+            {
+                "name":"西川線",
+                "aliases":["nishikawa"],
+                "id":"0855af81-3cb2-49aa-8fe0-66d1e2f3c817",
+                "stations":[
+                    "d55e8c8b-a5c6-4382-b157-90de7a47048e",
+                    "f968223d-ad54-4274-b617-977b0e736b21",
+                    "8fa29ec6-8f09-490a-ad01-1ee6363149fb",
+                    "fbcd6f51-bb6d-41e7-862d-1351eef64679",
+                    "fa137f61-2a74-498b-907f-6973aca36268",
+                    "bda21852-88a5-4207-9c1e-32b04d690e9e"
+                ]
             }
         ],
         "rtb":[
@@ -408,7 +415,8 @@
                 "O":"dee3072d-07bf-485e-9c03-3b2492e5d41b",
                 "izumo":"c316c213-e9ba-46fc-ace8-1154811cf40b",
                 "umineko":"8bf03b34-8291-407d-aa71-50bc0adc0cc4",
-                "UM":"1e539bd3-0ce5-4418-8705-a98dfe974056"
+                "UM":"1e539bd3-0ce5-4418-8705-a98dfe974056",
+                "nishikawa":"0855af81-3cb2-49aa-8fe0-66d1e2f3c817"
             },
             "rtb":{
                 "RH":"34d8946e-5b21-46e2-bd06-07d848a71fe8",
@@ -678,7 +686,7 @@
             "name":"南北新川",
             "position":[45,3002],
             "rosens":{
-                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","31bc1cbf-d955-45d6-8ea5-65b38950ed9e","70e67792-f34f-4fe4-9fc8-d6fd1e876e79","619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"],
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","31bc1cbf-d955-45d6-8ea5-65b38950ed9e","70e67792-f34f-4fe4-9fc8-d6fd1e876e79","0855af81-3cb2-49aa-8fe0-66d1e2f3c817"],
                 "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             }
         },
@@ -799,7 +807,7 @@
             "name":"南西高原",
             "position":[-2600,1268],
             "rosens":{
-                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14","619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14","0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
@@ -1232,7 +1240,7 @@
             "name":"新砂原",
             "position":[-230,2738],
             "rosens":{
-                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
@@ -1242,7 +1250,7 @@
             "name":"新大村",
             "position":[-1820,2752],
             "rosens":{
-                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
@@ -1252,7 +1260,7 @@
             "name":"赤川",
             "position":[-2093,2504],
             "rosens":{
-                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
@@ -1262,7 +1270,7 @@
             "name":"大草",
             "position":[-2558,2072],
             "rosens":{
-                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
