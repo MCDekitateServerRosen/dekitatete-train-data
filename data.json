@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.3.2b1.dev4",
+    "version":"2023.3.2b1.dev5",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -1810,7 +1810,7 @@
             }
         },
         {
-            "companies":["kousoku"],
+            "companies":["nishiuwagawa"],
             "aliases":["shin-nishioji"],
             "id":"9c787204-40ed-4695-b6c1-0a18cc248551",
             "name":"新西大路(本社前)",
