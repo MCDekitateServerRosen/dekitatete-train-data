@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.3.1",
+    "version":"2023.3.2b1.dev5",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -65,18 +65,6 @@
                     "237599f6-e9d5-4a30-bd40-2002a0833b9e",
                     "39af1651-4ae3-41ff-8ba8-2cd10ea35fda",
                     "abd1da13-4f05-4b8c-96f0-8f625fc60d6c"
-                ]
-            },
-            {
-                "name":"南海線",
-                "family":"Y",
-                "aliases":["nankai"],
-                "id":"4b9a549d-da7c-4f09-bee6-1683a5e3d077",
-                "stations":[
-                    "e985d64a-d1f5-4743-a4ad-761527d5205b",
-                    "de385889-1509-4160-9d80-2d759780ef87",
-                    "fa8a743e-63b2-4086-a593-4b9318995afa",
-                    "1a69b040-6a27-404f-9558-ab354c30d56e"
                 ]
             },
             {
@@ -173,13 +161,7 @@
                     "fbd3a353-e88e-4517-8170-44024cfb4664",
                     "3753950f-b350-4523-8534-3856573bfa1c",
                     "c45ac075-dcc1-43a3-b0f7-c18918ce06e9",
-                    "fa846afa-bdd1-427a-b7ea-a4fc3b0ba666",
-                    "d55e8c8b-a5c6-4382-b157-90de7a47048e",
-                    "f968223d-ad54-4274-b617-977b0e736b21",
-                    "8fa29ec6-8f09-490a-ad01-1ee6363149fb",
-                    "fbcd6f51-bb6d-41e7-862d-1351eef64679",
-                    "fa137f61-2a74-498b-907f-6973aca36268",
-                    "bda21852-88a5-4207-9c1e-32b04d690e9e"
+                    "fa846afa-bdd1-427a-b7ea-a4fc3b0ba666"
                 ]
             },
             {
@@ -226,9 +208,7 @@
                 "stations":[
                     "5edb262e-7b79-4c95-a396-c36c2ff06364",
                     "ea98faa5-31b1-4a69-bbda-63527c015f7e",
-                    "f5145fce-dd8c-4512-98b3-fbe5c5684703",
-                    "079c0888-93e6-4a73-bf2a-8d377bb6dc45",
-                    "3bee6927-652f-4a42-9357-6808445badbe"
+                    "f5145fce-dd8c-4512-98b3-fbe5c5684703"
                 ]
             },
             {
@@ -291,7 +271,9 @@
                 "id":"dee3072d-07bf-485e-9c03-3b2492e5d41b",
                 "stations":[
                     "9122afda-6aec-40f3-a089-31551c4eab0a",
-                    "34e243f1-2fef-469e-acdf-558737a22736"
+                    "34e243f1-2fef-469e-acdf-558737a22736",
+                    "5e40c2b4-6e5d-4371-ab98-7ddc00d8d89d",
+                    "f01a1282-3f2c-4b15-a113-791a910e2004"
                 ]
             },
             {
@@ -324,6 +306,19 @@
                     "a8b9568c-b5d3-45b2-8fb3-5a4037396fb3",
                     "39c015b4-7558-4e1a-8395-2dc06e46f2a6"
                 ]
+            },
+            {
+                "name":"西川線",
+                "aliases":["nishikawa"],
+                "id":"0855af81-3cb2-49aa-8fe0-66d1e2f3c817",
+                "stations":[
+                    "d55e8c8b-a5c6-4382-b157-90de7a47048e",
+                    "f968223d-ad54-4274-b617-977b0e736b21",
+                    "8fa29ec6-8f09-490a-ad01-1ee6363149fb",
+                    "fbcd6f51-bb6d-41e7-862d-1351eef64679",
+                    "fa137f61-2a74-498b-907f-6973aca36268",
+                    "bda21852-88a5-4207-9c1e-32b04d690e9e"
+                ]
             }
         ],
         "rtb":[
@@ -332,6 +327,9 @@
                 "aliases":["RH"],
                 "id":"34d8946e-5b21-46e2-bd06-07d848a71fe8",
                 "stations":[
+                    "fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
+                    "d4548f47-46bf-401f-a630-0b7685ca67fe",
+                    "48a1ffe2-0421-405b-ab5d-a2bb702973d4",
                     "b8df705e-a843-4fd1-9476-f214b3cd1a73",
                     "0a7b7c78-5c9c-4741-b2dc-c6356bc110a7",
                     "2ed3dbab-0f8f-4442-91eb-d8bf816350c1",
@@ -354,13 +352,10 @@
                 ]
             },
             {
-                "name":"国営地下鉄線/新和線",
+                "name":"新和線",
                 "aliases":["R"],
                 "id":"467abbc3-9ee5-4200-9b9c-ac27aec35c7b",
                 "stations":[
-                    "fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
-                    "d4548f47-46bf-401f-a630-0b7685ca67fe",
-                    "48a1ffe2-0421-405b-ab5d-a2bb702973d4",
                     "b8df705e-a843-4fd1-9476-f214b3cd1a73",
                     "163f91f1-c7e7-496f-8cf4-0cfcefc4b243",
                     "7aa296a3-1839-4d24-a74a-41247386d38e"
@@ -389,6 +384,7 @@
                 "family":"NR",
                 "stations":[
                     "e55ca361-983d-4c7f-9fd1-1ffc3802fa52",
+                    "9c787204-40ed-4695-b6c1-0a18cc248551",
                     "bda21852-88a5-4207-9c1e-32b04d690e9e",
                     "4f248452-c82a-4a1f-97ee-4b274c73295d",
                     "16ae55ca-63b9-4206-8dfe-32d520301f52",
@@ -404,7 +400,6 @@
             "kousoku":{
                 "L":"2bb32a71-4202-4b83-b1e7-c9ed7bad6640",
                 "N-normal":"0654f249-1ecd-439a-8879-3a1f42bd2eef",
-                "nankai":"4b9a549d-da7c-4f09-bee6-1683a5e3d077",
                 "yonomori":"2d69ad57-1796-4a4d-9e1c-edfe0351baa4",
                 "yoake":"2d69ad57-1796-4a4d-9e1c-edfe0351baa4",
                 "nankainan":"70e67792-f34f-4fe4-9fc8-d6fd1e876e79",
@@ -423,7 +418,8 @@
                 "O":"dee3072d-07bf-485e-9c03-3b2492e5d41b",
                 "izumo":"c316c213-e9ba-46fc-ace8-1154811cf40b",
                 "umineko":"8bf03b34-8291-407d-aa71-50bc0adc0cc4",
-                "UM":"1e539bd3-0ce5-4418-8705-a98dfe974056"
+                "UM":"1e539bd3-0ce5-4418-8705-a98dfe974056",
+                "nishikawa":"0855af81-3cb2-49aa-8fe0-66d1e2f3c817"
             },
             "rtb":{
                 "RH":"34d8946e-5b21-46e2-bd06-07d848a71fe8",
@@ -562,7 +558,9 @@
             "nakasahara":"4914bbd3-e46d-4d31-9441-763b9dc9f6d2",
             "nakaumisaki":"8abb2831-1c3f-4a30-9ba0-fb747ba6e84f",
             "mitsuhoshi":"a3d23bc2-e9ec-4337-8db8-481883f06aee",
-            "kawagishi":"a8b9568c-b5d3-45b2-8fb3-5a4037396fb3"
+            "kawagishi":"a8b9568c-b5d3-45b2-8fb3-5a4037396fb3",
+            "kitagata":"5e40c2b4-6e5d-4371-ab98-7ddc00d8d89d",
+            "shin-nishioji":"9c787204-40ed-4695-b6c1-0a18cc248551"
         }
     },
     "stations":[
@@ -570,10 +568,10 @@
             "companies":["rtb"],
             "aliases":["nagata"],
             "id":"fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
-            "name":"高速長田/新長田",
+            "name":"高速長田",
             "position":[-234,383],
             "rosens":{
-                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
@@ -663,7 +661,7 @@
             "name":"みなみ中央",
             "position":[-63,963],
             "rosens":{
-                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","4b9a549d-da7c-4f09-bee6-1683a5e3d077","5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
@@ -693,7 +691,7 @@
             "name":"南北新川",
             "position":[45,3002],
             "rosens":{
-                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","31bc1cbf-d955-45d6-8ea5-65b38950ed9e","70e67792-f34f-4fe4-9fc8-d6fd1e876e79","619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"],
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","31bc1cbf-d955-45d6-8ea5-65b38950ed9e","70e67792-f34f-4fe4-9fc8-d6fd1e876e79","0855af81-3cb2-49aa-8fe0-66d1e2f3c817"],
                 "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             }
         },
@@ -735,26 +733,6 @@
             "position":[],
             "rosens":{
                 "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
-            }
-        },
-        {
-            "companies":["kousoku"],
-            "aliases":["nekonekomachi"],
-            "id":"de385889-1509-4160-9d80-2d759780ef87",
-            "name":"猫猫町",
-            "position":[-63,1213],
-            "rosens":{
-                "kousoku":["4b9a549d-da7c-4f09-bee6-1683a5e3d077"]
-            }
-        },
-        {
-            "companies":["kousoku"],
-            "aliases":["oe"],
-            "name":"小江",
-            "id":"fa8a743e-63b2-4086-a593-4b9318995afa",
-            "position":[45,1804],
-            "rosens":{
-                "kousoku":["4b9a549d-da7c-4f09-bee6-1683a5e3d077"]
             }
         },
         {
@@ -834,7 +812,7 @@
             "name":"南西高原",
             "position":[-2600,1268],
             "rosens":{
-                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14","619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["5cf00d1d-7e52-4d8e-96b3-0c18240aed14","0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
@@ -919,13 +897,14 @@
             }
         },
         {
-            "companies":["kousoku"],
+            "companies":["kousoku","rtb"],
             "aliases":["shinkaichi"],
             "id":"7aa296a3-1839-4d24-a74a-41247386d38e",
             "name":"新開地",
             "position":[-815,-605],
             "rosens":{
-                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","8bf03b34-8291-407d-aa71-50bc0adc0cc4"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","8bf03b34-8291-407d-aa71-50bc0adc0cc4"],
+                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
             }
         },
         {
@@ -975,7 +954,7 @@
             "name":"日原",
             "position":[4050,-1110],
             "rosens":{
-                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","0836d88e-e87d-4864-af1c-1bf104a79b79"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
             }
         },
         {
@@ -985,7 +964,7 @@
             "name":"葉細",
             "position":[4450,-1230],
             "rosens":{
-                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","0836d88e-e87d-4864-af1c-1bf104a79b79","2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","2cabba0c-48ce-41d4-a4e7-f1740d1422bc"]
             }
         },
         {
@@ -1176,7 +1155,7 @@
             "name":"鶴ヶ浜",
             "position":[-1013,-1068],
             "rosens":{
-                "kousoku":["8bf03b34-8291-407d-aa71-50bc0adc0cc4"]
+                "kousoku":["8bf03b34-8291-407d-aa71-50bc0adc0cc4","dee3072d-07bf-485e-9c03-3b2492e5d41b"]
             }
         },
         {
@@ -1216,7 +1195,7 @@
             "name":"佐波中央",
             "position":[-574,-10],
             "rosens":{
-                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
@@ -1226,7 +1205,7 @@
             "name":"西郊外",
             "position":[-280,2],
             "rosens":{
-                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
@@ -1266,7 +1245,7 @@
             "name":"新砂原",
             "position":[-230,2738],
             "rosens":{
-                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
@@ -1276,7 +1255,7 @@
             "name":"新大村",
             "position":[-1820,2752],
             "rosens":{
-                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
@@ -1286,7 +1265,7 @@
             "name":"赤川",
             "position":[-2093,2504],
             "rosens":{
-                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
@@ -1296,7 +1275,7 @@
             "name":"大草",
             "position":[-2558,2072],
             "rosens":{
-                "kousoku":["619bb0d7-d061-4aae-a0a7-54eeba6e5dc6"]
+                "kousoku":["0855af81-3cb2-49aa-8fe0-66d1e2f3c817"]
             }
         },
         {
@@ -1363,7 +1342,7 @@
             "companies":["kousoku"],
             "aliases":["kitakougai-nms"],
             "id":"6094386c-9c86-4198-8025-ed77363652d3",
-            "name":"北郊外(NMS前)",
+            "name":"北郊外NMS前",
             "position":[-16,-304],
             "rosens":{
                 "kousoku":["21eedd3f-b08d-4a1b-b32e-b8c912161a78"]
@@ -1818,6 +1797,26 @@
             "position":[-1857,-365],
             "rosens":{
                 "kousoku":["1e539bd3-0ce5-4418-8705-a98dfe974056"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["kitagata"],
+            "id":"5e40c2b4-6e5d-4371-ab98-7ddc00d8d89d",
+            "name":"北方",
+            "position":[-868,-1326],
+            "rosens":{
+                "kousoku":["dee3072d-07bf-485e-9c03-3b2492e5d41b"]
+            }
+        },
+        {
+            "companies":["nishiuwagawa"],
+            "aliases":["shin-nishioji"],
+            "id":"9c787204-40ed-4695-b6c1-0a18cc248551",
+            "name":"新西大路(本社前)",
+            "position":[120,3386],
+            "rosens":{
+                "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
             }
         }
     ]
