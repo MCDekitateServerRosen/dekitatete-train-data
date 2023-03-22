@@ -330,6 +330,9 @@
                 "aliases":["RH"],
                 "id":"34d8946e-5b21-46e2-bd06-07d848a71fe8",
                 "stations":[
+                    "fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
+                    "d4548f47-46bf-401f-a630-0b7685ca67fe",
+                    "48a1ffe2-0421-405b-ab5d-a2bb702973d4",
                     "b8df705e-a843-4fd1-9476-f214b3cd1a73",
                     "0a7b7c78-5c9c-4741-b2dc-c6356bc110a7",
                     "2ed3dbab-0f8f-4442-91eb-d8bf816350c1",
@@ -352,13 +355,10 @@
                 ]
             },
             {
-                "name":"国営地下鉄線/新和線",
+                "name":"新和線",
                 "aliases":["R"],
                 "id":"467abbc3-9ee5-4200-9b9c-ac27aec35c7b",
                 "stations":[
-                    "fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
-                    "d4548f47-46bf-401f-a630-0b7685ca67fe",
-                    "48a1ffe2-0421-405b-ab5d-a2bb702973d4",
                     "b8df705e-a843-4fd1-9476-f214b3cd1a73",
                     "163f91f1-c7e7-496f-8cf4-0cfcefc4b243",
                     "7aa296a3-1839-4d24-a74a-41247386d38e"
@@ -571,7 +571,7 @@
             "name":"高速長田",
             "position":[-234,383],
             "rosens":{
-                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
@@ -1214,7 +1214,7 @@
             "name":"佐波中央",
             "position":[-574,-10],
             "rosens":{
-                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
@@ -1224,7 +1224,7 @@
             "name":"西郊外",
             "position":[-280,2],
             "rosens":{
-                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
+                "rtb":["34d8946e-5b21-46e2-bd06-07d848a71fe8"]
             }
         },
         {
