@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.3.2b1.dev1",
+    "version":"2023.3.2b1.dev2",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -917,13 +917,14 @@
             }
         },
         {
-            "companies":["kousoku"],
+            "companies":["kousoku","rtb"],
             "aliases":["shinkaichi"],
             "id":"7aa296a3-1839-4d24-a74a-41247386d38e",
             "name":"新開地",
             "position":[-815,-605],
             "rosens":{
-                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","8bf03b34-8291-407d-aa71-50bc0adc0cc4"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","8bf03b34-8291-407d-aa71-50bc0adc0cc4"],
+                "rtb":["467abbc3-9ee5-4200-9b9c-ac27aec35c7b"]
             }
         },
         {
