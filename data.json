@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.3.2b1.dev2",
+    "version":"2023.3.2b1.dev3",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -65,18 +65,6 @@
                     "237599f6-e9d5-4a30-bd40-2002a0833b9e",
                     "39af1651-4ae3-41ff-8ba8-2cd10ea35fda",
                     "abd1da13-4f05-4b8c-96f0-8f625fc60d6c"
-                ]
-            },
-            {
-                "name":"南海線",
-                "family":"Y",
-                "aliases":["nankai"],
-                "id":"4b9a549d-da7c-4f09-bee6-1683a5e3d077",
-                "stations":[
-                    "e985d64a-d1f5-4743-a4ad-761527d5205b",
-                    "de385889-1509-4160-9d80-2d759780ef87",
-                    "fa8a743e-63b2-4086-a593-4b9318995afa",
-                    "1a69b040-6a27-404f-9558-ab354c30d56e"
                 ]
             },
             {
@@ -402,7 +390,6 @@
             "kousoku":{
                 "L":"2bb32a71-4202-4b83-b1e7-c9ed7bad6640",
                 "N-normal":"0654f249-1ecd-439a-8879-3a1f42bd2eef",
-                "nankai":"4b9a549d-da7c-4f09-bee6-1683a5e3d077",
                 "yonomori":"2d69ad57-1796-4a4d-9e1c-edfe0351baa4",
                 "yoake":"2d69ad57-1796-4a4d-9e1c-edfe0351baa4",
                 "nankainan":"70e67792-f34f-4fe4-9fc8-d6fd1e876e79",
@@ -661,7 +648,7 @@
             "name":"みなみ中央",
             "position":[-63,963],
             "rosens":{
-                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","4b9a549d-da7c-4f09-bee6-1683a5e3d077","5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","5cf00d1d-7e52-4d8e-96b3-0c18240aed14"]
             }
         },
         {
@@ -733,26 +720,6 @@
             "position":[],
             "rosens":{
                 "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640"]
-            }
-        },
-        {
-            "companies":["kousoku"],
-            "aliases":["nekonekomachi"],
-            "id":"de385889-1509-4160-9d80-2d759780ef87",
-            "name":"猫猫町",
-            "position":[-63,1213],
-            "rosens":{
-                "kousoku":["4b9a549d-da7c-4f09-bee6-1683a5e3d077"]
-            }
-        },
-        {
-            "companies":["kousoku"],
-            "aliases":["oe"],
-            "name":"小江",
-            "id":"fa8a743e-63b2-4086-a593-4b9318995afa",
-            "position":[45,1804],
-            "rosens":{
-                "kousoku":["4b9a549d-da7c-4f09-bee6-1683a5e3d077"]
             }
         },
         {
