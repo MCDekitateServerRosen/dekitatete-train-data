@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.3.2b1.dev5",
+    "version":"2023.3.2b2.dev1",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -319,6 +319,18 @@
                     "fa137f61-2a74-498b-907f-6973aca36268",
                     "bda21852-88a5-4207-9c1e-32b04d690e9e"
                 ]
+            },
+            {
+                "name":"遠軽線",
+                "aliases":["engaru"],
+                "id":"43925182-1706-4a1a-a83f-bcd2d4b3e464",
+                "family":"W",
+                "stations":[
+                    "b6fd0e46-543d-4cc2-9bb8-7fe89d631274",
+                    "11aca983-cd82-48b8-b208-b05190dca495",
+                    "a4b5a6a0-8f62-4015-8baa-4bd7ffa79e5f",
+                    "69f05041-521a-4ddb-a068-e30ce415b3cd"
+                ]
             }
         ],
         "rtb":[
@@ -560,7 +572,10 @@
             "mitsuhoshi":"a3d23bc2-e9ec-4337-8db8-481883f06aee",
             "kawagishi":"a8b9568c-b5d3-45b2-8fb3-5a4037396fb3",
             "kitagata":"5e40c2b4-6e5d-4371-ab98-7ddc00d8d89d",
-            "shin-nishioji":"9c787204-40ed-4695-b6c1-0a18cc248551"
+            "shin-nishioji":"9c787204-40ed-4695-b6c1-0a18cc248551",
+            "hokushu-nambu":"11aca983-cd82-48b8-b208-b05190dca495",
+            "odatemae":"a4b5a6a0-8f62-4015-8baa-4bd7ffa79e5f",
+            "wp-koekimura":"69f05041-521a-4ddb-a068-e30ce415b3cd"
         }
     },
     "stations":[
@@ -1044,7 +1059,7 @@
             "name":"新遠軽",
             "position":[-3955,-685],
             "rosens":{
-                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912"]
+                "kousoku":["5a4e1457-7c94-47d8-95d6-248c28a63912","43925182-1706-4a1a-a83f-bcd2d4b3e464"]
             }
         },
         {
@@ -1817,6 +1832,36 @@
             "position":[120,3386],
             "rosens":{
                 "nishiuwagawa":["4b7f9c05-f0aa-422a-b951-0680775621e4"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["hokushu-nambu"],
+            "id":"11aca983-cd82-48b8-b208-b05190dca495",
+            "name":"北州南部",
+            "position":[-3992,-348],
+            "rosens":{
+                "kousoku":["43925182-1706-4a1a-a83f-bcd2d4b3e464"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["odatemae"],
+            "id":"a4b5a6a0-8f62-4015-8baa-4bd7ffa79e5f",
+            "name":"大館前",
+            "position":[-3986,-62],
+            "rosens":{
+                "kousoku":["43925182-1706-4a1a-a83f-bcd2d4b3e464"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["wp-koekimura"],
+            "id":"69f05041-521a-4ddb-a068-e30ce415b3cd",
+            "name":"WP交易村",
+            "position":[-3986,-62],
+            "rosens":{
+                "kousoku":["43925182-1706-4a1a-a83f-bcd2d4b3e464"]
             }
         }
     ]
