@@ -19,29 +19,31 @@
             }
         },
         "company": {
-            "type": "array",
-            "items": {
-                "type":"object",
-                "properties": {
-                    "name":{
-                        "type":"string"
+            "type": "object",
+            "patternProperties": {
+                "^.*$":{
+                    "type":"object",
+                    "properties": {
+                        "name":{
+                            "type":"string"
+                        },
+                        "short":{
+                            "type":"string"
+                        },
+                        "bgcolor":{
+                            "type":"string"
+                        },
+                        "color":{
+                            "type":"string"
+                        }
                     },
-                    "short":{
-                        "type":"string"
-                    },
-                    "bgcolor":{
-                        "type":"string"
-                    },
-                    "color":{
-                        "type":"string"
-                    }
-                },
-                "required": [
-                    "name",
-                    "short",
-                    "bgcolor",
-                    "color"
-                ]
+                    "required": [
+                        "name",
+                        "short",
+                        "bgcolor",
+                        "color"
+                    ]
+                }
             }
         },
         "rosens":{
