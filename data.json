@@ -1,12 +1,12 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.3.2",
+    "version":"2023.4.1a1.dev1",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
             "name":"でき鯖高速鉄道グループ",
-            "short":"高速鉄道",
+            "short":"でき鉄",
             "bgcolor":"yellow",
             "color":"#000000"
         },
