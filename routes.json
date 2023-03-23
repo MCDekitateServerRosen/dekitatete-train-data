@@ -1,9 +1,17 @@
 {
-    "version":"2023.4.1b1.dev1",
-    "sections":[
-        {
-            "id":"c12e8ebe-3733-410b-a815-6814d6687a52",
-            "stations":[]
+    "version":"2023.4.1a1.dev2",
+    "lines":{
+        "rtb":{
+            "467abbc3-9ee5-4200-9b9c-ac27aec35c7b":[
+                "c12e8ebe-3733-410b-a815-6814d6687a52"
+            ]
         }
-    ]
+    },
+    "sections":{
+        "c12e8ebe-3733-410b-a815-6814d6687a52":{
+            "starts":"fba0ad4e-8c74-4ec0-9e3f-5d6c87bcb36b",
+            "ends":"d4548f47-46bf-401f-a630-0b7685ca67fe",
+            "line":"467abbc3-9ee5-4200-9b9c-ac27aec35c7b"
+        }
+    }
 }
