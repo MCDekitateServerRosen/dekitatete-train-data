@@ -76,6 +76,9 @@
                                 },
                                 "loop":{
                                     "type":"boolean"
+                                },
+                                "updated":{
+                                    "type":"integer"
                                 }
                             },
                             "required": [
@@ -160,6 +163,9 @@
                                 }
                             }
                         }
+                    },
+                    "updated":{
+                        "type":"integer"
                     }
                 },
                 "required": [
