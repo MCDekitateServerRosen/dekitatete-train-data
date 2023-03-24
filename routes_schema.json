@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "dekitate-train-data Routes Path Validate",
+    "description": "Varidate dekitate-train-data path data",
+    "properties": {
+        "path":{
+            "type":"array",
+            "items": {
+                "type":"object",
+                "properties": {
+                    "starts":{
+                        "type":"array",
+                        "items": {
+                            "type":"number"
+                        }
+                    },
+                    "ends":{
+                        "type":"array",
+                        "items": {
+                            "type":"number"
+                        }
+                    },
+                    "time":{
+                        "type":"integer"
+                    },
+                    "movement":{
+                        "type":"array",
+                        "items": {
+                            "type":"number"
+                        }
+                    }
+                },
+                "required": [
+                    "starts",
+                    "ends",
+                    "time"
+                ]
+            }
+        },
+        "id":{
+            "type":"string"
+        },
+        "time":{
+            "type":"integer"
+        },
+        "updated":{
+            "type":"integer"
+        }
+    },
+    "required": [
+        "id",
+        "path",
+        "time",
+        "updated"
+    ]
+}
