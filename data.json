@@ -331,6 +331,23 @@
                     "a4b5a6a0-8f62-4015-8baa-4bd7ffa79e5f",
                     "69f05041-521a-4ddb-a068-e30ce415b3cd"
                 ]
+            },
+            {
+                "name":"半島線",
+                "aliases":["hanto"],
+                "id":"c1038913-5003-42e9-867d-de747ad5afde",
+                "family":"V",
+                "stations":[
+                    "39af1651-4ae3-41ff-8ba8-2cd10ea35fda",
+                    "237599f6-e9d5-4a30-bd40-2002a0833b9e",
+                    "545d7aff-e658-4375-80c4-4037353b73dd",
+                    "48468e21-b9bd-44ea-814a-3757223d24f4",
+                    "a94bbf27-e63d-409b-a692-c013a437e596",
+                    "0a3febaf-7d06-4477-bd2c-6c96bf7a4be2",
+                    "1032f3ce-0631-4403-94e6-16338f84aa2d",
+                    "b501e896-daa1-40a3-8da8-53e8caee5e47",
+                    "134de993-dac6-4d07-8b28-f2dce5d8df9f"
+                ]
             }
         ],
         "rtb":[
@@ -432,7 +449,8 @@
                 "umineko":"8bf03b34-8291-407d-aa71-50bc0adc0cc4",
                 "UM":"1e539bd3-0ce5-4418-8705-a98dfe974056",
                 "nishikawa":"0855af81-3cb2-49aa-8fe0-66d1e2f3c817",
-                "engaru":"43925182-1706-4a1a-a83f-bcd2d4b3e464"
+                "engaru":"43925182-1706-4a1a-a83f-bcd2d4b3e464",
+                "hanto":"c1038913-5003-42e9-867d-de747ad5afde"
             },
             "rtb":{
                 "RH":"34d8946e-5b21-46e2-bd06-07d848a71fe8",
@@ -576,7 +594,14 @@
             "shin-nishioji":"9c787204-40ed-4695-b6c1-0a18cc248551",
             "hokushu-nambu":"11aca983-cd82-48b8-b208-b05190dca495",
             "odatemae":"a4b5a6a0-8f62-4015-8baa-4bd7ffa79e5f",
-            "wp-koekimura":"69f05041-521a-4ddb-a068-e30ce415b3cd"
+            "wp-koekimura":"69f05041-521a-4ddb-a068-e30ce415b3cd",
+            "iwamatsu-kaigan":"134de993-dac6-4d07-8b28-f2dce5d8df9f",
+            "ourakaigan":"b501e896-daa1-40a3-8da8-53e8caee5e47",
+            "omi":"1032f3ce-0631-4403-94e6-16338f84aa2d",
+            "kitanada":"0a3febaf-7d06-4477-bd2c-6c96bf7a4be2",
+            "rinkaihakusa":"a94bbf27-e63d-409b-a692-c013a437e596",
+            "nakano-mastukawa":"48468e21-b9bd-44ea-814a-3757223d24f4",
+            "odo":"545d7aff-e658-4375-80c4-4037353b73dd"
         }
     },
     "stations":[
@@ -634,10 +659,10 @@
             "companies":["kousoku"],
             "aliases":["hamasakai"],
             "id":"237599f6-e9d5-4a30-bd40-2002a0833b9e",
-            "name":"浜境",
+            "name":"浜境 / 新浜境",
             "position":[-93,-3820],
             "rosens":{
-                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef","c1038913-5003-42e9-867d-de747ad5afde"]
             }
         },
         {
@@ -647,7 +672,7 @@
             "name":"森野",
             "position":[-93,-4086],
             "rosens":{
-                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef","c1038913-5003-42e9-867d-de747ad5afde"]
             }
         },
         {
@@ -1864,6 +1889,82 @@
             "rosens":{
                 "kousoku":["43925182-1706-4a1a-a83f-bcd2d4b3e464"]
             }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["iwamatsu-kaigan"],
+            "id":"134de993-dac6-4d07-8b28-f2dce5d8df9f",
+            "name":"岩松半島",
+            "position":[-686,-3182],
+            "rosens":{
+                "kousoku":["c1038913-5003-42e9-867d-de747ad5afde"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["ourakaigan"],
+            "id":"b501e896-daa1-40a3-8da8-53e8caee5e47",
+            "name":"大浦海岸",
+            "type":"tmp",
+            "position":[-631,-3378],
+            "rosens":{
+                "kousoku":["c1038913-5003-42e9-867d-de747ad5afde"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["omi"],
+            "id":"1032f3ce-0631-4403-94e6-16338f84aa2d",
+            "name":"青海",
+            "type":"tmp",
+            "position":[-686,-3182],
+            "rosens":{
+                "kousoku":["c1038913-5003-42e9-867d-de747ad5afde"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["kitanada"],
+            "id":"0a3febaf-7d06-4477-bd2c-6c96bf7a4be2",
+            "name":"北灘",
+            "position":[-907,-3535],
+            "rosens":{
+                "kousoku":["c1038913-5003-42e9-867d-de747ad5afde"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["rinkaihakusa"],
+            "id":"a94bbf27-e63d-409b-a692-c013a437e596",
+            "name":"臨海白砂",
+            "type":"tmp",
+            "position":[-769,-3653],
+            "rosens":{
+                "kousoku":["c1038913-5003-42e9-867d-de747ad5afde"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["nakano-mastukawa"],
+            "id":"48468e21-b9bd-44ea-814a-3757223d24f4",
+            "name":"中野松川",
+            "type":"tmp",
+            "position":[-594,-3374],
+            "rosens":{
+                "kousoku":["c1038913-5003-42e9-867d-de747ad5afde"]
+            }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["odo"],
+            "id":"545d7aff-e658-4375-80c4-4037353b73dd",
+            "name":"大洞",
+            "type":"tmp",
+            "position":[-409,-3805],
+            "rosens":{
+                "kousoku":["c1038913-5003-42e9-867d-de747ad5afde"]
+            }
         }
+
     ]
 }
