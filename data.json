@@ -1,32 +1,39 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.4.1b1.dev1",
+    "version":"2023.4.1b2.dev2",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
             "name":"でき鯖高速鉄道グループ",
             "short":"でき鉄",
             "bgcolor":"yellow",
-            "color":"#000000"
+            "color":"#000000",
+            "pages":["https://www.dekitetsu.com/"],
+            "admins":["Leo_223","ryu_216","YukioC1024","KAZUMIC_C4"],
+            "relations":["rtb"]
         },
         "rtb":{
             "name":"リアライ共和国交通局 Realie Transportation Bureru",
             "short":"リアライ",
             "bgcolor":"purple",
-            "color":"#ffffff"
+            "color":"#ffffff",
+            "admins":["KAZUMIC_C4"],
+            "relations":["kousoku"]
         },
         "shinko":{
             "name":"猫鯖交通振興公団",
             "short":"振興公団",
             "bgcolor":"orange",
-            "color":"#000000"
+            "color":"#000000",
+            "admins":["reimu_russia"]
         },
         "nishiuwagawa":{
             "name":"西宇和川鉄道",
             "short":"西宇和川",
             "bgcolor":"blueviolet",
-            "color":"#000000"
+            "color":"#000000",
+            "admins":["ryu_216"]
         }
     },
     "rosens":{
