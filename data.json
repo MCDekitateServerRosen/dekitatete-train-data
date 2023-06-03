@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.4.1rc1",
+    "version":"2023.4.1rc2.dev2",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -61,10 +61,12 @@
             },
             {
                 "name":"南北本線(普通)",
-                "aliases":["N-normal"],
+                "aliases":["N-normal","N-sub","21eedd3f-b08d-4a1b-b32e-b8c912161a78","N"],
                 "id":"0654f249-1ecd-439a-8879-3a1f42bd2eef",
                 "family":"N",
                 "stations":[
+                    "6094386c-9c86-4198-8025-ed77363652d3",
+                    "cb4ba444-896b-41a8-867d-1c2349fbce4f",
                     "a8b1fa9d-3a5e-4ca7-ae2b-00206a05a84f",
                     "7ce71b40-24ab-4cf1-bbb4-cd6d1e4dbd14",
                     "9122afda-6aec-40f3-a089-31551c4eab0a",
@@ -263,16 +265,6 @@
                 ]
             },
             {
-                "name":"南北本線(支線)",
-                "aliases":["N-sub"],
-                "id":"21eedd3f-b08d-4a1b-b32e-b8c912161a78",
-                "family":"N",
-                "stations":[
-                    "6094386c-9c86-4198-8025-ed77363652d3",
-                    "a8b1fa9d-3a5e-4ca7-ae2b-00206a05a84f"
-                ]
-            },
-            {
                 "name":"広尾線",
                 "aliases":["O"],
                 "id":"dee3072d-07bf-485e-9c03-3b2492e5d41b",
@@ -436,6 +428,9 @@
             "kousoku":{
                 "L":"2bb32a71-4202-4b83-b1e7-c9ed7bad6640",
                 "N-normal":"0654f249-1ecd-439a-8879-3a1f42bd2eef",
+                "N-sub":"0654f249-1ecd-439a-8879-3a1f42bd2eef",
+                "N":"0654f249-1ecd-439a-8879-3a1f42bd2eef",
+                "21eedd3f-b08d-4a1b-b32e-b8c912161a78":"0654f249-1ecd-439a-8879-3a1f42bd2eef",
                 "yonomori":"2d69ad57-1796-4a4d-9e1c-edfe0351baa4",
                 "yoake":"2d69ad57-1796-4a4d-9e1c-edfe0351baa4",
                 "nankainan":"70e67792-f34f-4fe4-9fc8-d6fd1e876e79",
@@ -450,7 +445,6 @@
                 "P":"2cabba0c-48ce-41d4-a4e7-f1740d1422bc",
                 "yukiyado":"75300999-3e9d-496e-a693-65bdf3ce1e33",
                 "takamori":"607bc657-2b85-4759-a405-bf93b4776ebe",
-                "N-sub":"21eedd3f-b08d-4a1b-b32e-b8c912161a78",
                 "O":"dee3072d-07bf-485e-9c03-3b2492e5d41b",
                 "izumo":"c316c213-e9ba-46fc-ace8-1154811cf40b",
                 "umineko":"8bf03b34-8291-407d-aa71-50bc0adc0cc4",
@@ -608,7 +602,8 @@
             "kitanada":"0a3febaf-7d06-4477-bd2c-6c96bf7a4be2",
             "rinkaihakusa":"a94bbf27-e63d-409b-a692-c013a437e596",
             "nakano-mastukawa":"48468e21-b9bd-44ea-814a-3757223d24f4",
-            "odo":"545d7aff-e658-4375-80c4-4037353b73dd"
+            "odo":"545d7aff-e658-4375-80c4-4037353b73dd",
+            "midorikawa":"cb4ba444-896b-41a8-867d-1c2349fbce4f"
         }
     },
     "stations":[
@@ -629,7 +624,7 @@
             "name":"東福崎",
             "position":[430,-1252],
             "rosens":{
-                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","0654f249-1ecd-439a-8879-3a1f42bd2eef","21eedd3f-b08d-4a1b-b32e-b8c912161a78"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","0654f249-1ecd-439a-8879-3a1f42bd2eef"]
             }
         },
         {
@@ -1393,7 +1388,7 @@
             "name":"北郊外NMS前",
             "position":[-16,-304],
             "rosens":{
-                "kousoku":["21eedd3f-b08d-4a1b-b32e-b8c912161a78"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef"]
             } 
         },
         {
@@ -1971,7 +1966,16 @@
             "rosens":{
                 "kousoku":["c1038913-5003-42e9-867d-de747ad5afde"]
             }
+        },
+        {
+            "companies":["kousoku"],
+            "aliases":["midorikawa"],
+            "id":"cb4ba444-896b-41a8-867d-1c2349fbce4f",
+            "name":"緑川",
+            "position":[309,-657],
+            "rosens":{
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef"]
+            }
         }
-
     ]
 }
