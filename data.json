@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.4.1rc2.dev2",
+    "version":"2023.4.1rc2.dev3",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -22,8 +22,8 @@
             "relations":["kousoku"]
         },
         "shinko":{
-            "name":"猫鯖交通振興公団",
-            "short":"振興公団",
+            "name":"猫鯖都市開発公社",
+            "short":"都市開発公社",
             "bgcolor":"orange",
             "color":"#000000",
             "admins":["reimu_russia"]
@@ -392,7 +392,7 @@
         ],
         "shinko":[
             {
-                "name":"本線",
+                "name":"猫鯖都市開発公社線",
                 "aliases":["honsen"],
                 "id":"ff35afdf-14ae-4db1-ac1c-368872705c01",
                 "stations":[
