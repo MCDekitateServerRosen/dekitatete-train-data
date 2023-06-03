@@ -1,7 +1,7 @@
 {
     "copyright":"Copyright(c)© 2023 beatbox4108, RYU, reimu_russia and Dekisaba Rapid Transit Inc.",
     "license":"https://creativecommons.org/licenses/by/4.0/",
-    "version":"2023.4.1rc2.dev1",
+    "version":"2023.4.1rc2.dev2",
     "companies":["kousoku","rtb","shinko","nishiuwagawa"],
     "company":{
         "kousoku":{
@@ -624,7 +624,7 @@
             "name":"東福崎",
             "position":[430,-1252],
             "rosens":{
-                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","0654f249-1ecd-439a-8879-3a1f42bd2eef","21eedd3f-b08d-4a1b-b32e-b8c912161a78"]
+                "kousoku":["2bb32a71-4202-4b83-b1e7-c9ed7bad6640","0654f249-1ecd-439a-8879-3a1f42bd2eef"]
             }
         },
         {
@@ -1388,7 +1388,7 @@
             "name":"北郊外NMS前",
             "position":[-16,-304],
             "rosens":{
-                "kousoku":["21eedd3f-b08d-4a1b-b32e-b8c912161a78"]
+                "kousoku":["0654f249-1ecd-439a-8879-3a1f42bd2eef"]
             } 
         },
         {
